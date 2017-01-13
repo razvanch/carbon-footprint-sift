@@ -1,0 +1,134 @@
+{
+  "name": "carbon-footprint",
+  "display-name": "Carbon Footprint Sift",
+  "description": "",
+  "author": "",
+  "version": "1.0.0",
+  "icon": "assets/blueprint.svg",
+  "interfaces": {
+    "email": {
+      "thread" : {
+        "controller": "dist/js/controller.umd-es2015.min.js"
+      },
+      "client" : {
+        "controller": "dist/js/email-client-controller.umd-es2015.min.js"
+      }
+    },
+    "summary": {
+      "controller": "dist/js/controller.umd-es2015.min.js"
+    }
+  },
+  "dag": {
+    "inputs":{
+      "emails":{
+        "britishAirways":{
+          "filter":{
+            "conditions":[{
+              "from":{
+                "regexp": {
+                  "pattern": ".*@.*ba\\.com",
+                  "flags": "i"
+                }
+              },
+              "subject": {
+                "regexp": {
+                  "pattern": ".*ticket receipt.*",
+                  "flags": "i"
+                }
+              }
+            },{
+              "date": "between now and 1 year before now"
+            }],
+            "operator": "AND"
+          },
+          "wants": [
+            "archive",
+            "textBody",
+            "strippedHtmlBody"
+          ]
+        },
+        "opodo":{
+          "filter":{
+            "conditions":[{
+              "from":{
+                "regexp": {
+                  "pattern": ".*@opodo.*",
+                  "flags": "i"
+                }
+              },
+              "subject": {
+                "regexp": {
+                  "pattern": ".*booking confirmation.*",
+                  "flags": "i"
+                }
+              }
+            },{
+              "date": "between now and 1 year before now"
+            }],
+            "operator": "AND"
+          },
+          "wants": [
+            "archive",
+            "textBody",
+            "strippedHtmlBody"
+          ]
+        }
+      }
+    },
+    "nodes":[{
+      "#": "Mapper",
+      "implementation": {
+        "javascript": "server/mapper.js"
+      },
+      "input": {
+          "bucket": "gmailEmails"
+      },
+      "outputs": {
+          "routes": {},
+          "flightNumbers": {}
+      }
+    },
+    {
+      "#": "Flight Mapper",
+      "implementation": {
+        "javascript": "server/flightMapper.js"
+      },
+      "input": {
+          "bucket": "flightNumbers"
+      },
+      "shared": true,
+      "outputs": {
+          "routes": {}
+      }
+    },
+    {
+      "#": "Route Mapper",
+      "implementation": {
+        "javascript": "server/routeMapper.js"
+      },
+      "input": {
+          "bucket": "routes",
+          "select": "*"
+      },
+      "shared": true,
+      "outputs": {
+          "footprint": {}
+      }
+    }],
+    "stores":{
+      "flightNumbers" : {
+        "key$schema":"string"
+      },
+      "routes" : {
+        "key$schema":"string"
+      }
+    },
+    "outputs":{
+      "exports":{
+        "footprint" : {
+          "key$schema":"string"
+        }
+      }
+    }
+  }
+}
