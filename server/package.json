@@ -1,7 +1,7 @@
 {
-  "name": "email-demo",
-  "display-name": "Email Demo Sift",
-  "description": "",
+  "name": "carbon-footprint",
+  "display-name": "Carbon Footprint Sift",
+  "description": "Computes your total carbon footprint based on your flight tickets",
   "author": "",
   "version": "1.0.0",
   "#": "Please use 'redsift npm' instead of system 'npm' ",
