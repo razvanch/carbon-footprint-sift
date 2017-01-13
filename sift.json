@@ -29,7 +29,8 @@
                   "pattern": ".*@.*ba\\.com",
                   "flags": "i"
                 }
-              },
+              }
+            }, {
               "subject": {
                 "regexp": {
                   "pattern": ".*ticket receipt.*",
@@ -55,7 +56,8 @@
                   "pattern": ".*@opodo.*",
                   "flags": "i"
                 }
-              },
+              }
+            }, {
               "subject": {
                 "regexp": {
                   "pattern": ".*booking confirmation.*",
@@ -76,12 +78,25 @@
       }
     },
     "nodes":[{
-      "#": "Mapper",
+      "#": "British Airways Mapper",
       "implementation": {
-        "javascript": "server/mapper.js"
+        "javascript": "server/bawMapper.js"
       },
       "input": {
-          "bucket": "gmailEmails"
+          "bucket": "britishAirways"
+      },
+      "outputs": {
+          "routes": {},
+          "flightNumbers": {}
+      }
+    },
+    {
+      "#": "Opodo Mapper",
+      "implementation": {
+        "javascript": "server/opodoMapper.js"
+      },
+      "input": {
+          "bucket": "opodo"
       },
       "outputs": {
           "routes": {},
