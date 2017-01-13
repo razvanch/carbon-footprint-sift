@@ -33,12 +33,25 @@
                 }
               },
               {
-                "subject":{
-                  "regexp":{
-                    "pattern":".*ticket receipt.*",
-                    "flags":"i"
+                "conditions":[
+                  {
+                    "subject":{
+                      "regexp":{
+                        "pattern":".*ticket receipt.*",
+                        "flags":"i"
+                      }
+                    }
+                  },
+                  {
+                    "subject":{
+                      "regexp":{
+                        "pattern":".*boarding pass.*",
+                        "flags":"i"
+                      }
+                    }
                   }
-                }
+                ],
+                "operator":"OR"
               },
               {
                 "date":"between now and 1 year before now"
