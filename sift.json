@@ -95,6 +95,37 @@
             "textBody",
             "strippedHtmlBody"
           ]
+        },
+        "lufthansa":{
+          "filter":{
+            "conditions":[
+              {
+                "from":{
+                  "regexp":{
+                    "pattern":".*@lufthansa\\.com",
+                    "flags":"i"
+                  }
+                }
+              },
+              {
+                "subject":{
+                  "regexp":{
+                    "pattern":".*boarding pass.*",
+                    "flags":"i"
+                  }
+                }
+              },
+              {
+                "date":"between now and 1 year before now"
+              }
+            ],
+            "operator":"AND"
+          },
+          "wants":[
+            "archive",
+            "textBody",
+            "strippedHtmlBody"
+          ]
         }
       }
     },
@@ -123,6 +154,23 @@
         },
         "input":{
           "bucket":"opodo"
+        },
+        "outputs":{
+          "routes":{
+
+          },
+          "flightNumbers":{
+
+          }
+        }
+      },
+      {
+        "#":"Lufthansa Mapper",
+        "implementation":{
+          "javascript":"server/lufthansaMapper.js"
+        },
+        "input":{
+          "bucket":"lufthansa"
         },
         "outputs":{
           "routes":{
