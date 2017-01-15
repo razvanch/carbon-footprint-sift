@@ -161,6 +161,9 @@
         "outputs":{
           "footprint":{
 
+          },
+          "history":{
+
           }
         }
       }
@@ -176,6 +179,9 @@
     "outputs":{
       "exports":{
         "footprint":{
+          "key$schema":"string"
+        },
+        "history":{
           "key$schema":"string"
         }
       }
