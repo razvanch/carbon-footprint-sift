@@ -77,7 +77,7 @@
 	    value: function loadView(state) {
 	      console.log('email-demo: loadView', state);
 	
-	      this.storage.subscribe(['footprint'], this._suHandler);
+	      this.storage.subscribe(['footprint', 'history'], this._suHandler);
 	
 	      switch (state.type) {
 	        case 'email-thread':
@@ -98,9 +98,16 @@
 	      var _this2 = this;
 	
 	      console.log('email-demo: onStorageUpdate: ', value);
-	      return this.getFootprint().then(function (footprint) {
-	        _this2.publish('footprint', footprint);
-	      });
+	
+	      if (value == 'footprint') {
+	        return this.getFootprint().then(function (footprint) {
+	          _this2.publish('footprint', footprint);
+	        });
+	      } else {
+	        return this.getHistory().then(function (history) {
+	          _this2.publish('history', history);
+	        });
+	      }
 	    }
 	  }, {
 	    key: 'getFootprint',
@@ -110,6 +117,16 @@
 	        keys: ['FOOTPRINT']
 	      }).then(function (values) {
 	        return { footprint: values[0].value || 0 };
+	      });
+	    }
+	  }, {
+	    key: 'getHistory',
+	    value: function getHistory() {
+	      return this.storage.get({
+	        bucket: 'history',
+	        keys: ['HISTORY']
+	      }).then(function (values) {
+	        return { history: values[0].value || {} };
 	      });
 	    }
 	  }]);

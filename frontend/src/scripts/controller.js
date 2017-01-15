@@ -9,7 +9,7 @@ export default class MyController extends SiftController {
   loadView(state) {
     console.log('email-demo: loadView', state);
 
-    this.storage.subscribe(['footprint'], this._suHandler);
+    this.storage.subscribe(['footprint', 'history'], this._suHandler);
 
     switch (state.type) {
       case 'email-thread':
@@ -27,9 +27,16 @@ export default class MyController extends SiftController {
 
   onStorageUpdate(value) {
     console.log('email-demo: onStorageUpdate: ', value);
-    return this.getFootprint().then((footprint) => {
-      this.publish('footprint', footprint);
-    });
+
+    if (value == 'footprint') {
+      return this.getFootprint().then((footprint) => {
+        this.publish('footprint', footprint);
+      });
+    } else {
+      return this.getHistory().then((history) => {
+        this.publish('history', history);
+      })
+    }
   }
 
   getFootprint() {
@@ -38,6 +45,15 @@ export default class MyController extends SiftController {
       keys: ['FOOTPRINT']
     }).then((values) => { 
       return { footprint: values[0].value || 0 };
+    });
+  }
+
+  getHistory() {
+    return this.storage.get({
+      bucket: 'history',
+      keys: ['HISTORY']
+    }).then((values) => {
+      return { history: values[0].value || {} };
     });
   }
 }
