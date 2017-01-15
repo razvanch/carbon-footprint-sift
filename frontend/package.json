@@ -10,6 +10,11 @@
     "@redsift/ui-rs-core": "^0.8.3"
   },
   "devDependencies": {
+    "@redsift/ui-rs-core": "^0.8.2",
+    "@redsift/ui-rs-hero": "^0.3.1",
+    "@redsift/d3-rs-lines": "^0.3.0",
+    "@redsift/d3-rs-pies": "^0.0.2",
+    "@redsift/d3-rs-geo": "^0.0.2",
     "@redsift/sift-sdk-web": "0.7.0",
     "@redsift/redsift-bundler": "0.7.3",
     "gulp": "^3.9.1"
