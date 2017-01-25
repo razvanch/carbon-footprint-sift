@@ -67,10 +67,6 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
 	function whiteLine(selection) {
-	  // selection.each(function(d, i) {
-	  // console.log("hey", d, i);
-	  // });
-	
 	  selection.attr('stroke', 'white') //set colour
 	  .attr('stroke-width', '1px') //set width
 	  .attr('stroke-dasharray', '5,3'); //set dash line
@@ -109,7 +105,7 @@
 	
 	    _this._geo = (0, _d3RsGeo.html)('empty').onClick(_this.onClick.bind(_this));
 	
-	    (0, _d3Selection.select)('#map').datum({ url: 'https://static.redsift.io/thirdparty/topojson/examples/world-110m.json' }).call(_this._geo);
+	    (0, _d3Selection.select)('#map').datum({ url: 'https://d3js.org/world-110m.v1.json' }).call(_this._geo);
 	    return _this;
 	  }
 	

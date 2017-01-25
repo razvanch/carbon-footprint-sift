@@ -6,10 +6,6 @@ import { transition } from 'd3-transition';
 
 
 function whiteLine(selection) {
-    // selection.each(function(d, i) {
-      // console.log("hey", d, i);
-    // });
-
     selection.attr('stroke', 'white') //set colour
              .attr('stroke-width', '1px') //set width
              .attr('stroke-dasharray', '5,3'); //set dash line
@@ -47,7 +43,7 @@ export default class MyView extends SiftView {
     this._geo = geo('empty').onClick(this.onClick.bind(this));
 
     select('#map')
-          .datum({ url: 'https://static.redsift.io/thirdparty/topojson/examples/world-110m.json' })
+          .datum({ url: 'https://d3js.org/world-110m.v1.json' })
           .call(this._geo);
   }
 
