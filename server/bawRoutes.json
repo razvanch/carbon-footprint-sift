@@ -1,7 +1,6 @@
 {
     "BAW1": {
         "destination": "JFK",
-        "footprint": 0.72,
         "source": "SNN"
     },
     "BAW10": {
@@ -10,17 +9,14 @@
     },
     "BAW1002": {
         "destination": "LHR",
-        "footprint": 0.86,
         "source": "JFK"
     },
     "BAW1003": {
         "destination": "JFK",
-        "footprint": 0.86,
         "source": "LHR"
     },
     "BAW1010": {
         "destination": "LHR",
-        "footprint": 1.49,
         "source": "BKK"
     },
     "BAW1011": {
@@ -53,7 +49,6 @@
     },
     "BAW1036": {
         "destination": "LHR",
-        "footprint": 1.28,
         "source": "MAA"
     },
     "BAW1037": {
@@ -62,12 +57,10 @@
     },
     "BAW1038": {
         "destination": "LHR",
-        "footprint": 1.27,
         "source": "PEK"
     },
     "BAW1039": {
         "destination": "PEK",
-        "footprint": 1.27,
         "source": "LHR"
     },
     "BAW104": {
@@ -92,7 +85,6 @@
     },
     "BAW1053": {
         "destination": "SEA",
-        "footprint": 1.2,
         "source": "LHR"
     },
     "BAW106": {
@@ -129,17 +121,14 @@
     },
     "BAW1072": {
         "destination": "LHR",
-        "footprint": 0.86,
         "source": "AUH"
     },
     "BAW1073": {
         "destination": "GVA",
-        "footprint": 0.13,
         "source": "LHR"
     },
     "BAW1074": {
         "destination": "LHR",
-        "footprint": 0.78,
         "source": "LOS"
     },
     "BAW108": {
@@ -160,27 +149,22 @@
     },
     "BAW1092": {
         "destination": "LHR",
-        "footprint": 0.89,
         "source": "YYZ"
     },
     "BAW1094": {
         "destination": "LHR",
-        "footprint": 0.81,
         "source": "YUL"
     },
     "BAW1096": {
         "destination": "LHR",
-        "footprint": 0.94,
         "source": "DTW"
     },
     "BAW1098": {
         "destination": "LHR",
-        "footprint": 0.89,
         "source": "YYZ"
     },
     "BAW1099": {
         "destination": "YYZ",
-        "footprint": 0.89,
         "source": "LHR"
     },
     "BAW11": {
@@ -217,12 +201,10 @@
     },
     "BAW1132": {
         "destination": "LHR",
-        "footprint": 0.73,
         "source": "KWI"
     },
     "BAW1133": {
         "destination": "JED",
-        "footprint": 0.74,
         "source": "LHR"
     },
     "BAW114": {
@@ -239,7 +221,6 @@
     },
     "BAW1147": {
         "destination": "AMM",
-        "footprint": 0.64,
         "source": "LHR"
     },
     "BAW115": {
@@ -492,52 +473,42 @@
     },
     "BAW1310": {
         "destination": "ABZ",
-        "footprint": 0.19,
         "source": "LHR"
     },
     "BAW1311": {
         "destination": "LHR",
-        "footprint": 0.19,
         "source": "ABZ"
     },
     "BAW1312": {
         "destination": "ABZ",
-        "footprint": 0.19,
         "source": "LHR"
     },
     "BAW1313": {
         "destination": "LHR",
-        "footprint": 0.19,
         "source": "ABZ"
     },
     "BAW1314": {
         "destination": "ABZ",
-        "footprint": 0.19,
         "source": "LHR"
     },
     "BAW1315": {
         "destination": "LHR",
-        "footprint": 0.19,
         "source": "ABZ"
     },
     "BAW1316": {
         "destination": "ABZ",
-        "footprint": 0.19,
         "source": "LHR"
     },
     "BAW1317": {
         "destination": "LHR",
-        "footprint": 0.19,
         "source": "ABZ"
     },
     "BAW1318": {
         "destination": "ABZ",
-        "footprint": 0.19,
         "source": "LHR"
     },
     "BAW1319": {
         "destination": "LHR",
-        "footprint": 0.19,
         "source": "ABZ"
     },
     "BAW132": {
@@ -590,47 +561,38 @@
     },
     "BAW1330": {
         "destination": "NCL",
-        "footprint": 0.12,
         "source": "LHR"
     },
     "BAW1331": {
         "destination": "LHR",
-        "footprint": 0.12,
         "source": "NCL"
     },
     "BAW1332": {
         "destination": "NCL",
-        "footprint": 0.12,
         "source": "LHR"
     },
     "BAW1333": {
         "destination": "LHR",
-        "footprint": 0.12,
         "source": "NCL"
     },
     "BAW1334": {
         "destination": "NCL",
-        "footprint": 0.12,
         "source": "LHR"
     },
     "BAW1335": {
         "destination": "LHR",
-        "footprint": 0.12,
         "source": "NCL"
     },
     "BAW1336": {
         "destination": "NCL",
-        "footprint": 0.12,
         "source": "LHR"
     },
     "BAW1337": {
         "destination": "LHR",
-        "footprint": 0.12,
         "source": "NCL"
     },
     "BAW1338": {
         "destination": "NCL",
-        "footprint": 0.12,
         "source": "LHR"
     },
     "BAW134": {
@@ -719,52 +681,42 @@
     },
     "BAW1370": {
         "destination": "MAN",
-        "footprint": 0.07,
         "source": "LHR"
     },
     "BAW1371": {
         "destination": "LHR",
-        "footprint": 0.07,
         "source": "MAN"
     },
     "BAW1372": {
         "destination": "MAN",
-        "footprint": 0.07,
         "source": "LHR"
     },
     "BAW1373": {
         "destination": "LHR",
-        "footprint": 0.07,
         "source": "MAN"
     },
     "BAW1374": {
         "destination": "JER",
-        "footprint": 0.08,
         "source": "LHR"
     },
     "BAW1375": {
         "destination": "LHR",
-        "footprint": 0.07,
         "source": "MAN"
     },
     "BAW1376": {
         "destination": "MAN",
-        "footprint": 0.07,
         "source": "LHR"
     },
     "BAW1377": {
         "destination": "LHR",
-        "footprint": 0.07,
         "source": "MAN"
     },
     "BAW1378": {
         "destination": "MAN",
-        "footprint": 0.07,
         "source": "LHR"
     },
     "BAW1379": {
         "destination": "LHR",
-        "footprint": 0.07,
         "source": "MAN"
     },
     "BAW138": {
@@ -1033,22 +985,18 @@
     },
     "BAW1440": {
         "destination": "EDI",
-        "footprint": 0.16,
         "source": "LHR"
     },
     "BAW1441": {
         "destination": "LHR",
-        "footprint": 0.16,
         "source": "EDI"
     },
     "BAW1442": {
         "destination": "EDI",
-        "footprint": 0.16,
         "source": "LHR"
     },
     "BAW1443": {
         "destination": "LHR",
-        "footprint": 0.16,
         "source": "EDI"
     },
     "BAW1444": {
@@ -1057,17 +1005,14 @@
     },
     "BAW1445": {
         "destination": "LHR",
-        "footprint": 0.16,
         "source": "EDI"
     },
     "BAW1446": {
         "destination": "EDI",
-        "footprint": 0.16,
         "source": "LHR"
     },
     "BAW1447": {
         "destination": "LHR",
-        "footprint": 0.16,
         "source": "EDI"
     },
     "BAW1448": {
@@ -1076,7 +1021,6 @@
     },
     "BAW1449": {
         "destination": "LHR",
-        "footprint": 0.16,
         "source": "EDI"
     },
     "BAW145": {
@@ -1341,7 +1285,6 @@
     },
     "BAW1510": {
         "destination": "JFK",
-        "footprint": 0.86,
         "source": "LHR"
     },
     "BAW1511": {
@@ -1350,42 +1293,34 @@
     },
     "BAW1512": {
         "destination": "DFW",
-        "footprint": 0.34,
         "source": "SFO"
     },
     "BAW1513": {
         "destination": "DFW",
-        "footprint": 1.16,
         "source": "MAD"
     },
     "BAW1514": {
         "destination": "MIA",
-        "footprint": 0.05,
         "source": "MCO"
     },
     "BAW1515": {
         "destination": "LHR",
-        "footprint": 0.86,
         "source": "JFK"
     },
     "BAW1516": {
         "destination": "JFK",
-        "footprint": 0.86,
         "source": "LHR"
     },
     "BAW1517": {
         "destination": "JFK",
-        "footprint": 0.5,
         "source": "PHX"
     },
     "BAW1518": {
         "destination": "LHR",
-        "footprint": 0.99,
         "source": "ORD"
     },
     "BAW1519": {
         "destination": "MIA",
-        "footprint": 1.09,
         "source": "BCN"
     },
     "BAW152": {
@@ -1430,17 +1365,14 @@
     },
     "BAW1530": {
         "destination": "DEN",
-        "footprint": 0.15,
         "source": "DFW"
     },
     "BAW1531": {
         "destination": "LHR",
-        "footprint": 1.18,
         "source": "DFW"
     },
     "BAW1532": {
         "destination": "ORD",
-        "footprint": 0.97,
         "source": "CDG"
     },
     "BAW1534": {
@@ -1533,12 +1465,10 @@
     },
     "BAW1556": {
         "destination": "JFK",
-        "footprint": 0.6,
         "source": "SFO"
     },
     "BAW1557": {
         "destination": "JFK",
-        "footprint": 0.89,
         "source": "BCN"
     },
     "BAW1558": {
@@ -1607,37 +1537,30 @@
     },
     "BAW1572": {
         "destination": "MAN",
-        "footprint": 0.83,
         "source": "JFK"
     },
     "BAW1573": {
         "destination": "PHL",
-        "footprint": 0.56,
         "source": "LAX"
     },
     "BAW1574": {
         "destination": "PHL",
-        "footprint": 0.96,
         "source": "MUC"
     },
     "BAW1575": {
         "destination": "PHL",
-        "footprint": 0.16,
         "source": "ATL"
     },
     "BAW1576": {
         "destination": "PHL",
-        "footprint": 1.02,
         "source": "FCO"
     },
     "BAW1578": {
         "destination": "MAN",
-        "footprint": 0.08,
         "source": "QLA"
     },
     "BAW1579": {
         "destination": "PHL",
-        "footprint": 0.59,
         "source": "SFO"
     },
     "BAW158": {
@@ -1686,42 +1609,34 @@
     },
     "BAW1590": {
         "destination": "JFK",
-        "footprint": 0.17,
         "source": "ORD"
     },
     "BAW1593": {
         "destination": "JFK",
-        "footprint": 0.86,
         "source": "LHR"
     },
     "BAW1594": {
         "destination": "LHR",
-        "footprint": 0.86,
         "source": "JFK"
     },
     "BAW1595": {
         "destination": "CLT",
-        "footprint": 0.12,
         "source": "TPA"
     },
     "BAW1596": {
         "destination": "CLT",
-        "footprint": 1.0,
         "source": "LHR"
     },
     "BAW1597": {
         "destination": "LHR",
-        "footprint": 1.0,
         "source": "CLT"
     },
     "BAW1598": {
         "destination": "CLT",
-        "footprint": 1.0,
         "source": "LHR"
     },
     "BAW1599": {
         "destination": "PHL",
-        "footprint": 0.51,
         "source": "LAS"
     },
     "BAW16": {
@@ -1734,22 +1649,18 @@
     },
     "BAW1600": {
         "destination": "PHL",
-        "footprint": 0.86,
         "source": "MAN"
     },
     "BAW1601": {
         "destination": "MAN",
-        "footprint": 0.1,
         "source": "CDG"
     },
     "BAW1602": {
         "destination": "ORD",
-        "footprint": 0.43,
         "source": "SFO"
     },
     "BAW1603": {
         "destination": "MAN",
-        "footprint": 0.1,
         "source": "CDG"
     },
     "BAW1604": {
@@ -1758,12 +1669,10 @@
     },
     "BAW1605": {
         "destination": "MAD",
-        "footprint": 0.86,
         "source": "PHL"
     },
     "BAW1606": {
         "destination": "PHL",
-        "footprint": 0.86,
         "source": "MAD"
     },
     "BAW1607": {
@@ -1772,12 +1681,10 @@
     },
     "BAW1608": {
         "destination": "CDG",
-        "footprint": 0.1,
         "source": "MAN"
     },
     "BAW1609": {
         "destination": "MAN",
-        "footprint": 0.1,
         "source": "CDG"
     },
     "BAW161": {
@@ -2074,52 +1981,42 @@
     },
     "BAW1680": {
         "destination": "SAN",
-        "footprint": 0.27,
         "source": "DFW"
     },
     "BAW1681": {
         "destination": "PSP",
-        "footprint": 0.26,
         "source": "DFW"
     },
     "BAW1682": {
         "destination": "IAH",
-        "footprint": 0.32,
         "source": "LAX"
     },
     "BAW1683": {
         "destination": "STL",
-        "footprint": 0.06,
         "source": "ORD"
     },
     "BAW1684": {
         "destination": "OKC",
-        "footprint": 0.04,
         "source": "DFW"
     },
     "BAW1685": {
         "destination": "DFW",
-        "footprint": 0.2,
         "source": "BJX"
     },
     "BAW1686": {
         "destination": "DFW",
-        "footprint": 0.04,
         "source": "OKC"
     },
     "BAW1687": {
         "destination": "MIA",
-        "footprint": 0.26,
         "source": "JFK"
     },
     "BAW1688": {
         "destination": "PHL",
-        "footprint": 0.24,
         "source": "MIA"
     },
     "BAW1689": {
         "destination": "OKC",
-        "footprint": 0.04,
         "source": "DFW"
     },
     "BAW169": {
@@ -2172,52 +2069,42 @@
     },
     "BAW1700": {
         "destination": "ABQ",
-        "footprint": 0.26,
         "source": "ORD"
     },
     "BAW1701": {
         "destination": "YYZ",
-        "footprint": 0.08,
         "source": "LGA"
     },
     "BAW1702": {
         "destination": "MSP",
-        "footprint": 0.08,
         "source": "ORD"
     },
     "BAW1703": {
         "destination": "SAN",
-        "footprint": 0.27,
         "source": "DFW"
     },
     "BAW1704": {
         "destination": "MIA",
-        "footprint": 0.24,
         "source": "SJU"
     },
     "BAW1705": {
         "destination": "SAN",
-        "footprint": 0.27,
         "source": "DFW"
     },
     "BAW1706": {
         "destination": "IAH",
-        "footprint": 0.32,
         "source": "LAX"
     },
     "BAW1707": {
         "destination": "CLE",
-        "footprint": 0.07,
         "source": "ORD"
     },
     "BAW1708": {
         "destination": "DFW",
-        "footprint": 0.28,
         "source": "ONT"
     },
     "BAW1709": {
         "destination": "MIA",
-        "footprint": 0.26,
         "source": "LGA"
     },
     "BAW1710": {
@@ -2510,47 +2397,38 @@
     },
     "BAW1780": {
         "destination": "MEM",
-        "footprint": 0.1,
         "source": "DFW"
     },
     "BAW1781": {
         "destination": "SNA",
-        "footprint": 0.28,
         "source": "DFW"
     },
     "BAW1782": {
         "destination": "FLL",
-        "footprint": 0.26,
         "source": "DFW"
     },
     "BAW1783": {
         "destination": "BHX",
-        "footprint": 0.11,
         "source": "DUS"
     },
     "BAW1784": {
         "destination": "BHX",
-        "footprint": 0.12,
         "source": "EDI"
     },
     "BAW1785": {
         "destination": "AUS",
-        "footprint": 0.04,
         "source": "DFW"
     },
     "BAW1786": {
         "destination": "DFW",
-        "footprint": 0.26,
         "source": "FLL"
     },
     "BAW1788": {
         "destination": "AUS",
-        "footprint": 0.04,
         "source": "DFW"
     },
     "BAW1789": {
         "destination": "DFW",
-        "footprint": 0.22,
         "source": "TPA"
     },
     "BAW179": {
@@ -2603,22 +2481,18 @@
     },
     "BAW1801": {
         "destination": "BHX",
-        "footprint": 0.09,
         "source": "CDG"
     },
     "BAW1802": {
         "destination": "ORD",
-        "footprint": 0.4,
         "source": "SNA"
     },
     "BAW1803": {
         "destination": "DFW",
-        "footprint": 0.26,
         "source": "FLL"
     },
     "BAW1804": {
         "destination": "DFW",
-        "footprint": 0.06,
         "source": "SAT"
     },
     "BAW1806": {
@@ -2627,7 +2501,6 @@
     },
     "BAW1807": {
         "destination": "GLA",
-        "footprint": 0.12,
         "source": "BHX"
     },
     "BAW1808": {
@@ -2644,12 +2517,10 @@
     },
     "BAW1810": {
         "destination": "SEA",
-        "footprint": 0.4,
         "source": "ORD"
     },
     "BAW1811": {
         "destination": "SNA",
-        "footprint": 0.28,
         "source": "DFW"
     },
     "BAW1813": {
@@ -2666,22 +2537,18 @@
     },
     "BAW1816": {
         "destination": "SNA",
-        "footprint": 0.28,
         "source": "DFW"
     },
     "BAW1817": {
         "destination": "AUS",
-        "footprint": 0.04,
         "source": "DFW"
     },
     "BAW1818": {
         "destination": "SAT",
-        "footprint": 0.06,
         "source": "DFW"
     },
     "BAW1819": {
         "destination": "TOL",
-        "footprint": 0.05,
         "source": "ORD"
     },
     "BAW182": {
@@ -2722,7 +2589,6 @@
     },
     "BAW1830": {
         "destination": "AUS",
-        "footprint": 0.04,
         "source": "DFW"
     },
     "BAW1831": {
@@ -2731,27 +2597,22 @@
     },
     "BAW1833": {
         "destination": "SNA",
-        "footprint": 0.28,
         "source": "DFW"
     },
     "BAW1834": {
         "destination": "MIA",
-        "footprint": 0.25,
         "source": "EWR"
     },
     "BAW1835": {
         "destination": "DFW",
-        "footprint": 0.04,
         "source": "AUS"
     },
     "BAW1836": {
         "destination": "BUF",
-        "footprint": 0.11,
         "source": "ORD"
     },
     "BAW1839": {
         "destination": "IAH",
-        "footprint": 0.31,
         "source": "PHL"
     },
     "BAW184": {
@@ -2800,32 +2661,26 @@
     },
     "BAW1850": {
         "destination": "AUS",
-        "footprint": 0.04,
         "source": "DFW"
     },
     "BAW1851": {
         "destination": "MCI",
-        "footprint": 0.11,
         "source": "DFW"
     },
     "BAW1852": {
         "destination": "DFW",
-        "footprint": 0.19,
         "source": "ORD"
     },
     "BAW1853": {
         "destination": "SFO",
-        "footprint": 0.6,
         "source": "MIA"
     },
     "BAW1854": {
         "destination": "PVR",
-        "footprint": 0.23,
         "source": "DFW"
     },
     "BAW1857": {
         "destination": "DFW",
-        "footprint": 0.26,
         "source": "PSP"
     },
     "BAW1858": {
@@ -2834,7 +2689,6 @@
     },
     "BAW1859": {
         "destination": "BRO",
-        "footprint": 0.11,
         "source": "DFW"
     },
     "BAW186": {
@@ -2883,42 +2737,34 @@
     },
     "BAW1870": {
         "destination": "EDI",
-        "footprint": 0.09,
         "source": "MAN"
     },
     "BAW1871": {
         "destination": "RDU",
-        "footprint": 0.1,
         "source": "JFK"
     },
     "BAW1872": {
         "destination": "EDI",
-        "footprint": 0.09,
         "source": "MAN"
     },
     "BAW1873": {
         "destination": "BNA",
-        "footprint": 0.15,
         "source": "DFW"
     },
     "BAW1874": {
         "destination": "CLL",
-        "footprint": 0.04,
         "source": "DFW"
     },
     "BAW1875": {
         "destination": "MAN",
-        "footprint": 0.09,
         "source": "EDI"
     },
     "BAW1876": {
         "destination": "DFW",
-        "footprint": 0.15,
         "source": "BNA"
     },
     "BAW1878": {
         "destination": "LGA",
-        "footprint": 0.13,
         "source": "CLT"
     },
     "BAW188": {
@@ -3003,7 +2849,6 @@
     },
     "BAW190": {
         "destination": "LHR",
-        "footprint": 1.23,
         "source": "AUS"
     },
     "BAW1900": {
@@ -3032,7 +2877,6 @@
     },
     "BAW191": {
         "destination": "AUS",
-        "footprint": 1.23,
         "source": "LHR"
     },
     "BAW1911": {
@@ -3061,7 +2905,6 @@
     },
     "BAW192": {
         "destination": "LHR",
-        "footprint": 1.18,
         "source": "DFW"
     },
     "BAW1920": {
@@ -3106,7 +2949,6 @@
     },
     "BAW193": {
         "destination": "DFW",
-        "footprint": 1.18,
         "source": "LHR"
     },
     "BAW1930": {
@@ -3115,7 +2957,6 @@
     },
     "BAW1931": {
         "destination": "EDI",
-        "footprint": 0.22,
         "source": "GVA"
     },
     "BAW1932": {
@@ -3152,7 +2993,6 @@
     },
     "BAW194": {
         "destination": "LHR",
-        "footprint": 1.21,
         "source": "IAH"
     },
     "BAW1940": {
@@ -3197,7 +3037,6 @@
     },
     "BAW195": {
         "destination": "IAH",
-        "footprint": 1.21,
         "source": "LHR"
     },
     "BAW1950": {
@@ -3242,7 +3081,6 @@
     },
     "BAW196": {
         "destination": "LHR",
-        "footprint": 1.21,
         "source": "IAH"
     },
     "BAW1960": {
@@ -3287,7 +3125,6 @@
     },
     "BAW197": {
         "destination": "IAH",
-        "footprint": 1.21,
         "source": "LHR"
     },
     "BAW1970": {
@@ -3332,7 +3169,6 @@
     },
     "BAW198": {
         "destination": "LHR",
-        "footprint": 1.12,
         "source": "BOM"
     },
     "BAW1980": {
@@ -3377,62 +3213,50 @@
     },
     "BAW199": {
         "destination": "BOM",
-        "footprint": 1.12,
         "source": "LHR"
     },
     "BAW1990": {
         "destination": "DFW",
-        "footprint": 0.19,
         "source": "TUS"
     },
     "BAW1991": {
         "destination": "BHX",
-        "footprint": 0.38,
         "source": "SOF"
     },
     "BAW1992": {
         "destination": "JER",
-        "footprint": 0.14,
         "source": "MAN"
     },
     "BAW1993": {
         "destination": "MAN",
-        "footprint": 0.14,
         "source": "JER"
     },
     "BAW1994": {
         "destination": "DFW",
-        "footprint": 0.1,
         "source": "MEM"
     },
     "BAW1995": {
         "destination": "RNO",
-        "footprint": 0.31,
         "source": "DFW"
     },
     "BAW1996": {
         "destination": "NTE",
-        "footprint": 0.12,
         "source": "MAN"
     },
     "BAW1997": {
         "destination": "PHX",
-        "footprint": 0.2,
         "source": "DFW"
     },
     "BAW1998": {
         "destination": "ORD",
-        "footprint": 0.06,
         "source": "RST"
     },
     "BAW1999": {
         "destination": "MAN",
-        "footprint": 0.14,
         "source": "JER"
     },
     "BAW2": {
         "destination": "LCY",
-        "footprint": 0.87,
         "source": "JFK"
     },
     "BAW20": {
@@ -3509,42 +3333,34 @@
     },
     "BAW2030": {
         "destination": "LGW",
-        "footprint": 0.62,
         "source": "TLV"
     },
     "BAW2031": {
         "destination": "TLV",
-        "footprint": 0.62,
         "source": "LGW"
     },
     "BAW2033": {
         "destination": "DTW",
-        "footprint": 0.94,
         "source": "LHR"
     },
     "BAW2034": {
         "destination": "LGW",
-        "footprint": 1.09,
         "source": "MCO"
     },
     "BAW2036": {
         "destination": "LGW",
-        "footprint": 1.09,
         "source": "MCO"
     },
     "BAW2037": {
         "destination": "MCO",
-        "footprint": 1.09,
         "source": "LGW"
     },
     "BAW2038": {
         "destination": "LGW",
-        "footprint": 1.09,
         "source": "MCO"
     },
     "BAW2039": {
         "destination": "MCO",
-        "footprint": 1.09,
         "source": "LGW"
     },
     "BAW204": {
@@ -3757,32 +3573,26 @@
     },
     "BAW2090": {
         "destination": "MUC",
-        "footprint": 0.2,
         "source": "DUB"
     },
     "BAW2091": {
         "destination": "DUB",
-        "footprint": 0.2,
         "source": "MUC"
     },
     "BAW2094": {
         "destination": "LHR",
-        "footprint": 0.78,
         "source": "LOS"
     },
     "BAW2095": {
         "destination": "DUB",
-        "footprint": 0.05,
         "source": "MAN"
     },
     "BAW2096": {
         "destination": "LGW",
-        "footprint": 1.0,
         "source": "EBB"
     },
     "BAW2097": {
         "destination": "EBB",
-        "footprint": 1.0,
         "source": "LGW"
     },
     "BAW21": {
@@ -3819,32 +3629,26 @@
     },
     "BAW2110": {
         "destination": "BHX",
-        "footprint": 0.06,
         "source": "DUB"
     },
     "BAW2111": {
         "destination": "DUB",
-        "footprint": 0.06,
         "source": "BHX"
     },
     "BAW2112": {
         "destination": "BHX",
-        "footprint": 0.06,
         "source": "DUB"
     },
     "BAW2114": {
         "destination": "BHX",
-        "footprint": 0.06,
         "source": "DUB"
     },
     "BAW2118": {
         "destination": "BHX",
-        "footprint": 0.06,
         "source": "DUB"
     },
     "BAW2119": {
         "destination": "ALA",
-        "footprint": 0.87,
         "source": "LGW"
     },
     "BAW212": {
@@ -3861,7 +3665,6 @@
     },
     "BAW2126": {
         "destination": "HAM",
-        "footprint": 0.16,
         "source": "DUB"
     },
     "BAW2127": {
@@ -3870,12 +3673,10 @@
     },
     "BAW2128": {
         "destination": "LGW",
-        "footprint": 0.08,
         "source": "MAN"
     },
     "BAW2129": {
         "destination": "ISB",
-        "footprint": 0.95,
         "source": "MAN"
     },
     "BAW213": {
@@ -3884,42 +3685,34 @@
     },
     "BAW2130": {
         "destination": "LHR",
-        "footprint": 0.15,
         "source": "BHD"
     },
     "BAW2131": {
         "destination": "BHD",
-        "footprint": 0.15,
         "source": "LHR"
     },
     "BAW2134": {
         "destination": "LHR",
-        "footprint": 0.15,
         "source": "BHD"
     },
     "BAW2135": {
         "destination": "BHD",
-        "footprint": 0.15,
         "source": "LHR"
     },
     "BAW2136": {
         "destination": "LHR",
-        "footprint": 0.15,
         "source": "BHD"
     },
     "BAW2137": {
         "destination": "BHD",
-        "footprint": 0.15,
         "source": "LHR"
     },
     "BAW2138": {
         "destination": "FCO",
-        "footprint": 0.27,
         "source": "DUB"
     },
     "BAW2139": {
         "destination": "DUB",
-        "footprint": 0.27,
         "source": "FCO"
     },
     "BAW214": {
@@ -3972,47 +3765,38 @@
     },
     "BAW2150": {
         "destination": "LGW",
-        "footprint": 1.03,
         "source": "SKB"
     },
     "BAW2152": {
         "destination": "LGW",
-        "footprint": 1.05,
         "source": "BGI"
     },
     "BAW2153": {
         "destination": "BGI",
-        "footprint": 1.05,
         "source": "LGW"
     },
     "BAW2154": {
         "destination": "LGW",
-        "footprint": 1.05,
         "source": "BGI"
     },
     "BAW2155": {
         "destination": "BGI",
-        "footprint": 1.05,
         "source": "LGW"
     },
     "BAW2156": {
         "destination": "LGW",
-        "footprint": 1.02,
         "source": "ANU"
     },
     "BAW2157": {
         "destination": "ANU",
-        "footprint": 1.02,
         "source": "LGW"
     },
     "BAW2158": {
         "destination": "LGW",
-        "footprint": 1.06,
         "source": "UVF"
     },
     "BAW2159": {
         "destination": "UVF",
-        "footprint": 1.06,
         "source": "LGW"
     },
     "BAW216": {
@@ -4033,52 +3817,42 @@
     },
     "BAW2170": {
         "destination": "USM",
-        "footprint": 0.11,
         "source": "KUL"
     },
     "BAW2171": {
         "destination": "KUL",
-        "footprint": 0.11,
         "source": "USM"
     },
     "BAW2172": {
         "destination": "LGW",
-        "footprint": 0.87,
         "source": "JFK"
     },
     "BAW2173": {
         "destination": "JFK",
-        "footprint": 0.87,
         "source": "LGW"
     },
     "BAW2174": {
         "destination": "BKK",
-        "footprint": 0.07,
         "source": "PNH"
     },
     "BAW2175": {
         "destination": "REP",
-        "footprint": 0.05,
         "source": "BKK"
     },
     "BAW2176": {
         "destination": "BKK",
-        "footprint": 0.05,
         "source": "REP"
     },
     "BAW2177": {
         "destination": "REP",
-        "footprint": 0.05,
         "source": "BKK"
     },
     "BAW2178": {
         "destination": "BKK",
-        "footprint": 0.05,
         "source": "REP"
     },
     "BAW2179": {
         "destination": "REP",
-        "footprint": 0.05,
         "source": "BKK"
     },
     "BAW218": {
@@ -4095,7 +3869,6 @@
     },
     "BAW2182": {
         "destination": "BKK",
-        "footprint": 0.07,
         "source": "PNH"
     },
     "BAW2183": {
@@ -4280,52 +4053,42 @@
     },
     "BAW2240": {
         "destination": "RIX",
-        "footprint": 0.3,
         "source": "LGW"
     },
     "BAW2241": {
         "destination": "LGW",
-        "footprint": 0.3,
         "source": "RIX"
     },
     "BAW2242": {
         "destination": "RIX",
-        "footprint": 0.3,
         "source": "LGW"
     },
     "BAW2243": {
         "destination": "LGW",
-        "footprint": 0.3,
         "source": "RIX"
     },
     "BAW2244": {
         "destination": "LGW",
-        "footprint": 1.43,
         "source": "GIG"
     },
     "BAW2245": {
         "destination": "GIG",
-        "footprint": 1.43,
         "source": "LGW"
     },
     "BAW2246": {
         "destination": "LGW",
-        "footprint": 1.47,
         "source": "GRU"
     },
     "BAW2247": {
         "destination": "GRU",
-        "footprint": 1.47,
         "source": "LGW"
     },
     "BAW2248": {
         "destination": "LGW",
-        "footprint": 1.16,
         "source": "CCS"
     },
     "BAW2249": {
         "destination": "GIG",
-        "footprint": 1.44,
         "source": "LHR"
     },
     "BAW225": {
@@ -4358,7 +4121,6 @@
     },
     "BAW2257": {
         "destination": "BGI",
-        "footprint": 1.05,
         "source": "LGW"
     },
     "BAW2258": {
@@ -4503,7 +4265,6 @@
     },
     "BAW2300": {
         "destination": "KMG",
-        "footprint": 0.09,
         "source": "CTU"
     },
     "BAW2301": {
@@ -4536,12 +4297,10 @@
     },
     "BAW2308": {
         "destination": "CTU",
-        "footprint": 0.21,
         "source": "NKG"
     },
     "BAW2309": {
         "destination": "PVG",
-        "footprint": 0.04,
         "source": "NKG"
     },
     "BAW2310": {
@@ -4550,7 +4309,6 @@
     },
     "BAW2311": {
         "destination": "HGH",
-        "footprint": 0.23,
         "source": "CTU"
     },
     "BAW2312": {
@@ -4559,7 +4317,6 @@
     },
     "BAW2314": {
         "destination": "CTU",
-        "footprint": 0.23,
         "source": "HGH"
     },
     "BAW2315": {
@@ -4572,12 +4329,10 @@
     },
     "BAW2317": {
         "destination": "CTU",
-        "footprint": 0.09,
         "source": "XIY"
     },
     "BAW2318": {
         "destination": "XIY",
-        "footprint": 0.09,
         "source": "CTU"
     },
     "BAW2319": {
@@ -4590,12 +4345,10 @@
     },
     "BAW2320": {
         "destination": "PVG",
-        "footprint": 0.19,
         "source": "XIY"
     },
     "BAW2321": {
         "destination": "XIY",
-        "footprint": 0.19,
         "source": "PVG"
     },
     "BAW2322": {
@@ -4604,22 +4357,18 @@
     },
     "BAW2323": {
         "destination": "CKG",
-        "footprint": 0.21,
         "source": "PVG"
     },
     "BAW2324": {
         "destination": "PVG",
-        "footprint": 0.21,
         "source": "CKG"
     },
     "BAW2325": {
         "destination": "CKG",
-        "footprint": 0.21,
         "source": "SHA"
     },
     "BAW2326": {
         "destination": "SHA",
-        "footprint": 0.21,
         "source": "CKG"
     },
     "BAW2327": {
@@ -4628,12 +4377,10 @@
     },
     "BAW2328": {
         "destination": "FNI",
-        "footprint": 0.16,
         "source": "LGW"
     },
     "BAW2329": {
         "destination": "LGW",
-        "footprint": 0.17,
         "source": "MRS"
     },
     "BAW233": {
@@ -4642,7 +4389,6 @@
     },
     "BAW2330": {
         "destination": "MPL",
-        "footprint": 0.16,
         "source": "LGW"
     },
     "BAW2331": {
@@ -4699,7 +4445,6 @@
     },
     "BAW2361": {
         "destination": "CMF",
-        "footprint": 0.14,
         "source": "STN"
     },
     "BAW2362": {
@@ -4708,17 +4453,14 @@
     },
     "BAW2363": {
         "destination": "LGW",
-        "footprint": 0.17,
         "source": "MRS"
     },
     "BAW2364": {
         "destination": "MRS",
-        "footprint": 0.17,
         "source": "LGW"
     },
     "BAW2365": {
         "destination": "LGW",
-        "footprint": 0.17,
         "source": "MRS"
     },
     "BAW2366": {
@@ -4731,12 +4473,10 @@
     },
     "BAW2368": {
         "destination": "MRS",
-        "footprint": 0.17,
         "source": "LGW"
     },
     "BAW2369": {
         "destination": "LGW",
-        "footprint": 0.17,
         "source": "MRS"
     },
     "BAW237": {
@@ -4785,37 +4525,30 @@
     },
     "BAW2380": {
         "destination": "SEA",
-        "footprint": 0.4,
         "source": "ORD"
     },
     "BAW2382": {
         "destination": "STT",
-        "footprint": 0.26,
         "source": "MIA"
     },
     "BAW2383": {
         "destination": "JFK",
-        "footprint": 0.04,
         "source": "BOS"
     },
     "BAW2385": {
         "destination": "STT",
-        "footprint": 0.26,
         "source": "MIA"
     },
     "BAW2386": {
         "destination": "MIA",
-        "footprint": 0.26,
         "source": "STT"
     },
     "BAW2387": {
         "destination": "STT",
-        "footprint": 0.26,
         "source": "MIA"
     },
     "BAW2389": {
         "destination": "EWR",
-        "footprint": 0.17,
         "source": "ORD"
     },
     "BAW239": {
@@ -4892,7 +4625,6 @@
     },
     "BAW2411": {
         "destination": "MIA",
-        "footprint": 0.12,
         "source": "CUN"
     },
     "BAW2412": {
@@ -4917,7 +4649,6 @@
     },
     "BAW2418": {
         "destination": "PVR",
-        "footprint": 0.23,
         "source": "DFW"
     },
     "BAW2419": {
@@ -5170,47 +4901,38 @@
     },
     "BAW2490": {
         "destination": "LAX",
-        "footprint": 0.53,
         "source": "IAD"
     },
     "BAW2491": {
         "destination": "IAD",
-        "footprint": 0.53,
         "source": "LAX"
     },
     "BAW2492": {
         "destination": "ORD",
-        "footprint": 0.17,
         "source": "JFK"
     },
     "BAW2494": {
         "destination": "PHX",
-        "footprint": 0.34,
         "source": "ORD"
     },
     "BAW2495": {
         "destination": "LAX",
-        "footprint": 0.61,
         "source": "BOS"
     },
     "BAW2496": {
         "destination": "SDF",
-        "footprint": 0.07,
         "source": "ORD"
     },
     "BAW2497": {
         "destination": "CRP",
-        "footprint": 0.08,
         "source": "DFW"
     },
     "BAW2498": {
         "destination": "AUS",
-        "footprint": 0.36,
         "source": "JFK"
     },
     "BAW2499": {
         "destination": "LAX",
-        "footprint": 0.53,
         "source": "IAD"
     },
     "BAW25": {
@@ -5219,52 +4941,42 @@
     },
     "BAW2500": {
         "destination": "BOS",
-        "footprint": 0.61,
         "source": "LAX"
     },
     "BAW2501": {
         "destination": "MIA",
-        "footprint": 0.26,
         "source": "JFK"
     },
     "BAW2502": {
         "destination": "BOS",
-        "footprint": 0.61,
         "source": "LAX"
     },
     "BAW2503": {
         "destination": "DFW",
-        "footprint": 0.25,
         "source": "RDU"
     },
     "BAW2504": {
         "destination": "DFW",
-        "footprint": 0.23,
         "source": "MCO"
     },
     "BAW2505": {
         "destination": "MIA",
-        "footprint": 0.24,
         "source": "PHL"
     },
     "BAW2506": {
         "destination": "IAH",
-        "footprint": 0.23,
         "source": "MIA"
     },
     "BAW2507": {
         "destination": "DFW",
-        "footprint": 0.32,
         "source": "EWR"
     },
     "BAW2508": {
         "destination": "AUS",
-        "footprint": 0.36,
         "source": "JFK"
     },
     "BAW2509": {
         "destination": "LGW",
-        "footprint": 0.27,
         "source": "LIS"
     },
     "BAW2510": {
@@ -5297,52 +5009,42 @@
     },
     "BAW2520": {
         "destination": "IAD",
-        "footprint": 0.22,
         "source": "MIA"
     },
     "BAW2521": {
         "destination": "ORD",
-        "footprint": 0.16,
         "source": "PHL"
     },
     "BAW2522": {
         "destination": "PHL",
-        "footprint": 0.24,
         "source": "MIA"
     },
     "BAW2523": {
         "destination": "DFW",
-        "footprint": 0.11,
         "source": "BRO"
     },
     "BAW2524": {
         "destination": "LAX",
-        "footprint": 0.58,
         "source": "JFK"
     },
     "BAW2525": {
         "destination": "MVD",
-        "footprint": 1.05,
         "source": "MIA"
     },
     "BAW2526": {
         "destination": "DFW",
-        "footprint": 0.2,
         "source": "PHX"
     },
     "BAW2527": {
         "destination": "RDU",
-        "footprint": 0.25,
         "source": "DFW"
     },
     "BAW2528": {
         "destination": "DFW",
-        "footprint": 0.2,
         "source": "PHX"
     },
     "BAW2529": {
         "destination": "BOS",
-        "footprint": 0.36,
         "source": "DFW"
     },
     "BAW253": {
@@ -5387,52 +5089,42 @@
     },
     "BAW2540": {
         "destination": "FCO",
-        "footprint": 0.25,
         "source": "LGW"
     },
     "BAW2541": {
         "destination": "LGW",
-        "footprint": 0.25,
         "source": "FCO"
     },
     "BAW2542": {
         "destination": "FCO",
-        "footprint": 0.25,
         "source": "LGW"
     },
     "BAW2543": {
         "destination": "LGW",
-        "footprint": 0.25,
         "source": "FCO"
     },
     "BAW2544": {
         "destination": "FCO",
-        "footprint": 0.25,
         "source": "LGW"
     },
     "BAW2545": {
         "destination": "LGW",
-        "footprint": 0.25,
         "source": "FCO"
     },
     "BAW2546": {
         "destination": "ALG",
-        "footprint": 0.29,
         "source": "LGW"
     },
     "BAW2547": {
         "destination": "LGW",
-        "footprint": 0.29,
         "source": "ALG"
     },
     "BAW2548": {
         "destination": "ALG",
-        "footprint": 0.29,
         "source": "LGW"
     },
     "BAW2549": {
         "destination": "LGW",
-        "footprint": 0.29,
         "source": "ALG"
     },
     "BAW2550": {
@@ -5477,47 +5169,38 @@
     },
     "BAW2560": {
         "destination": "SSH",
-        "footprint": 0.6,
         "source": "LGW"
     },
     "BAW2561": {
         "destination": "LGW",
-        "footprint": 0.6,
         "source": "SSH"
     },
     "BAW2562": {
         "destination": "DLM",
-        "footprint": 0.49,
         "source": "LGW"
     },
     "BAW2563": {
         "destination": "LGW",
-        "footprint": 0.49,
         "source": "DLM"
     },
     "BAW2564": {
         "destination": "BLQ",
-        "footprint": 0.2,
         "source": "LGW"
     },
     "BAW2566": {
         "destination": "BJV",
-        "footprint": 0.47,
         "source": "LGW"
     },
     "BAW2567": {
         "destination": "LGW",
-        "footprint": 0.47,
         "source": "BJV"
     },
     "BAW2568": {
         "destination": "VRN",
-        "footprint": 0.18,
         "source": "LGW"
     },
     "BAW2569": {
         "destination": "LGW",
-        "footprint": 0.18,
         "source": "VRN"
     },
     "BAW257": {
@@ -5646,12 +5329,10 @@
     },
     "BAW2598": {
         "destination": "VRN",
-        "footprint": 0.18,
         "source": "LGW"
     },
     "BAW2599": {
         "destination": "LGW",
-        "footprint": 0.18,
         "source": "VRN"
     },
     "BAW26": {
@@ -5920,7 +5601,6 @@
     },
     "BAW2664": {
         "destination": "SZG",
-        "footprint": 0.26,
         "source": "GLA"
     },
     "BAW2665": {
@@ -5937,12 +5617,10 @@
     },
     "BAW2668": {
         "destination": "RAK",
-        "footprint": 0.4,
         "source": "LGW"
     },
     "BAW2669": {
         "destination": "LGW",
-        "footprint": 0.4,
         "source": "RAK"
     },
     "BAW267": {
@@ -5991,12 +5669,10 @@
     },
     "BAW2680": {
         "destination": "DBV",
-        "footprint": 0.3,
         "source": "LGW"
     },
     "BAW2681": {
         "destination": "LGW",
-        "footprint": 0.3,
         "source": "DBV"
     },
     "BAW2682": {
@@ -6009,32 +5685,26 @@
     },
     "BAW2684": {
         "destination": "GOA",
-        "footprint": 0.18,
         "source": "LGW"
     },
     "BAW2685": {
         "destination": "LGW",
-        "footprint": 0.18,
         "source": "GOA"
     },
     "BAW2686": {
         "destination": "GOA",
-        "footprint": 0.18,
         "source": "LGW"
     },
     "BAW2687": {
         "destination": "LGW",
-        "footprint": 0.18,
         "source": "GOA"
     },
     "BAW2688": {
         "destination": "GOA",
-        "footprint": 0.18,
         "source": "LGW"
     },
     "BAW2689": {
         "destination": "LGW",
-        "footprint": 0.18,
         "source": "GOA"
     },
     "BAW269": {
@@ -6043,7 +5713,6 @@
     },
     "BAW2690": {
         "destination": "INN",
-        "footprint": 0.16,
         "source": "LGW"
     },
     "BAW2691": {
@@ -6056,22 +5725,18 @@
     },
     "BAW2693": {
         "destination": "LGW",
-        "footprint": 0.3,
         "source": "FAO"
     },
     "BAW2694": {
         "destination": "FAO",
-        "footprint": 0.3,
         "source": "LGW"
     },
     "BAW2695": {
         "destination": "LGW",
-        "footprint": 0.3,
         "source": "FAO"
     },
     "BAW2696": {
         "destination": "FAO",
-        "footprint": 0.3,
         "source": "LGW"
     },
     "BAW2697": {
@@ -6528,7 +6193,6 @@
     },
     "BAW280": {
         "destination": "LHR",
-        "footprint": 1.36,
         "source": "LAX"
     },
     "BAW2800": {
@@ -6573,47 +6237,38 @@
     },
     "BAW281": {
         "destination": "PHX",
-        "footprint": 1.32,
         "source": "LGW"
     },
     "BAW2811": {
         "destination": "FAI",
-        "footprint": 0.36,
         "source": "SEA"
     },
     "BAW2817": {
         "destination": "LGW",
-        "footprint": 0.05,
         "source": "CDG"
     },
     "BAW2818": {
         "destination": "SEA",
-        "footprint": 0.05,
         "source": "GEG"
     },
     "BAW2819": {
         "destination": "GEG",
-        "footprint": 0.05,
         "source": "SEA"
     },
     "BAW282": {
         "destination": "LHR",
-        "footprint": 1.36,
         "source": "LAX"
     },
     "BAW2820": {
         "destination": "SEA",
-        "footprint": 0.05,
         "source": "GEG"
     },
     "BAW2821": {
         "destination": "GEG",
-        "footprint": 0.05,
         "source": "SEA"
     },
     "BAW2822": {
         "destination": "SEA",
-        "footprint": 0.63,
         "source": "HNL"
     },
     "BAW2823": {
@@ -6622,22 +6277,18 @@
     },
     "BAW2824": {
         "destination": "CDG",
-        "footprint": 0.05,
         "source": "LGW"
     },
     "BAW2825": {
         "destination": "LGW",
-        "footprint": 0.05,
         "source": "CDG"
     },
     "BAW2826": {
         "destination": "SEA",
-        "footprint": 0.63,
         "source": "KOA"
     },
     "BAW2827": {
         "destination": "KOA",
-        "footprint": 0.63,
         "source": "SEA"
     },
     "BAW2828": {
@@ -6650,7 +6301,6 @@
     },
     "BAW283": {
         "destination": "LAX",
-        "footprint": 1.36,
         "source": "LHR"
     },
     "BAW2830": {
@@ -6683,17 +6333,14 @@
     },
     "BAW2838": {
         "destination": "SEA",
-        "footprint": 0.03,
         "source": "PDX"
     },
     "BAW2839": {
         "destination": "PDX",
-        "footprint": 0.03,
         "source": "SEA"
     },
     "BAW284": {
         "destination": "LHR",
-        "footprint": 1.34,
         "source": "SFO"
     },
     "BAW2840": {
@@ -6722,7 +6369,6 @@
     },
     "BAW2846": {
         "destination": "SAN",
-        "footprint": 0.15,
         "source": "SLC"
     },
     "BAW2847": {
@@ -6739,7 +6385,6 @@
     },
     "BAW285": {
         "destination": "SFO",
-        "footprint": 1.34,
         "source": "LHR"
     },
     "BAW2850": {
@@ -6776,7 +6421,6 @@
     },
     "BAW286": {
         "destination": "LHR",
-        "footprint": 1.34,
         "source": "SFO"
     },
     "BAW2860": {
@@ -6821,7 +6465,6 @@
     },
     "BAW287": {
         "destination": "SFO",
-        "footprint": 1.34,
         "source": "LHR"
     },
     "BAW2870": {
@@ -6850,7 +6493,6 @@
     },
     "BAW288": {
         "destination": "LHR",
-        "footprint": 1.31,
         "source": "PHX"
     },
     "BAW2880": {
@@ -6895,7 +6537,6 @@
     },
     "BAW289": {
         "destination": "PHX",
-        "footprint": 1.31,
         "source": "LHR"
     },
     "BAW2890": {
@@ -6980,37 +6621,30 @@
     },
     "BAW2910": {
         "destination": "MAN",
-        "footprint": 0.08,
         "source": "LGW"
     },
     "BAW2911": {
         "destination": "LGW",
-        "footprint": 0.08,
         "source": "MAN"
     },
     "BAW2912": {
         "destination": "MAN",
-        "footprint": 0.08,
         "source": "LGW"
     },
     "BAW2913": {
         "destination": "LGW",
-        "footprint": 0.08,
         "source": "MAN"
     },
     "BAW2914": {
         "destination": "MAN",
-        "footprint": 0.08,
         "source": "LGW"
     },
     "BAW2915": {
         "destination": "LGW",
-        "footprint": 0.08,
         "source": "MAN"
     },
     "BAW2917": {
         "destination": "LGW",
-        "footprint": 0.18,
         "source": "GLA"
     },
     "BAW292": {
@@ -7027,7 +6661,6 @@
     },
     "BAW2923": {
         "destination": "LGW",
-        "footprint": 0.2,
         "source": "ABZ"
     },
     "BAW2924": {
@@ -7056,42 +6689,34 @@
     },
     "BAW2930": {
         "destination": "ABZ",
-        "footprint": 0.2,
         "source": "LGW"
     },
     "BAW2931": {
         "destination": "LGW",
-        "footprint": 0.17,
         "source": "EDI"
     },
     "BAW2934": {
         "destination": "EDI",
-        "footprint": 0.17,
         "source": "LGW"
     },
     "BAW2935": {
         "destination": "LGW",
-        "footprint": 0.17,
         "source": "EDI"
     },
     "BAW2936": {
         "destination": "EDI",
-        "footprint": 0.17,
         "source": "LGW"
     },
     "BAW2937": {
         "destination": "LGW",
-        "footprint": 0.17,
         "source": "EDI"
     },
     "BAW2938": {
         "destination": "EDI",
-        "footprint": 0.17,
         "source": "LGW"
     },
     "BAW2939": {
         "destination": "LGW",
-        "footprint": 0.17,
         "source": "EDI"
     },
     "BAW294": {
@@ -7132,37 +6757,30 @@
     },
     "BAW2953": {
         "destination": "LGW",
-        "footprint": 0.18,
         "source": "GLA"
     },
     "BAW2954": {
         "destination": "GLA",
-        "footprint": 0.18,
         "source": "LGW"
     },
     "BAW2955": {
         "destination": "LGW",
-        "footprint": 0.18,
         "source": "GLA"
     },
     "BAW2956": {
         "destination": "GLA",
-        "footprint": 0.18,
         "source": "LGW"
     },
     "BAW2957": {
         "destination": "LGW",
-        "footprint": 0.18,
         "source": "GLA"
     },
     "BAW2958": {
         "destination": "GLA",
-        "footprint": 0.18,
         "source": "LGW"
     },
     "BAW2959": {
         "destination": "LGW",
-        "footprint": 0.18,
         "source": "GLA"
     },
     "BAW296": {
@@ -7211,17 +6829,14 @@
     },
     "BAW2970": {
         "destination": "GLA",
-        "footprint": 0.18,
         "source": "LGW"
     },
     "BAW2971": {
         "destination": "LGW",
-        "footprint": 0.18,
         "source": "GLA"
     },
     "BAW2976": {
         "destination": "LHR",
-        "footprint": 0.16,
         "source": "GLA"
     },
     "BAW298": {
@@ -7250,7 +6865,6 @@
     },
     "BAW3": {
         "destination": "JFK",
-        "footprint": 0.72,
         "source": "SNN"
     },
     "BAW301": {
@@ -7283,12 +6897,10 @@
     },
     "BAW3074": {
         "destination": "LGW",
-        "footprint": 0.77,
         "source": "LOS"
     },
     "BAW3078": {
         "destination": "LGW",
-        "footprint": 0.79,
         "source": "ACC"
     },
     "BAW308": {
@@ -7305,22 +6917,18 @@
     },
     "BAW310": {
         "destination": "CDG",
-        "footprint": 0.06,
         "source": "LHR"
     },
     "BAW311": {
         "destination": "LHR",
-        "footprint": 0.06,
         "source": "CDG"
     },
     "BAW312": {
         "destination": "CDG",
-        "footprint": 0.06,
         "source": "LHR"
     },
     "BAW314": {
         "destination": "CDG",
-        "footprint": 0.06,
         "source": "LHR"
     },
     "BAW3142": {
@@ -7349,27 +6957,22 @@
     },
     "BAW315": {
         "destination": "LHR",
-        "footprint": 0.06,
         "source": "CDG"
     },
     "BAW316": {
         "destination": "CDG",
-        "footprint": 0.06,
         "source": "LHR"
     },
     "BAW317": {
         "destination": "LHR",
-        "footprint": 0.06,
         "source": "CDG"
     },
     "BAW318": {
         "destination": "CDG",
-        "footprint": 0.06,
         "source": "LHR"
     },
     "BAW319": {
         "destination": "LHR",
-        "footprint": 0.06,
         "source": "CDG"
     },
     "BAW32": {
@@ -7382,32 +6985,26 @@
     },
     "BAW3224": {
         "destination": "BOD",
-        "footprint": 0.12,
         "source": "LGW"
     },
     "BAW3225": {
         "destination": "LGW",
-        "footprint": 0.12,
         "source": "BOD"
     },
     "BAW3226": {
         "destination": "BOD",
-        "footprint": 0.12,
         "source": "LGW"
     },
     "BAW3227": {
         "destination": "LGW",
-        "footprint": 0.12,
         "source": "BOD"
     },
     "BAW3228": {
         "destination": "BOD",
-        "footprint": 0.12,
         "source": "LGW"
     },
     "BAW3229": {
         "destination": "LGW",
-        "footprint": 0.12,
         "source": "BOD"
     },
     "BAW323": {
@@ -7428,32 +7025,26 @@
     },
     "BAW3260": {
         "destination": "ORY",
-        "footprint": 0.06,
         "source": "LHR"
     },
     "BAW3261": {
         "destination": "LHR",
-        "footprint": 0.06,
         "source": "ORY"
     },
     "BAW3262": {
         "destination": "ORY",
-        "footprint": 0.06,
         "source": "LHR"
     },
     "BAW3263": {
         "destination": "LHR",
-        "footprint": 0.06,
         "source": "ORY"
     },
     "BAW3264": {
         "destination": "ORY",
-        "footprint": 0.06,
         "source": "LHR"
     },
     "BAW3265": {
         "destination": "LHR",
-        "footprint": 0.06,
         "source": "ORY"
     },
     "BAW327": {
@@ -7538,7 +7129,6 @@
     },
     "BAW330": {
         "destination": "STN",
-        "footprint": 1.21,
         "source": "IAH"
     },
     "BAW3301": {
@@ -7567,7 +7157,6 @@
     },
     "BAW331": {
         "destination": "LHR",
-        "footprint": 0.06,
         "source": "ORY"
     },
     "BAW3310": {
@@ -7604,7 +7193,6 @@
     },
     "BAW332": {
         "destination": "ORY",
-        "footprint": 0.06,
         "source": "LHR"
     },
     "BAW3320": {
@@ -7621,17 +7209,14 @@
     },
     "BAW333": {
         "destination": "LHR",
-        "footprint": 0.06,
         "source": "ORY"
     },
     "BAW334": {
         "destination": "ORY",
-        "footprint": 0.06,
         "source": "LHR"
     },
     "BAW335": {
         "destination": "LHR",
-        "footprint": 0.06,
         "source": "ORY"
     },
     "BAW3356": {
@@ -7640,52 +7225,42 @@
     },
     "BAW336": {
         "destination": "ORY",
-        "footprint": 0.06,
         "source": "LHR"
     },
     "BAW337": {
         "destination": "LHR",
-        "footprint": 0.06,
         "source": "ORY"
     },
     "BAW338": {
         "destination": "ORY",
-        "footprint": 0.06,
         "source": "LHR"
     },
     "BAW3383": {
         "destination": "OPO",
-        "footprint": 0.06,
         "source": "MAD"
     },
     "BAW3384": {
         "destination": "FRA",
-        "footprint": 0.12,
         "source": "LTN"
     },
     "BAW3385": {
         "destination": "LTN",
-        "footprint": 0.12,
         "source": "FRA"
     },
     "BAW3386": {
         "destination": "FRA",
-        "footprint": 0.11,
         "source": "LHR"
     },
     "BAW3387": {
         "destination": "LHR",
-        "footprint": 0.11,
         "source": "FRA"
     },
     "BAW3388": {
         "destination": "LGW",
-        "footprint": 1.32,
         "source": "PHX"
     },
     "BAW339": {
         "destination": "LHR",
-        "footprint": 0.06,
         "source": "ORY"
     },
     "BAW3394": {
@@ -7710,32 +7285,26 @@
     },
     "BAW3411": {
         "destination": "STN",
-        "footprint": 0.62,
         "source": "TLV"
     },
     "BAW3412": {
         "destination": "ATL",
-        "footprint": 1.06,
         "source": "STN"
     },
     "BAW3414": {
         "destination": "STN",
-        "footprint": 0.85,
         "source": "DXB"
     },
     "BAW3415": {
         "destination": "HKG",
-        "footprint": 1.49,
         "source": "STN"
     },
     "BAW3417": {
         "destination": "STN",
-        "footprint": 1.06,
         "source": "ATL"
     },
     "BAW3418": {
         "destination": "STN",
-        "footprint": 1.04,
         "source": "DEL"
     },
     "BAW342": {
@@ -7772,52 +7341,42 @@
     },
     "BAW3450": {
         "destination": "DEL",
-        "footprint": 0.54,
         "source": "HKG"
     },
     "BAW3451": {
         "destination": "HKG",
-        "footprint": 1.33,
         "source": "FRA"
     },
     "BAW3452": {
         "destination": "BAH",
-        "footprint": 0.72,
         "source": "ZAZ"
     },
     "BAW3453": {
         "destination": "HKG",
-        "footprint": 0.92,
         "source": "BAH"
     },
     "BAW3454": {
         "destination": "STN",
-        "footprint": 1.11,
         "source": "BOM"
     },
     "BAW3455": {
         "destination": "FRA",
-        "footprint": 0.11,
         "source": "STN"
     },
     "BAW3456": {
         "destination": "STN",
-        "footprint": 1.11,
         "source": "BOM"
     },
     "BAW3457": {
         "destination": "STN",
-        "footprint": 1.06,
         "source": "ATL"
     },
     "BAW3458": {
         "destination": "MUC",
-        "footprint": 0.16,
         "source": "STN"
     },
     "BAW3459": {
         "destination": "HKG",
-        "footprint": 0.86,
         "source": "DXB"
     },
     "BAW346": {
@@ -7930,22 +7489,18 @@
     },
     "BAW3534": {
         "destination": "LHR",
-        "footprint": 0.94,
         "source": "DTW"
     },
     "BAW3535": {
         "destination": "YUL",
-        "footprint": 0.81,
         "source": "LHR"
     },
     "BAW3536": {
         "destination": "LHR",
-        "footprint": 0.86,
         "source": "JFK"
     },
     "BAW3539": {
         "destination": "CAK",
-        "footprint": 0.01,
         "source": "CLE"
     },
     "BAW354": {
@@ -7962,7 +7517,6 @@
     },
     "BAW3556": {
         "destination": "LGW",
-        "footprint": 1.05,
         "source": "BGI"
     },
     "BAW356": {
@@ -7975,52 +7529,42 @@
     },
     "BAW3570": {
         "destination": "KIX",
-        "footprint": 0.86,
         "source": "ANC"
     },
     "BAW3571": {
         "destination": "ORD",
-        "footprint": 1.01,
         "source": "FRA"
     },
     "BAW3572": {
         "destination": "STN",
-        "footprint": 1.06,
         "source": "ATL"
     },
     "BAW3573": {
         "destination": "ATL",
-        "footprint": 1.08,
         "source": "FRA"
     },
     "BAW3574": {
         "destination": "STN",
-        "footprint": 1.06,
         "source": "ATL"
     },
     "BAW3575": {
         "destination": "ATL",
-        "footprint": 0.99,
         "source": "PIK"
     },
     "BAW3576": {
         "destination": "STN",
-        "footprint": 1.06,
         "source": "ATL"
     },
     "BAW3577": {
         "destination": "ORD",
-        "footprint": 1.01,
         "source": "FRA"
     },
     "BAW3578": {
         "destination": "STN",
-        "footprint": 1.21,
         "source": "IAH"
     },
     "BAW3579": {
         "destination": "JNB",
-        "footprint": 1.18,
         "source": "MAD"
     },
     "BAW358": {
@@ -8069,32 +7613,26 @@
     },
     "BAW3590": {
         "destination": "STN",
-        "footprint": 1.06,
         "source": "ATL"
     },
     "BAW3591": {
         "destination": "CGN",
-        "footprint": 0.09,
         "source": "STN"
     },
     "BAW3592": {
         "destination": "STN",
-        "footprint": 1.04,
         "source": "DEL"
     },
     "BAW3593": {
         "destination": "CGN",
-        "footprint": 0.09,
         "source": "STN"
     },
     "BAW3595": {
         "destination": "FRA",
-        "footprint": 0.11,
         "source": "STN"
     },
     "BAW3597": {
         "destination": "KIX",
-        "footprint": 0.86,
         "source": "ANC"
     },
     "BAW36": {
@@ -8271,7 +7809,6 @@
     },
     "BAW4": {
         "destination": "LCY",
-        "footprint": 0.87,
         "source": "JFK"
     },
     "BAW400": {
@@ -8300,37 +7837,30 @@
     },
     "BAW4013": {
         "destination": "ABZ",
-        "footprint": 0.06,
         "source": "KOI"
     },
     "BAW4014": {
         "destination": "GLA",
-        "footprint": 0.11,
         "source": "KOI"
     },
     "BAW4015": {
         "destination": "KOI",
-        "footprint": 0.11,
         "source": "GLA"
     },
     "BAW4016": {
         "destination": "GLA",
-        "footprint": 0.14,
         "source": "LSI"
     },
     "BAW4017": {
         "destination": "LSI",
-        "footprint": 0.14,
         "source": "GLA"
     },
     "BAW4018": {
         "destination": "GLA",
-        "footprint": 0.14,
         "source": "LSI"
     },
     "BAW4019": {
         "destination": "LSI",
-        "footprint": 0.14,
         "source": "GLA"
     },
     "BAW402": {
@@ -8387,7 +7917,6 @@
     },
     "BAW4031": {
         "destination": "BRS",
-        "footprint": 0.15,
         "source": "EDI"
     },
     "BAW4032": {
@@ -8396,7 +7925,6 @@
     },
     "BAW4033": {
         "destination": "BRS",
-        "footprint": 0.15,
         "source": "EDI"
     },
     "BAW4034": {
@@ -8409,7 +7937,6 @@
     },
     "BAW4036": {
         "destination": "EDI",
-        "footprint": 0.15,
         "source": "BRS"
     },
     "BAW4037": {
@@ -8486,7 +8013,6 @@
     },
     "BAW4057": {
         "destination": "TRE",
-        "footprint": 0.05,
         "source": "GLA"
     },
     "BAW4058": {
@@ -8503,7 +8029,6 @@
     },
     "BAW4060": {
         "destination": "EDI",
-        "footprint": 0.1,
         "source": "KOI"
     },
     "BAW4061": {
@@ -8548,37 +8073,30 @@
     },
     "BAW4070": {
         "destination": "LSI",
-        "footprint": 0.09,
         "source": "ABZ"
     },
     "BAW4071": {
         "destination": "ABZ",
-        "footprint": 0.09,
         "source": "LSI"
     },
     "BAW4072": {
         "destination": "LSI",
-        "footprint": 0.09,
         "source": "ABZ"
     },
     "BAW4073": {
         "destination": "ABZ",
-        "footprint": 0.09,
         "source": "LSI"
     },
     "BAW4074": {
         "destination": "LSI",
-        "footprint": 0.09,
         "source": "ABZ"
     },
     "BAW4075": {
         "destination": "ABZ",
-        "footprint": 0.09,
         "source": "LSI"
     },
     "BAW4078": {
         "destination": "LSI",
-        "footprint": 0.09,
         "source": "ABZ"
     },
     "BAW4079": {
@@ -8611,42 +8129,34 @@
     },
     "BAW4091": {
         "destination": "SOU",
-        "footprint": 0.13,
         "source": "NCL"
     },
     "BAW4092": {
         "destination": "EDI",
-        "footprint": 0.13,
         "source": "LSI"
     },
     "BAW4093": {
         "destination": "LSI",
-        "footprint": 0.13,
         "source": "EDI"
     },
     "BAW4094": {
         "destination": "EDI",
-        "footprint": 0.13,
         "source": "LSI"
     },
     "BAW4095": {
         "destination": "LSI",
-        "footprint": 0.13,
         "source": "EDI"
     },
     "BAW4096": {
         "destination": "EDI",
-        "footprint": 0.13,
         "source": "LSI"
     },
     "BAW4097": {
         "destination": "LSI",
-        "footprint": 0.13,
         "source": "EDI"
     },
     "BAW4098": {
         "destination": "EDI",
-        "footprint": 0.13,
         "source": "LSI"
     },
     "BAW41": {
@@ -8727,7 +8237,6 @@
     },
     "BAW4128": {
         "destination": "SYY",
-        "footprint": 0.08,
         "source": "GLA"
     },
     "BAW4129": {
@@ -8828,47 +8337,38 @@
     },
     "BAW4150": {
         "destination": "BKK",
-        "footprint": 0.09,
         "source": "CNX"
     },
     "BAW4151": {
         "destination": "CNX",
-        "footprint": 0.09,
         "source": "BKK"
     },
     "BAW4152": {
         "destination": "CNX",
-        "footprint": 0.09,
         "source": "BKK"
     },
     "BAW4153": {
         "destination": "CNX",
-        "footprint": 0.09,
         "source": "BKK"
     },
     "BAW4154": {
         "destination": "BKK",
-        "footprint": 0.09,
         "source": "CNX"
     },
     "BAW4156": {
         "destination": "HKT",
-        "footprint": 0.1,
         "source": "BKK"
     },
     "BAW4157": {
         "destination": "CNX",
-        "footprint": 0.09,
         "source": "BKK"
     },
     "BAW4158": {
         "destination": "BKK",
-        "footprint": 0.09,
         "source": "CNX"
     },
     "BAW4159": {
         "destination": "USM",
-        "footprint": 0.07,
         "source": "BKK"
     },
     "BAW416": {
@@ -8917,7 +8417,6 @@
     },
     "BAW4170": {
         "destination": "BKK",
-        "footprint": 0.1,
         "source": "HKT"
     },
     "BAW4171": {
@@ -8930,7 +8429,6 @@
     },
     "BAW4173": {
         "destination": "HKT",
-        "footprint": 0.1,
         "source": "BKK"
     },
     "BAW4174": {
@@ -9059,27 +8557,22 @@
     },
     "BAW4211": {
         "destination": "MVD",
-        "footprint": 1.44,
         "source": "MAD"
     },
     "BAW4212": {
         "destination": "MAD",
-        "footprint": 1.44,
         "source": "MVD"
     },
     "BAW4217": {
         "destination": "SJO",
-        "footprint": 1.23,
         "source": "MAD"
     },
     "BAW4218": {
         "destination": "MAD",
-        "footprint": 1.23,
         "source": "SJO"
     },
     "BAW4219": {
         "destination": "GUA",
-        "footprint": 1.26,
         "source": "MAD"
     },
     "BAW4220": {
@@ -9100,12 +8593,10 @@
     },
     "BAW4231": {
         "destination": "BOG",
-        "footprint": 1.17,
         "source": "MAD"
     },
     "BAW4232": {
         "destination": "MAD",
-        "footprint": 1.17,
         "source": "BOG"
     },
     "BAW424": {
@@ -9130,27 +8621,22 @@
     },
     "BAW4250": {
         "destination": "MAD",
-        "footprint": 1.56,
         "source": "SCL"
     },
     "BAW4254": {
         "destination": "MAD",
-        "footprint": 1.46,
         "source": "EZE"
     },
     "BAW4255": {
         "destination": "EZE",
-        "footprint": 1.46,
         "source": "MAD"
     },
     "BAW4258": {
         "destination": "VLC",
-        "footprint": 0.04,
         "source": "MAD"
     },
     "BAW4259": {
         "destination": "MAD",
-        "footprint": 0.04,
         "source": "VLC"
     },
     "BAW426": {
@@ -9191,32 +8677,26 @@
     },
     "BAW4270": {
         "destination": "MAD",
-        "footprint": 0.84,
         "source": "JFK"
     },
     "BAW4271": {
         "destination": "ORD",
-        "footprint": 0.98,
         "source": "MAD"
     },
     "BAW4272": {
         "destination": "MAD",
-        "footprint": 0.98,
         "source": "ORD"
     },
     "BAW4274": {
         "destination": "MAD",
-        "footprint": 1.32,
         "source": "MEX"
     },
     "BAW4275": {
         "destination": "MEX",
-        "footprint": 1.32,
         "source": "MAD"
     },
     "BAW4276": {
         "destination": "MAD",
-        "footprint": 1.32,
         "source": "MEX"
     },
     "BAW428": {
@@ -9241,42 +8721,34 @@
     },
     "BAW4290": {
         "destination": "EAS",
-        "footprint": 0.05,
         "source": "MAD"
     },
     "BAW4291": {
         "destination": "EZE",
-        "footprint": 1.46,
         "source": "MAD"
     },
     "BAW4294": {
         "destination": "MAD",
-        "footprint": 0.97,
         "source": "SDQ"
     },
     "BAW4295": {
         "destination": "SDQ",
-        "footprint": 0.97,
         "source": "MAD"
     },
     "BAW4296": {
         "destination": "MAD",
-        "footprint": 1.46,
         "source": "EZE"
     },
     "BAW4297": {
         "destination": "MAD",
-        "footprint": 0.04,
         "source": "PNA"
     },
     "BAW4298": {
         "destination": "VLC",
-        "footprint": 0.04,
         "source": "MAD"
     },
     "BAW4299": {
         "destination": "MAD",
-        "footprint": 0.04,
         "source": "VLC"
     },
     "BAW43": {
@@ -9673,17 +9145,14 @@
     },
     "BAW4407": {
         "destination": "DFW",
-        "footprint": 1.2,
         "source": "FRA"
     },
     "BAW4408": {
         "destination": "DFW",
-        "footprint": 0.29,
         "source": "LAX"
     },
     "BAW4409": {
         "destination": "LAX",
-        "footprint": 0.29,
         "source": "DFW"
     },
     "BAW441": {
@@ -9724,47 +9193,38 @@
     },
     "BAW4420": {
         "destination": "ABQ",
-        "footprint": 0.08,
         "source": "PHX"
     },
     "BAW4421": {
         "destination": "ORD",
-        "footprint": 0.28,
         "source": "MIA"
     },
     "BAW4422": {
         "destination": "LAX",
-        "footprint": 0.29,
         "source": "DFW"
     },
     "BAW4423": {
         "destination": "AUA",
-        "footprint": 0.27,
         "source": "MIA"
     },
     "BAW4424": {
         "destination": "DFW",
-        "footprint": 0.09,
         "source": "BTR"
     },
     "BAW4425": {
         "destination": "DFW",
-        "footprint": 0.15,
         "source": "VPS"
     },
     "BAW4427": {
         "destination": "MIA",
-        "footprint": 0.28,
         "source": "ORD"
     },
     "BAW4428": {
         "destination": "LAX",
-        "footprint": 0.29,
         "source": "DFW"
     },
     "BAW4429": {
         "destination": "JAX",
-        "footprint": 0.21,
         "source": "DFW"
     },
     "BAW443": {
@@ -9801,42 +9261,34 @@
     },
     "BAW4440": {
         "destination": "MCO",
-        "footprint": 0.05,
         "source": "MIA"
     },
     "BAW4441": {
         "destination": "ORD",
-        "footprint": 0.07,
         "source": "CMH"
     },
     "BAW4442": {
         "destination": "MIA",
-        "footprint": 0.24,
         "source": "PHL"
     },
     "BAW4443": {
         "destination": "ORD",
-        "footprint": 0.19,
         "source": "DFW"
     },
     "BAW4444": {
         "destination": "DFW",
-        "footprint": 0.19,
         "source": "ORD"
     },
     "BAW4445": {
         "destination": "PHX",
-        "footprint": 0.15,
         "source": "SMF"
     },
     "BAW4447": {
         "destination": "MIA",
-        "footprint": 0.26,
         "source": "LGA"
     },
     "BAW4448": {
         "destination": "DFW",
-        "footprint": 0.19,
         "source": "ORD"
     },
     "BAW4450": {
@@ -9881,52 +9333,42 @@
     },
     "BAW4460": {
         "destination": "DUB",
-        "footprint": 0.08,
         "source": "LCY"
     },
     "BAW4461": {
         "destination": "LCY",
-        "footprint": 0.08,
         "source": "DUB"
     },
     "BAW4462": {
         "destination": "DUB",
-        "footprint": 0.08,
         "source": "LCY"
     },
     "BAW4463": {
         "destination": "LCY",
-        "footprint": 0.08,
         "source": "DUB"
     },
     "BAW4464": {
         "destination": "DUB",
-        "footprint": 0.08,
         "source": "LCY"
     },
     "BAW4465": {
         "destination": "LCY",
-        "footprint": 0.08,
         "source": "DUB"
     },
     "BAW4466": {
         "destination": "DUB",
-        "footprint": 0.08,
         "source": "LCY"
     },
     "BAW4467": {
         "destination": "LCY",
-        "footprint": 0.08,
         "source": "DUB"
     },
     "BAW4468": {
         "destination": "DUB",
-        "footprint": 0.08,
         "source": "LCY"
     },
     "BAW4469": {
         "destination": "LCY",
-        "footprint": 0.08,
         "source": "DUB"
     },
     "BAW447": {
@@ -10115,32 +9557,26 @@
     },
     "BAW4550": {
         "destination": "HKG",
-        "footprint": 1.33,
         "source": "AKL"
     },
     "BAW4551": {
         "destination": "AKL",
-        "footprint": 1.33,
         "source": "HKG"
     },
     "BAW4552": {
         "destination": "HKG",
-        "footprint": 1.33,
         "source": "AKL"
     },
     "BAW4553": {
         "destination": "AKL",
-        "footprint": 1.33,
         "source": "HKG"
     },
     "BAW4556": {
         "destination": "HKG",
-        "footprint": 0.81,
         "source": "CNS"
     },
     "BAW4557": {
         "destination": "CNS",
-        "footprint": 0.81,
         "source": "HKG"
     },
     "BAW456": {
@@ -10185,27 +9621,22 @@
     },
     "BAW4570": {
         "destination": "HKG",
-        "footprint": 0.48,
         "source": "SUB"
     },
     "BAW4571": {
         "destination": "SUB",
-        "footprint": 0.48,
         "source": "HKG"
     },
     "BAW4573": {
         "destination": "CGK",
-        "footprint": 0.47,
         "source": "HKG"
     },
     "BAW4574": {
         "destination": "HKG",
-        "footprint": 0.47,
         "source": "CGK"
     },
     "BAW4575": {
         "destination": "CGK",
-        "footprint": 0.47,
         "source": "HKG"
     },
     "BAW458": {
@@ -10374,7 +9805,6 @@
     },
     "BAW4622": {
         "destination": "HND",
-        "footprint": 0.13,
         "source": "FUK"
     },
     "BAW4623": {
@@ -10783,32 +10213,26 @@
     },
     "BAW4741": {
         "destination": "PNS",
-        "footprint": 0.14,
         "source": "DFW"
     },
     "BAW4742": {
         "destination": "ORD",
-        "footprint": 0.1,
         "source": "BNA"
     },
     "BAW4744": {
         "destination": "BNA",
-        "footprint": 0.1,
         "source": "ORD"
     },
     "BAW4745": {
         "destination": "OMA",
-        "footprint": 0.14,
         "source": "DFW"
     },
     "BAW4746": {
         "destination": "ORD",
-        "footprint": 0.1,
         "source": "BNA"
     },
     "BAW4747": {
         "destination": "BNA",
-        "footprint": 0.15,
         "source": "DFW"
     },
     "BAW475": {
@@ -10841,37 +10265,30 @@
     },
     "BAW4760": {
         "destination": "CID",
-        "footprint": 0.05,
         "source": "ORD"
     },
     "BAW4762": {
         "destination": "IND",
-        "footprint": 0.04,
         "source": "ORD"
     },
     "BAW4763": {
         "destination": "LSE",
-        "footprint": 0.05,
         "source": "ORD"
     },
     "BAW4764": {
         "destination": "ORD",
-        "footprint": 0.04,
         "source": "IND"
     },
     "BAW4765": {
         "destination": "RTB",
-        "footprint": 0.18,
         "source": "MIA"
     },
     "BAW4767": {
         "destination": "PHX",
-        "footprint": 0.46,
         "source": "MIA"
     },
     "BAW4769": {
         "destination": "SJU",
-        "footprint": 0.37,
         "source": "JFK"
     },
     "BAW477": {
@@ -10908,37 +10325,30 @@
     },
     "BAW4781": {
         "destination": "CID",
-        "footprint": 0.05,
         "source": "ORD"
     },
     "BAW4782": {
         "destination": "ORD",
-        "footprint": 0.14,
         "source": "DCA"
     },
     "BAW4783": {
         "destination": "CID",
-        "footprint": 0.05,
         "source": "ORD"
     },
     "BAW4784": {
         "destination": "AUS",
-        "footprint": 0.04,
         "source": "DFW"
     },
     "BAW4785": {
         "destination": "LIT",
-        "footprint": 0.13,
         "source": "ORD"
     },
     "BAW4786": {
         "destination": "DCA",
-        "footprint": 0.14,
         "source": "ORD"
     },
     "BAW4788": {
         "destination": "CAE",
-        "footprint": 0.22,
         "source": "DFW"
     },
     "BAW479": {
@@ -10987,7 +10397,6 @@
     },
     "BAW480": {
         "destination": "BCN",
-        "footprint": 0.2,
         "source": "LHR"
     },
     "BAW4802": {
@@ -10996,7 +10405,6 @@
     },
     "BAW4803": {
         "destination": "LSE",
-        "footprint": 0.05,
         "source": "ORD"
     },
     "BAW4804": {
@@ -11013,17 +10421,14 @@
     },
     "BAW4808": {
         "destination": "JAX",
-        "footprint": 0.21,
         "source": "DFW"
     },
     "BAW4809": {
         "destination": "LBB",
-        "footprint": 0.07,
         "source": "DFW"
     },
     "BAW481": {
         "destination": "LHR",
-        "footprint": 0.2,
         "source": "BCN"
     },
     "BAW4811": {
@@ -11052,37 +10457,30 @@
     },
     "BAW482": {
         "destination": "BCN",
-        "footprint": 0.2,
         "source": "LHR"
     },
     "BAW4821": {
         "destination": "COS",
-        "footprint": 0.14,
         "source": "DFW"
     },
     "BAW4822": {
         "destination": "ORD",
-        "footprint": 0.14,
         "source": "DCA"
     },
     "BAW4823": {
         "destination": "BNA",
-        "footprint": 0.18,
         "source": "JFK"
     },
     "BAW4825": {
         "destination": "ABQ",
-        "footprint": 0.13,
         "source": "DFW"
     },
     "BAW4826": {
         "destination": "MTY",
-        "footprint": 0.12,
         "source": "DFW"
     },
     "BAW4828": {
         "destination": "DCA",
-        "footprint": 0.14,
         "source": "ORD"
     },
     "BAW4829": {
@@ -11091,7 +10489,6 @@
     },
     "BAW483": {
         "destination": "POS",
-        "footprint": 0.38,
         "source": "MIA"
     },
     "BAW4831": {
@@ -11108,12 +10505,10 @@
     },
     "BAW4834": {
         "destination": "JFK",
-        "footprint": 0.07,
         "source": "ORF"
     },
     "BAW4835": {
         "destination": "COS",
-        "footprint": 0.14,
         "source": "DFW"
     },
     "BAW4837": {
@@ -11130,52 +10525,42 @@
     },
     "BAW484": {
         "destination": "BCN",
-        "footprint": 0.2,
         "source": "LHR"
     },
     "BAW4840": {
         "destination": "JAX",
-        "footprint": 0.21,
         "source": "DFW"
     },
     "BAW4841": {
         "destination": "ORD",
-        "footprint": 0.06,
         "source": "CVG"
     },
     "BAW4842": {
         "destination": "DFW",
-        "footprint": 0.04,
         "source": "SHV"
     },
     "BAW4844": {
         "destination": "DFW",
-        "footprint": 0.1,
         "source": "JAN"
     },
     "BAW4845": {
         "destination": "CRP",
-        "footprint": 0.08,
         "source": "DFW"
     },
     "BAW4846": {
         "destination": "DFW",
-        "footprint": 0.22,
         "source": "GDL"
     },
     "BAW4847": {
         "destination": "SAF",
-        "footprint": 0.13,
         "source": "DFW"
     },
     "BAW4849": {
         "destination": "YVR",
-        "footprint": 0.41,
         "source": "DFW"
     },
     "BAW485": {
         "destination": "LHR",
-        "footprint": 0.2,
         "source": "BCN"
     },
     "BAW4850": {
@@ -11212,27 +10597,22 @@
     },
     "BAW486": {
         "destination": "BCN",
-        "footprint": 0.2,
         "source": "LHR"
     },
     "BAW4862": {
         "destination": "SMF",
-        "footprint": 0.33,
         "source": "DFW"
     },
     "BAW4863": {
         "destination": "BTR",
-        "footprint": 0.09,
         "source": "DFW"
     },
     "BAW4864": {
         "destination": "DFW",
-        "footprint": 0.17,
         "source": "FSD"
     },
     "BAW4865": {
         "destination": "SYD",
-        "footprint": 1.75,
         "source": "LAX"
     },
     "BAW4866": {
@@ -11245,17 +10625,14 @@
     },
     "BAW4868": {
         "destination": "GDL",
-        "footprint": 0.22,
         "source": "DFW"
     },
     "BAW4869": {
         "destination": "LFT",
-        "footprint": 0.08,
         "source": "DFW"
     },
     "BAW487": {
         "destination": "LHR",
-        "footprint": 0.2,
         "source": "BCN"
     },
     "BAW4870": {
@@ -11284,7 +10661,6 @@
     },
     "BAW488": {
         "destination": "LPA",
-        "footprint": 0.51,
         "source": "LHR"
     },
     "BAW4880": {
@@ -11317,7 +10693,6 @@
     },
     "BAW489": {
         "destination": "LHR",
-        "footprint": 0.51,
         "source": "LPA"
     },
     "BAW4890": {
@@ -11654,37 +11029,30 @@
     },
     "BAW4980": {
         "destination": "ELP",
-        "footprint": 0.13,
         "source": "DFW"
     },
     "BAW4981": {
         "destination": "TUS",
-        "footprint": 0.34,
         "source": "ORD"
     },
     "BAW4983": {
         "destination": "ORD",
-        "footprint": 0.34,
         "source": "TUS"
     },
     "BAW4984": {
         "destination": "ORD",
-        "footprint": 0.1,
         "source": "YYZ"
     },
     "BAW4985": {
         "destination": "MIA",
-        "footprint": 1.15,
         "source": "MXP"
     },
     "BAW4987": {
         "destination": "SDF",
-        "footprint": 0.17,
         "source": "DFW"
     },
     "BAW4988": {
         "destination": "MSP",
-        "footprint": 0.08,
         "source": "ORD"
     },
     "BAW499": {
@@ -11725,12 +11093,10 @@
     },
     "BAW5": {
         "destination": "NRT",
-        "footprint": 1.49,
         "source": "LHR"
     },
     "BAW500": {
         "destination": "LIS",
-        "footprint": 0.27,
         "source": "LHR"
     },
     "BAW5001": {
@@ -11763,37 +11129,30 @@
     },
     "BAW501": {
         "destination": "LHR",
-        "footprint": 0.27,
         "source": "LIS"
     },
     "BAW5010": {
         "destination": "MIA",
-        "footprint": 0.24,
         "source": "GUA"
     },
     "BAW5014": {
         "destination": "CUN",
-        "footprint": 0.24,
         "source": "DFW"
     },
     "BAW5016": {
         "destination": "MCI",
-        "footprint": 0.11,
         "source": "DFW"
     },
     "BAW5017": {
         "destination": "ABQ",
-        "footprint": 0.13,
         "source": "DFW"
     },
     "BAW5018": {
         "destination": "MIA",
-        "footprint": 0.24,
         "source": "SJU"
     },
     "BAW502": {
         "destination": "LIS",
-        "footprint": 0.27,
         "source": "LHR"
     },
     "BAW5020": {
@@ -11830,47 +11189,38 @@
     },
     "BAW503": {
         "destination": "LHR",
-        "footprint": 0.27,
         "source": "LIS"
     },
     "BAW5030": {
         "destination": "ELP",
-        "footprint": 0.13,
         "source": "DFW"
     },
     "BAW5031": {
         "destination": "LIT",
-        "footprint": 0.07,
         "source": "DFW"
     },
     "BAW5033": {
         "destination": "ORD",
-        "footprint": 0.27,
         "source": "PBI"
     },
     "BAW5035": {
         "destination": "PIT",
-        "footprint": 0.06,
         "source": "PHL"
     },
     "BAW5037": {
         "destination": "LIM",
-        "footprint": 0.61,
         "source": "MIA"
     },
     "BAW5038": {
         "destination": "DFW",
-        "footprint": 0.13,
         "source": "ELP"
     },
     "BAW5039": {
         "destination": "MIA",
-        "footprint": 0.16,
         "source": "MSY"
     },
     "BAW504": {
         "destination": "LIS",
-        "footprint": 0.27,
         "source": "LHR"
     },
     "BAW5044": {
@@ -11891,47 +11241,38 @@
     },
     "BAW505": {
         "destination": "LHR",
-        "footprint": 0.27,
         "source": "LIS"
     },
     "BAW5050": {
         "destination": "MIA",
-        "footprint": 0.61,
         "source": "LIM"
     },
     "BAW5051": {
         "destination": "ORD",
-        "footprint": 0.28,
         "source": "FLL"
     },
     "BAW5052": {
         "destination": "MEM",
-        "footprint": 0.12,
         "source": "ORD"
     },
     "BAW5053": {
         "destination": "SJU",
-        "footprint": 0.24,
         "source": "MIA"
     },
     "BAW5055": {
         "destination": "MSY",
-        "footprint": 0.2,
         "source": "ORD"
     },
     "BAW5056": {
         "destination": "DFW",
-        "footprint": 0.25,
         "source": "LAS"
     },
     "BAW5057": {
         "destination": "SAN",
-        "footprint": 0.4,
         "source": "ORD"
     },
     "BAW506": {
         "destination": "LIS",
-        "footprint": 0.27,
         "source": "LHR"
     },
     "BAW5061": {
@@ -11968,42 +11309,34 @@
     },
     "BAW507": {
         "destination": "LHR",
-        "footprint": 0.3,
         "source": "FAO"
     },
     "BAW5070": {
         "destination": "MSP",
-        "footprint": 0.08,
         "source": "ORD"
     },
     "BAW5071": {
         "destination": "MIA",
-        "footprint": 0.3,
         "source": "MEX"
     },
     "BAW5073": {
         "destination": "AUS",
-        "footprint": 0.23,
         "source": "ORD"
     },
     "BAW5075": {
         "destination": "PLS",
-        "footprint": 0.14,
         "source": "MIA"
     },
     "BAW5076": {
         "destination": "DFW",
-        "footprint": 0.04,
         "source": "AUS"
     },
     "BAW5079": {
         "destination": "SAN",
-        "footprint": 0.4,
         "source": "ORD"
     },
     "BAW508": {
         "destination": "FAO",
-        "footprint": 0.3,
         "source": "LHR"
     },
     "BAW5080": {
@@ -12032,22 +11365,18 @@
     },
     "BAW5090": {
         "destination": "AUS",
-        "footprint": 0.23,
         "source": "ORD"
     },
     "BAW5092": {
         "destination": "EWR",
-        "footprint": 0.17,
         "source": "ORD"
     },
     "BAW5098": {
         "destination": "CUR",
-        "footprint": 0.28,
         "source": "MIA"
     },
     "BAW5099": {
         "destination": "LHR",
-        "footprint": 0.99,
         "source": "ORD"
     },
     "BAW51": {
@@ -12228,22 +11557,18 @@
     },
     "BAW5151": {
         "destination": "RNO",
-        "footprint": 0.31,
         "source": "DFW"
     },
     "BAW5154": {
         "destination": "ORD",
-        "footprint": 0.24,
         "source": "TPA"
     },
     "BAW5157": {
         "destination": "SNA",
-        "footprint": 0.28,
         "source": "DFW"
     },
     "BAW5158": {
         "destination": "PBI",
-        "footprint": 0.27,
         "source": "ORD"
     },
     "BAW516": {
@@ -12276,37 +11601,30 @@
     },
     "BAW5170": {
         "destination": "LGA",
-        "footprint": 0.26,
         "source": "MIA"
     },
     "BAW5171": {
         "destination": "MKE",
-        "footprint": 0.02,
         "source": "ORD"
     },
     "BAW5172": {
         "destination": "AUS",
-        "footprint": 0.23,
         "source": "ORD"
     },
     "BAW5174": {
         "destination": "ICT",
-        "footprint": 0.14,
         "source": "ORD"
     },
     "BAW5177": {
         "destination": "IAH",
-        "footprint": 0.23,
         "source": "MIA"
     },
     "BAW5178": {
         "destination": "MIA",
-        "footprint": 0.23,
         "source": "IAH"
     },
     "BAW5179": {
         "destination": "MIA",
-        "footprint": 0.26,
         "source": "DFW"
     },
     "BAW518": {
@@ -12375,7 +11693,6 @@
     },
     "BAW520": {
         "destination": "MAD",
-        "footprint": 0.22,
         "source": "LHR"
     },
     "BAW5200": {
@@ -12416,7 +11733,6 @@
     },
     "BAW521": {
         "destination": "LHR",
-        "footprint": 0.25,
         "source": "FCO"
     },
     "BAW5210": {
@@ -12453,7 +11769,6 @@
     },
     "BAW522": {
         "destination": "LCG",
-        "footprint": 0.07,
         "source": "MAD"
     },
     "BAW5220": {
@@ -12518,7 +11833,6 @@
     },
     "BAW524": {
         "destination": "LCG",
-        "footprint": 0.07,
         "source": "MAD"
     },
     "BAW5240": {
@@ -12575,7 +11889,6 @@
     },
     "BAW526": {
         "destination": "LCA",
-        "footprint": 0.57,
         "source": "LHR"
     },
     "BAW5260": {
@@ -12620,7 +11933,6 @@
     },
     "BAW527": {
         "destination": "LHR",
-        "footprint": 0.22,
         "source": "MAD"
     },
     "BAW5272": {
@@ -12641,7 +11953,6 @@
     },
     "BAW528": {
         "destination": "OVD",
-        "footprint": 0.17,
         "source": "LHR"
     },
     "BAW5281": {
@@ -12670,7 +11981,6 @@
     },
     "BAW529": {
         "destination": "LHR",
-        "footprint": 0.14,
         "source": "ZRH"
     },
     "BAW5291": {
@@ -13031,7 +12341,6 @@
     },
     "BAW540": {
         "destination": "BLQ",
-        "footprint": 0.2,
         "source": "LHR"
     },
     "BAW5400": {
@@ -13064,7 +12373,6 @@
     },
     "BAW541": {
         "destination": "LHR",
-        "footprint": 0.2,
         "source": "BLQ"
     },
     "BAW5410": {
@@ -13101,7 +12409,6 @@
     },
     "BAW542": {
         "destination": "BLQ",
-        "footprint": 0.2,
         "source": "LHR"
     },
     "BAW5421": {
@@ -13130,7 +12437,6 @@
     },
     "BAW543": {
         "destination": "LHR",
-        "footprint": 0.2,
         "source": "BLQ"
     },
     "BAW5430": {
@@ -13171,37 +12477,30 @@
     },
     "BAW544": {
         "destination": "BLQ",
-        "footprint": 0.2,
         "source": "LHR"
     },
     "BAW5440": {
         "destination": "COS",
-        "footprint": 0.14,
         "source": "DFW"
     },
     "BAW5443": {
         "destination": "LGA",
-        "footprint": 0.04,
         "source": "BOS"
     },
     "BAW5446": {
         "destination": "MAF",
-        "footprint": 0.07,
         "source": "DFW"
     },
     "BAW5447": {
         "destination": "ATL",
-        "footprint": 0.17,
         "source": "DFW"
     },
     "BAW5448": {
         "destination": "DFW",
-        "footprint": 0.23,
         "source": "SLC"
     },
     "BAW545": {
         "destination": "LHR",
-        "footprint": 0.2,
         "source": "BLQ"
     },
     "BAW5451": {
@@ -13234,32 +12533,26 @@
     },
     "BAW546": {
         "destination": "FCO",
-        "footprint": 0.25,
         "source": "LHR"
     },
     "BAW5461": {
         "destination": "JFK",
-        "footprint": 0.9,
         "source": "FRA"
     },
     "BAW5465": {
         "destination": "EVV",
-        "footprint": 0.06,
         "source": "ORD"
     },
     "BAW5468": {
         "destination": "ORF",
-        "footprint": 0.17,
         "source": "ORD"
     },
     "BAW5469": {
         "destination": "SAN",
-        "footprint": 0.03,
         "source": "LAX"
     },
     "BAW547": {
         "destination": "LHR",
-        "footprint": 0.25,
         "source": "FCO"
     },
     "BAW5473": {
@@ -13288,7 +12581,6 @@
     },
     "BAW548": {
         "destination": "FCO",
-        "footprint": 0.25,
         "source": "LHR"
     },
     "BAW5481": {
@@ -13309,7 +12601,6 @@
     },
     "BAW549": {
         "destination": "LHR",
-        "footprint": 0.25,
         "source": "FCO"
     },
     "BAW5490": {
@@ -13354,47 +12645,38 @@
     },
     "BAW5500": {
         "destination": "DCA",
-        "footprint": 0.22,
         "source": "MIA"
     },
     "BAW5501": {
         "destination": "SAN",
-        "footprint": 0.03,
         "source": "LAX"
     },
     "BAW5503": {
         "destination": "LAX",
-        "footprint": 0.03,
         "source": "SAN"
     },
     "BAW5504": {
         "destination": "PIT",
-        "footprint": 0.1,
         "source": "ORD"
     },
     "BAW5505": {
         "destination": "FAT",
-        "footprint": 0.31,
         "source": "DFW"
     },
     "BAW5506": {
         "destination": "PHL",
-        "footprint": 0.59,
         "source": "SFO"
     },
     "BAW5507": {
         "destination": "SJC",
-        "footprint": 0.07,
         "source": "LAX"
     },
     "BAW5508": {
         "destination": "ORD",
-        "footprint": 0.12,
         "source": "MHK"
     },
     "BAW5509": {
         "destination": "DCA",
-        "footprint": 0.03,
         "source": "PHL"
     },
     "BAW551": {
@@ -13431,37 +12713,30 @@
     },
     "BAW5520": {
         "destination": "IAH",
-        "footprint": 0.22,
         "source": "ORD"
     },
     "BAW5523": {
         "destination": "ICT",
-        "footprint": 0.08,
         "source": "DFW"
     },
     "BAW5524": {
         "destination": "ORD",
-        "footprint": 0.12,
         "source": "MEM"
     },
     "BAW5526": {
         "destination": "ORD",
-        "footprint": 0.1,
         "source": "OMA"
     },
     "BAW5527": {
         "destination": "MSY",
-        "footprint": 0.16,
         "source": "MIA"
     },
     "BAW5528": {
         "destination": "TLH",
-        "footprint": 0.09,
         "source": "MIA"
     },
     "BAW5529": {
         "destination": "PIA",
-        "footprint": 0.03,
         "source": "ORD"
     },
     "BAW553": {
@@ -13562,22 +12837,18 @@
     },
     "BAW5562": {
         "destination": "DFW",
-        "footprint": 0.07,
         "source": "MAF"
     },
     "BAW5565": {
         "destination": "BJX",
-        "footprint": 0.2,
         "source": "DFW"
     },
     "BAW5567": {
         "destination": "SFO",
-        "footprint": 0.08,
         "source": "LAX"
     },
     "BAW5569": {
         "destination": "JFK",
-        "footprint": 0.6,
         "source": "SFO"
     },
     "BAW557": {
@@ -13618,22 +12889,18 @@
     },
     "BAW5582": {
         "destination": "EWR",
-        "footprint": 0.17,
         "source": "ORD"
     },
     "BAW5586": {
         "destination": "CMH",
-        "footprint": 0.07,
         "source": "ORD"
     },
     "BAW5588": {
         "destination": "DFW",
-        "footprint": 0.12,
         "source": "MTY"
     },
     "BAW5589": {
         "destination": "LAS",
-        "footprint": 0.06,
         "source": "LAX"
     },
     "BAW559": {
@@ -13674,7 +12941,6 @@
     },
     "BAW560": {
         "destination": "FCO",
-        "footprint": 0.25,
         "source": "LHR"
     },
     "BAW5600": {
@@ -13695,7 +12961,6 @@
     },
     "BAW561": {
         "destination": "LHR",
-        "footprint": 0.17,
         "source": "LIN"
     },
     "BAW5610": {
@@ -13716,7 +12981,6 @@
     },
     "BAW562": {
         "destination": "LIN",
-        "footprint": 0.17,
         "source": "LHR"
     },
     "BAW5623": {
@@ -13741,7 +13005,6 @@
     },
     "BAW563": {
         "destination": "LHR",
-        "footprint": 0.17,
         "source": "LIN"
     },
     "BAW5630": {
@@ -13802,42 +13065,34 @@
     },
     "BAW565": {
         "destination": "LHR",
-        "footprint": 0.17,
         "source": "LIN"
     },
     "BAW5650": {
         "destination": "SGF",
-        "footprint": 0.09,
         "source": "DFW"
     },
     "BAW5652": {
         "destination": "ELP",
-        "footprint": 0.13,
         "source": "DFW"
     },
     "BAW5653": {
         "destination": "PHL",
-        "footprint": 0.48,
         "source": "PHX"
     },
     "BAW5654": {
         "destination": "SGF",
-        "footprint": 0.1,
         "source": "ORD"
     },
     "BAW5656": {
         "destination": "IAH",
-        "footprint": 0.23,
         "source": "MIA"
     },
     "BAW5659": {
         "destination": "CLT",
-        "footprint": 0.45,
         "source": "LAS"
     },
     "BAW566": {
         "destination": "MXP",
-        "footprint": 0.16,
         "source": "LHR"
     },
     "BAW5662": {
@@ -13862,37 +13117,30 @@
     },
     "BAW567": {
         "destination": "LHR",
-        "footprint": 0.16,
         "source": "MXP"
     },
     "BAW5670": {
         "destination": "PHL",
-        "footprint": 0.23,
         "source": "FLL"
     },
     "BAW5672": {
         "destination": "ORD",
-        "footprint": 0.17,
         "source": "LGA"
     },
     "BAW5674": {
         "destination": "LSI",
-        "footprint": 0.09,
         "source": "ABZ"
     },
     "BAW5678": {
         "destination": "PHL",
-        "footprint": 0.59,
         "source": "SFO"
     },
     "BAW5679": {
         "destination": "CLT",
-        "footprint": 0.08,
         "source": "JAX"
     },
     "BAW568": {
         "destination": "LIN",
-        "footprint": 0.17,
         "source": "LHR"
     },
     "BAW5680": {
@@ -13917,37 +13165,30 @@
     },
     "BAW569": {
         "destination": "LHR",
-        "footprint": 0.17,
         "source": "LIN"
     },
     "BAW5692": {
         "destination": "DEN",
-        "footprint": 0.36,
         "source": "PHL"
     },
     "BAW5694": {
         "destination": "PHX",
-        "footprint": 0.07,
         "source": "SAN"
     },
     "BAW5695": {
         "destination": "ELP",
-        "footprint": 0.13,
         "source": "DFW"
     },
     "BAW5696": {
         "destination": "LAX",
-        "footprint": 0.58,
         "source": "OGG"
     },
     "BAW5697": {
         "destination": "RSW",
-        "footprint": 0.23,
         "source": "PHL"
     },
     "BAW5699": {
         "destination": "CLT",
-        "footprint": 0.15,
         "source": "FLL"
     },
     "BAW57": {
@@ -13988,32 +13229,26 @@
     },
     "BAW5710": {
         "destination": "ORD",
-        "footprint": 0.4,
         "source": "SEA"
     },
     "BAW5711": {
         "destination": "CLT",
-        "footprint": 0.14,
         "source": "ORD"
     },
     "BAW5712": {
         "destination": "MCI",
-        "footprint": 0.24,
         "source": "PHL"
     },
     "BAW5715": {
         "destination": "SFO",
-        "footprint": 0.34,
         "source": "DFW"
     },
     "BAW5717": {
         "destination": "PHX",
-        "footprint": 0.24,
         "source": "PDX"
     },
     "BAW5719": {
         "destination": "SEA",
-        "footprint": 0.4,
         "source": "ORD"
     },
     "BAW572": {
@@ -14058,32 +13293,26 @@
     },
     "BAW5732": {
         "destination": "DFW",
-        "footprint": 0.15,
         "source": "DEN"
     },
     "BAW5733": {
         "destination": "LAS",
-        "footprint": 0.25,
         "source": "DFW"
     },
     "BAW5735": {
         "destination": "DFW",
-        "footprint": 0.2,
         "source": "PHX"
     },
     "BAW5736": {
         "destination": "MCI",
-        "footprint": 0.11,
         "source": "DFW"
     },
     "BAW5737": {
         "destination": "DFW",
-        "footprint": 0.3,
         "source": "BOI"
     },
     "BAW5739": {
         "destination": "EWR",
-        "footprint": 0.17,
         "source": "ORD"
     },
     "BAW574": {
@@ -14124,42 +13353,34 @@
     },
     "BAW5752": {
         "destination": "DFW",
-        "footprint": 0.2,
         "source": "PHX"
     },
     "BAW5753": {
         "destination": "DEN",
-        "footprint": 0.15,
         "source": "DFW"
     },
     "BAW5754": {
         "destination": "MIA",
-        "footprint": 0.14,
         "source": "KIN"
     },
     "BAW5755": {
         "destination": "DFW",
-        "footprint": 1.16,
         "source": "MAD"
     },
     "BAW5756": {
         "destination": "SFO",
-        "footprint": 0.34,
         "source": "DFW"
     },
     "BAW5757": {
         "destination": "SEA",
-        "footprint": 0.26,
         "source": "PHX"
     },
     "BAW5758": {
         "destination": "PHX",
-        "footprint": 0.46,
         "source": "DCA"
     },
     "BAW5759": {
         "destination": "IAH",
-        "footprint": 0.05,
         "source": "DFW"
     },
     "BAW576": {
@@ -14192,37 +13413,30 @@
     },
     "BAW5770": {
         "destination": "PHL",
-        "footprint": 0.22,
         "source": "PBI"
     },
     "BAW5771": {
         "destination": "YUL",
-        "footprint": 0.08,
         "source": "JFK"
     },
     "BAW5772": {
         "destination": "SAT",
-        "footprint": 0.24,
         "source": "ORD"
     },
     "BAW5773": {
         "destination": "DFW",
-        "footprint": 0.24,
         "source": "JAC"
     },
     "BAW5776": {
         "destination": "ORD",
-        "footprint": 0.24,
         "source": "SAT"
     },
     "BAW5777": {
         "destination": "DFW",
-        "footprint": 0.05,
         "source": "IAH"
     },
     "BAW5778": {
         "destination": "ATL",
-        "footprint": 0.14,
         "source": "ORD"
     },
     "BAW578": {
@@ -14315,7 +13529,6 @@
     },
     "BAW5900": {
         "destination": "LGW",
-        "footprint": 0.09,
         "source": "DUB"
     },
     "BAW5901": {
@@ -14324,27 +13537,22 @@
     },
     "BAW5902": {
         "destination": "LGW",
-        "footprint": 0.09,
         "source": "DUB"
     },
     "BAW5903": {
         "destination": "DUB",
-        "footprint": 0.09,
         "source": "LGW"
     },
     "BAW5906": {
         "destination": "LGW",
-        "footprint": 0.09,
         "source": "DUB"
     },
     "BAW5908": {
         "destination": "LGW",
-        "footprint": 0.09,
         "source": "DUB"
     },
     "BAW5909": {
         "destination": "DUB",
-        "footprint": 0.09,
         "source": "LGW"
     },
     "BAW591": {
@@ -14365,7 +13573,6 @@
     },
     "BAW5914": {
         "destination": "LGW",
-        "footprint": 0.09,
         "source": "DUB"
     },
     "BAW5915": {
@@ -14374,7 +13581,6 @@
     },
     "BAW5918": {
         "destination": "LGW",
-        "footprint": 0.09,
         "source": "DUB"
     },
     "BAW5919": {
@@ -14387,52 +13593,42 @@
     },
     "BAW5920": {
         "destination": "GVA",
-        "footprint": 0.17,
         "source": "DUB"
     },
     "BAW5921": {
         "destination": "DUB",
-        "footprint": 0.17,
         "source": "GVA"
     },
     "BAW5922": {
         "destination": "LHR",
-        "footprint": 0.1,
         "source": "ORK"
     },
     "BAW5923": {
         "destination": "ORK",
-        "footprint": 0.1,
         "source": "LHR"
     },
     "BAW5924": {
         "destination": "LHR",
-        "footprint": 0.1,
         "source": "ORK"
     },
     "BAW5925": {
         "destination": "ORK",
-        "footprint": 0.1,
         "source": "LHR"
     },
     "BAW5926": {
         "destination": "LHR",
-        "footprint": 0.1,
         "source": "ORK"
     },
     "BAW5927": {
         "destination": "ORK",
-        "footprint": 0.1,
         "source": "LHR"
     },
     "BAW5928": {
         "destination": "LHR",
-        "footprint": 0.1,
         "source": "ORK"
     },
     "BAW5929": {
         "destination": "ORK",
-        "footprint": 0.1,
         "source": "LHR"
     },
     "BAW593": {
@@ -14461,7 +13657,6 @@
     },
     "BAW5940": {
         "destination": "LHR",
-        "footprint": 0.1,
         "source": "SNN"
     },
     "BAW5941": {
@@ -14470,12 +13665,10 @@
     },
     "BAW5942": {
         "destination": "LHR",
-        "footprint": 0.1,
         "source": "SNN"
     },
     "BAW5943": {
         "destination": "SNN",
-        "footprint": 0.1,
         "source": "LHR"
     },
     "BAW5944": {
@@ -14484,12 +13677,10 @@
     },
     "BAW5945": {
         "destination": "SNN",
-        "footprint": 0.1,
         "source": "LHR"
     },
     "BAW5946": {
         "destination": "AMS",
-        "footprint": 0.13,
         "source": "ORK"
     },
     "BAW5947": {
@@ -14498,12 +13689,10 @@
     },
     "BAW5948": {
         "destination": "LHR",
-        "footprint": 0.08,
         "source": "DUB"
     },
     "BAW5949": {
         "destination": "DUB",
-        "footprint": 0.08,
         "source": "LHR"
     },
     "BAW595": {
@@ -14608,12 +13797,10 @@
     },
     "BAW6": {
         "destination": "LHR",
-        "footprint": 1.49,
         "source": "NRT"
     },
     "BAW60": {
         "destination": "LHR",
-        "footprint": 1.06,
         "source": "NBO"
     },
     "BAW6003": {
@@ -14722,32 +13909,26 @@
     },
     "BAW6040": {
         "destination": "OUL",
-        "footprint": 0.07,
         "source": "HEL"
     },
     "BAW6041": {
         "destination": "HEL",
-        "footprint": 0.07,
         "source": "OUL"
     },
     "BAW6042": {
         "destination": "OUL",
-        "footprint": 0.07,
         "source": "HEL"
     },
     "BAW6044": {
         "destination": "HEL",
-        "footprint": 0.02,
         "source": "TLL"
     },
     "BAW6047": {
         "destination": "HEL",
-        "footprint": 0.07,
         "source": "OUL"
     },
     "BAW6048": {
         "destination": "HEL",
-        "footprint": 0.02,
         "source": "TLL"
     },
     "BAW605": {
@@ -14780,27 +13961,22 @@
     },
     "BAW6062": {
         "destination": "HEL",
-        "footprint": 0.09,
         "source": "VNO"
     },
     "BAW6063": {
         "destination": "VNO",
-        "footprint": 0.09,
         "source": "HEL"
     },
     "BAW6064": {
         "destination": "HEL",
-        "footprint": 0.1,
         "source": "RVN"
     },
     "BAW6065": {
         "destination": "RVN",
-        "footprint": 0.1,
         "source": "HEL"
     },
     "BAW6069": {
         "destination": "OSL",
-        "footprint": 0.11,
         "source": "HEL"
     },
     "BAW607": {
@@ -14837,17 +14013,14 @@
     },
     "BAW6080": {
         "destination": "HEL",
-        "footprint": 0.32,
         "source": "LHR"
     },
     "BAW6081": {
         "destination": "GOT",
-        "footprint": 0.11,
         "source": "HEL"
     },
     "BAW6083": {
         "destination": "GOT",
-        "footprint": 0.11,
         "source": "HEL"
     },
     "BAW609": {
@@ -14900,52 +14073,42 @@
     },
     "BAW6120": {
         "destination": "DUB",
-        "footprint": 0.95,
         "source": "MCO"
     },
     "BAW6121": {
         "destination": "MCO",
-        "footprint": 0.95,
         "source": "DUB"
     },
     "BAW6122": {
         "destination": "DUB",
-        "footprint": 1.21,
         "source": "LAX"
     },
     "BAW6123": {
         "destination": "LAX",
-        "footprint": 1.21,
         "source": "DUB"
     },
     "BAW6124": {
         "destination": "DUB",
-        "footprint": 0.74,
         "source": "JFK"
     },
     "BAW6125": {
         "destination": "JFK",
-        "footprint": 0.74,
         "source": "DUB"
     },
     "BAW6126": {
         "destination": "DUB",
-        "footprint": 0.72,
         "source": "BDL"
     },
     "BAW6127": {
         "destination": "BDL",
-        "footprint": 0.72,
         "source": "DUB"
     },
     "BAW6128": {
         "destination": "DUB",
-        "footprint": 0.74,
         "source": "JFK"
     },
     "BAW6129": {
         "destination": "JFK",
-        "footprint": 0.74,
         "source": "DUB"
     },
     "BAW6130": {
@@ -15006,12 +14169,10 @@
     },
     "BAW6146": {
         "destination": "DUB",
-        "footprint": 1.19,
         "source": "SFO"
     },
     "BAW6147": {
         "destination": "SFO",
-        "footprint": 1.19,
         "source": "DUB"
     },
     "BAW6148": {
@@ -15032,22 +14193,18 @@
     },
     "BAW6164": {
         "destination": "MAN",
-        "footprint": 0.05,
         "source": "DUB"
     },
     "BAW6165": {
         "destination": "DUB",
-        "footprint": 0.05,
         "source": "MAN"
     },
     "BAW6167": {
         "destination": "ADD",
-        "footprint": 0.33,
         "source": "DOH"
     },
     "BAW6168": {
         "destination": "DOH",
-        "footprint": 0.33,
         "source": "ADD"
     },
     "BAW6171": {
@@ -15312,12 +14469,10 @@
     },
     "BAW6291": {
         "destination": "LVI",
-        "footprint": 0.14,
         "source": "JNB"
     },
     "BAW6292": {
         "destination": "JNB",
-        "footprint": 0.14,
         "source": "LVI"
     },
     "BAW63": {
@@ -15362,22 +14517,18 @@
     },
     "BAW6310": {
         "destination": "CPT",
-        "footprint": 0.18,
         "source": "DUR"
     },
     "BAW6311": {
         "destination": "DUR",
-        "footprint": 0.18,
         "source": "CPT"
     },
     "BAW6312": {
         "destination": "CPT",
-        "footprint": 0.18,
         "source": "DUR"
     },
     "BAW6313": {
         "destination": "DUR",
-        "footprint": 0.18,
         "source": "CPT"
     },
     "BAW632": {
@@ -15422,47 +14573,38 @@
     },
     "BAW6330": {
         "destination": "SLL",
-        "footprint": 0.14,
         "source": "DOH"
     },
     "BAW6331": {
         "destination": "DOH",
-        "footprint": 0.15,
         "source": "NJF"
     },
     "BAW6332": {
         "destination": "SLL",
-        "footprint": 0.14,
         "source": "DOH"
     },
     "BAW6333": {
         "destination": "KRT",
-        "footprint": 0.33,
         "source": "DOH"
     },
     "BAW6334": {
         "destination": "SLL",
-        "footprint": 0.14,
         "source": "DOH"
     },
     "BAW6335": {
         "destination": "DOH",
-        "footprint": 0.15,
         "source": "NJF"
     },
     "BAW6336": {
         "destination": "ISU",
-        "footprint": 0.19,
         "source": "DOH"
     },
     "BAW6337": {
         "destination": "JIB",
-        "footprint": 0.26,
         "source": "DOH"
     },
     "BAW6339": {
         "destination": "KRT",
-        "footprint": 0.33,
         "source": "DOH"
     },
     "BAW634": {
@@ -15491,7 +14633,6 @@
     },
     "BAW6345": {
         "destination": "DOH",
-        "footprint": 0.17,
         "source": "BGW"
     },
     "BAW6346": {
@@ -15512,47 +14653,38 @@
     },
     "BAW6350": {
         "destination": "NJF",
-        "footprint": 0.15,
         "source": "DOH"
     },
     "BAW6351": {
         "destination": "DOH",
-        "footprint": 0.14,
         "source": "SLL"
     },
     "BAW6352": {
         "destination": "ISU",
-        "footprint": 0.19,
         "source": "DOH"
     },
     "BAW6353": {
         "destination": "DOH",
-        "footprint": 0.19,
         "source": "ISU"
     },
     "BAW6354": {
         "destination": "NJF",
-        "footprint": 0.15,
         "source": "DOH"
     },
     "BAW6355": {
         "destination": "DOH",
-        "footprint": 0.53,
         "source": "CMB"
     },
     "BAW6356": {
         "destination": "NJF",
-        "footprint": 0.15,
         "source": "DOH"
     },
     "BAW6357": {
         "destination": "DOH",
-        "footprint": 0.19,
         "source": "ISU"
     },
     "BAW6358": {
         "destination": "BGW",
-        "footprint": 0.17,
         "source": "DOH"
     },
     "BAW636": {
@@ -15605,7 +14737,6 @@
     },
     "BAW6373": {
         "destination": "DOH",
-        "footprint": 0.14,
         "source": "SLL"
     },
     "BAW6377": {
@@ -15614,12 +14745,10 @@
     },
     "BAW6378": {
         "destination": "MUX",
-        "footprint": 0.29,
         "source": "DOH"
     },
     "BAW6379": {
         "destination": "DOH",
-        "footprint": 0.29,
         "source": "MUX"
     },
     "BAW638": {
@@ -15800,57 +14929,46 @@
     },
     "BAW650": {
         "destination": "JMK",
-        "footprint": 0.45,
         "source": "LHR"
     },
     "BAW6500": {
         "destination": "DFW",
-        "footprint": 0.07,
         "source": "MAF"
     },
     "BAW6501": {
         "destination": "DFW",
-        "footprint": 0.04,
         "source": "OKC"
     },
     "BAW6502": {
         "destination": "DFW",
-        "footprint": 0.41,
         "source": "YVR"
     },
     "BAW6503": {
         "destination": "ORD",
-        "footprint": 0.15,
         "source": "BWI"
     },
     "BAW6505": {
         "destination": "CLT",
-        "footprint": 0.12,
         "source": "MEM"
     },
     "BAW6506": {
         "destination": "DEN",
-        "footprint": 0.2,
         "source": "LAX"
     },
     "BAW6507": {
         "destination": "MIA",
-        "footprint": 0.03,
         "source": "EYW"
     },
     "BAW6508": {
         "destination": "DEN",
-        "footprint": 0.2,
         "source": "LAX"
     },
     "BAW6509": {
         "destination": "EYW",
-        "footprint": 0.03,
         "source": "MIA"
     },
     "BAW651": {
         "destination": "LHR",
-        "footprint": 0.45,
         "source": "JMK"
     },
     "BAW6510": {
@@ -15895,52 +15013,42 @@
     },
     "BAW652": {
         "destination": "JTR",
-        "footprint": 0.46,
         "source": "LHR"
     },
     "BAW6520": {
         "destination": "DFW",
-        "footprint": 0.1,
         "source": "MSY"
     },
     "BAW6521": {
         "destination": "PBI",
-        "footprint": 0.22,
         "source": "PHL"
     },
     "BAW6522": {
         "destination": "OMA",
-        "footprint": 0.1,
         "source": "ORD"
     },
     "BAW6523": {
         "destination": "EYW",
-        "footprint": 0.03,
         "source": "MIA"
     },
     "BAW6525": {
         "destination": "EYW",
-        "footprint": 0.03,
         "source": "MIA"
     },
     "BAW6527": {
         "destination": "CLT",
-        "footprint": 0.17,
         "source": "BOS"
     },
     "BAW6528": {
         "destination": "MSY",
-        "footprint": 0.1,
         "source": "DFW"
     },
     "BAW6529": {
         "destination": "SJC",
-        "footprint": 0.07,
         "source": "LAX"
     },
     "BAW653": {
         "destination": "LHR",
-        "footprint": 0.46,
         "source": "JTR"
     },
     "BAW6532": {
@@ -15969,42 +15077,34 @@
     },
     "BAW654": {
         "destination": "CFU",
-        "footprint": 0.36,
         "source": "LHR"
     },
     "BAW6541": {
         "destination": "SFO",
-        "footprint": 0.59,
         "source": "PHL"
     },
     "BAW6544": {
         "destination": "BUF",
-        "footprint": 0.11,
         "source": "ORD"
     },
     "BAW6545": {
         "destination": "SEA",
-        "footprint": 0.55,
         "source": "PHL"
     },
     "BAW6546": {
         "destination": "DFW",
-        "footprint": 0.06,
         "source": "SAT"
     },
     "BAW6547": {
         "destination": "PHL",
-        "footprint": 0.08,
         "source": "RDU"
     },
     "BAW6548": {
         "destination": "PHX",
-        "footprint": 0.48,
         "source": "PHL"
     },
     "BAW655": {
         "destination": "LHR",
-        "footprint": 0.36,
         "source": "CFU"
     },
     "BAW6551": {
@@ -16029,7 +15129,6 @@
     },
     "BAW656": {
         "destination": "KGS",
-        "footprint": 0.47,
         "source": "LHR"
     },
     "BAW6560": {
@@ -16070,7 +15169,6 @@
     },
     "BAW657": {
         "destination": "LHR",
-        "footprint": 0.47,
         "source": "KGS"
     },
     "BAW6571": {
@@ -16111,7 +15209,6 @@
     },
     "BAW658": {
         "destination": "TLV",
-        "footprint": 0.63,
         "source": "LHR"
     },
     "BAW6581": {
@@ -16208,7 +15305,6 @@
     },
     "BAW661": {
         "destination": "LHR",
-        "footprint": 0.46,
         "source": "CHQ"
     },
     "BAW6610": {
@@ -16561,42 +15657,34 @@
     },
     "BAW6722": {
         "destination": "SJC",
-        "footprint": 0.43,
         "source": "ORD"
     },
     "BAW6723": {
         "destination": "XNA",
-        "footprint": 0.07,
         "source": "DFW"
     },
     "BAW6724": {
         "destination": "BUF",
-        "footprint": 0.11,
         "source": "ORD"
     },
     "BAW6725": {
         "destination": "MCO",
-        "footprint": 0.2,
         "source": "PHL"
     },
     "BAW6726": {
         "destination": "MEM",
-        "footprint": 0.12,
         "source": "ORD"
     },
     "BAW6727": {
         "destination": "PHL",
-        "footprint": 0.37,
         "source": "SJU"
     },
     "BAW6728": {
         "destination": "PHL",
-        "footprint": 0.55,
         "source": "SEA"
     },
     "BAW6729": {
         "destination": "PHL",
-        "footprint": 0.86,
         "source": "MAD"
     },
     "BAW6730": {
@@ -16649,7 +15737,6 @@
     },
     "BAW675": {
         "destination": "LHR",
-        "footprint": 0.44,
         "source": "IST"
     },
     "BAW6750": {
@@ -16682,7 +15769,6 @@
     },
     "BAW676": {
         "destination": "IST",
-        "footprint": 0.44,
         "source": "LHR"
     },
     "BAW6761": {
@@ -16703,7 +15789,6 @@
     },
     "BAW677": {
         "destination": "LHR",
-        "footprint": 0.44,
         "source": "IST"
     },
     "BAW6771": {
@@ -16728,52 +15813,42 @@
     },
     "BAW678": {
         "destination": "IST",
-        "footprint": 0.44,
         "source": "LHR"
     },
     "BAW6782": {
         "destination": "TOL",
-        "footprint": 0.05,
         "source": "ORD"
     },
     "BAW6783": {
         "destination": "MIA",
-        "footprint": 0.22,
         "source": "DCA"
     },
     "BAW6784": {
         "destination": "CUN",
-        "footprint": 0.34,
         "source": "PHL"
     },
     "BAW6785": {
         "destination": "DCA",
-        "footprint": 0.22,
         "source": "MIA"
     },
     "BAW6786": {
         "destination": "ORD",
-        "footprint": 0.1,
         "source": "BNA"
     },
     "BAW6787": {
         "destination": "MIA",
-        "footprint": 0.22,
         "source": "DCA"
     },
     "BAW6788": {
         "destination": "BTR",
-        "footprint": 0.09,
         "source": "DFW"
     },
     "BAW6789": {
         "destination": "MFE",
-        "footprint": 0.11,
         "source": "DFW"
     },
     "BAW679": {
         "destination": "LHR",
-        "footprint": 0.44,
         "source": "IST"
     },
     "BAW6790": {
@@ -16822,42 +15897,34 @@
     },
     "BAW6800": {
         "destination": "AMA",
-        "footprint": 0.07,
         "source": "DFW"
     },
     "BAW6802": {
         "destination": "ABQ",
-        "footprint": 0.13,
         "source": "DFW"
     },
     "BAW6803": {
         "destination": "LEX",
-        "footprint": 0.08,
         "source": "ORD"
     },
     "BAW6804": {
         "destination": "DFW",
-        "footprint": 0.04,
         "source": "TXK"
     },
     "BAW6805": {
         "destination": "RDU",
-        "footprint": 0.1,
         "source": "JFK"
     },
     "BAW6806": {
         "destination": "MSP",
-        "footprint": 0.2,
         "source": "DFW"
     },
     "BAW6807": {
         "destination": "XNA",
-        "footprint": 0.07,
         "source": "DFW"
     },
     "BAW6808": {
         "destination": "PBI",
-        "footprint": 0.22,
         "source": "PHL"
     },
     "BAW6810": {
@@ -17066,47 +16133,38 @@
     },
     "BAW6880": {
         "destination": "MIA",
-        "footprint": 0.26,
         "source": "LGA"
     },
     "BAW6881": {
         "destination": "LGW",
-        "footprint": 0.3,
         "source": "FAO"
     },
     "BAW6882": {
         "destination": "SGF",
-        "footprint": 0.09,
         "source": "DFW"
     },
     "BAW6883": {
         "destination": "MEM",
-        "footprint": 0.1,
         "source": "DFW"
     },
     "BAW6884": {
         "destination": "JAC",
-        "footprint": 0.24,
         "source": "DFW"
     },
     "BAW6886": {
         "destination": "FAO",
-        "footprint": 0.3,
         "source": "LGW"
     },
     "BAW6887": {
         "destination": "LGW",
-        "footprint": 0.3,
         "source": "FAO"
     },
     "BAW6888": {
         "destination": "SJC",
-        "footprint": 0.34,
         "source": "DFW"
     },
     "BAW6889": {
         "destination": "FAR",
-        "footprint": 0.13,
         "source": "ORD"
     },
     "BAW6890": {
@@ -17211,7 +16269,6 @@
     },
     "BAW692": {
         "destination": "VIE",
-        "footprint": 0.22,
         "source": "LHR"
     },
     "BAW6920": {
@@ -17244,7 +16301,6 @@
     },
     "BAW693": {
         "destination": "LHR",
-        "footprint": 0.22,
         "source": "VIE"
     },
     "BAW6930": {
@@ -17277,7 +16333,6 @@
     },
     "BAW694": {
         "destination": "ZRH",
-        "footprint": 0.14,
         "source": "LHR"
     },
     "BAW6941": {
@@ -17310,57 +16365,46 @@
     },
     "BAW695": {
         "destination": "LHR",
-        "footprint": 0.14,
         "source": "ZRH"
     },
     "BAW6950": {
         "destination": "PVR",
-        "footprint": 0.23,
         "source": "DFW"
     },
     "BAW6951": {
         "destination": "ORD",
-        "footprint": 0.17,
         "source": "LGA"
     },
     "BAW6952": {
         "destination": "DFW",
-        "footprint": 0.06,
         "source": "SAT"
     },
     "BAW6953": {
         "destination": "PHL",
-        "footprint": 0.56,
         "source": "LAX"
     },
     "BAW6954": {
         "destination": "CID",
-        "footprint": 0.05,
         "source": "ORD"
     },
     "BAW6956": {
         "destination": "PHL",
-        "footprint": 0.23,
         "source": "FLL"
     },
     "BAW6957": {
         "destination": "PHX",
-        "footprint": 0.2,
         "source": "DFW"
     },
     "BAW6958": {
         "destination": "BWI",
-        "footprint": 0.15,
         "source": "ORD"
     },
     "BAW6959": {
         "destination": "SNA",
-        "footprint": 0.28,
         "source": "DFW"
     },
     "BAW696": {
         "destination": "VIE",
-        "footprint": 0.22,
         "source": "LHR"
     },
     "BAW6960": {
@@ -17401,7 +16445,6 @@
     },
     "BAW697": {
         "destination": "LHR",
-        "footprint": 0.22,
         "source": "VIE"
     },
     "BAW6970": {
@@ -17482,7 +16525,6 @@
     },
     "BAW699": {
         "destination": "LHR",
-        "footprint": 0.22,
         "source": "VIE"
     },
     "BAW6991": {
@@ -17515,7 +16557,6 @@
     },
     "BAW7": {
         "destination": "HND",
-        "footprint": 1.49,
         "source": "LHR"
     },
     "BAW700": {
@@ -17524,47 +16565,38 @@
     },
     "BAW7001": {
         "destination": "LHR",
-        "footprint": 0.81,
         "source": "DOH"
     },
     "BAW7002": {
         "destination": "DOH",
-        "footprint": 0.81,
         "source": "LHR"
     },
     "BAW7003": {
         "destination": "LHR",
-        "footprint": 0.81,
         "source": "DOH"
     },
     "BAW7004": {
         "destination": "DOH",
-        "footprint": 0.81,
         "source": "LHR"
     },
     "BAW7005": {
         "destination": "LHR",
-        "footprint": 0.81,
         "source": "DOH"
     },
     "BAW7006": {
         "destination": "DOH",
-        "footprint": 0.81,
         "source": "LHR"
     },
     "BAW7007": {
         "destination": "LHR",
-        "footprint": 0.81,
         "source": "DOH"
     },
     "BAW7008": {
         "destination": "DOH",
-        "footprint": 0.81,
         "source": "LHR"
     },
     "BAW7009": {
         "destination": "LHR",
-        "footprint": 0.81,
         "source": "DOH"
     },
     "BAW701": {
@@ -17637,17 +16669,14 @@
     },
     "BAW7060": {
         "destination": "LHR",
-        "footprint": 0.22,
         "source": "MAD"
     },
     "BAW7066": {
         "destination": "LHR",
-        "footprint": 0.22,
         "source": "MAD"
     },
     "BAW7068": {
         "destination": "LHR",
-        "footprint": 0.22,
         "source": "MAD"
     },
     "BAW707": {
@@ -17768,7 +16797,6 @@
     },
     "BAW710": {
         "destination": "ZRH",
-        "footprint": 0.14,
         "source": "LHR"
     },
     "BAW7104": {
@@ -17797,7 +16825,6 @@
     },
     "BAW711": {
         "destination": "LHR",
-        "footprint": 0.14,
         "source": "ZRH"
     },
     "BAW7110": {
@@ -17838,7 +16865,6 @@
     },
     "BAW712": {
         "destination": "ZRH",
-        "footprint": 0.14,
         "source": "LHR"
     },
     "BAW7120": {
@@ -17883,7 +16909,6 @@
     },
     "BAW713": {
         "destination": "LHR",
-        "footprint": 0.14,
         "source": "ZRH"
     },
     "BAW7130": {
@@ -17924,7 +16949,6 @@
     },
     "BAW714": {
         "destination": "ZRH",
-        "footprint": 0.14,
         "source": "LHR"
     },
     "BAW7141": {
@@ -17985,7 +17009,6 @@
     },
     "BAW716": {
         "destination": "ZRH",
-        "footprint": 0.14,
         "source": "LHR"
     },
     "BAW7160": {
@@ -18022,57 +17045,46 @@
     },
     "BAW717": {
         "destination": "LHR",
-        "footprint": 0.14,
         "source": "ZRH"
     },
     "BAW7170": {
         "destination": "MAD",
-        "footprint": 0.08,
         "source": "PMI"
     },
     "BAW7171": {
         "destination": "MAD",
-        "footprint": 0.06,
         "source": "OVD"
     },
     "BAW7172": {
         "destination": "OVD",
-        "footprint": 0.06,
         "source": "MAD"
     },
     "BAW7174": {
         "destination": "PMI",
-        "footprint": 0.08,
         "source": "MAD"
     },
     "BAW7175": {
         "destination": "MAD",
-        "footprint": 0.06,
         "source": "OVD"
     },
     "BAW7176": {
         "destination": "FUE",
-        "footprint": 0.24,
         "source": "MAD"
     },
     "BAW7177": {
         "destination": "MAD",
-        "footprint": 0.06,
         "source": "OVD"
     },
     "BAW7178": {
         "destination": "PMI",
-        "footprint": 0.08,
         "source": "MAD"
     },
     "BAW7179": {
         "destination": "MAD",
-        "footprint": 0.06,
         "source": "OVD"
     },
     "BAW718": {
         "destination": "ZRH",
-        "footprint": 0.14,
         "source": "LHR"
     },
     "BAW7180": {
@@ -18113,7 +17125,6 @@
     },
     "BAW719": {
         "destination": "LHR",
-        "footprint": 0.14,
         "source": "ZRH"
     },
     "BAW7192": {
@@ -18190,47 +17201,38 @@
     },
     "BAW7210": {
         "destination": "VGO",
-        "footprint": 0.07,
         "source": "MAD"
     },
     "BAW7212": {
         "destination": "VGO",
-        "footprint": 0.07,
         "source": "MAD"
     },
     "BAW7213": {
         "destination": "MAD",
-        "footprint": 0.08,
         "source": "MLN"
     },
     "BAW7214": {
         "destination": "MJV",
-        "footprint": 0.06,
         "source": "MAD"
     },
     "BAW7215": {
         "destination": "MAD",
-        "footprint": 0.04,
         "source": "PNA"
     },
     "BAW7216": {
         "destination": "PNA",
-        "footprint": 0.04,
         "source": "MAD"
     },
     "BAW7217": {
         "destination": "MAD",
-        "footprint": 0.04,
         "source": "PNA"
     },
     "BAW7218": {
         "destination": "PNA",
-        "footprint": 0.04,
         "source": "MAD"
     },
     "BAW7219": {
         "destination": "MAD",
-        "footprint": 0.04,
         "source": "PNA"
     },
     "BAW722": {
@@ -18267,32 +17269,26 @@
     },
     "BAW7232": {
         "destination": "LIM",
-        "footprint": 1.38,
         "source": "MAD"
     },
     "BAW7233": {
         "destination": "MAD",
-        "footprint": 1.38,
         "source": "LIM"
     },
     "BAW7235": {
         "destination": "MAD",
-        "footprint": 0.27,
         "source": "SPC"
     },
     "BAW7237": {
         "destination": "MAD",
-        "footprint": 0.05,
         "source": "BIO"
     },
     "BAW7238": {
         "destination": "BIO",
-        "footprint": 0.05,
         "source": "MAD"
     },
     "BAW7239": {
         "destination": "MAD",
-        "footprint": 0.05,
         "source": "BIO"
     },
     "BAW724": {
@@ -18325,17 +17321,14 @@
     },
     "BAW7252": {
         "destination": "BIO",
-        "footprint": 0.05,
         "source": "MAD"
     },
     "BAW7257": {
         "destination": "MAD",
-        "footprint": 0.05,
         "source": "BIO"
     },
     "BAW7259": {
         "destination": "MIA",
-        "footprint": 1.03,
         "source": "MAD"
     },
     "BAW726": {
@@ -18364,42 +17357,34 @@
     },
     "BAW7270": {
         "destination": "TNG",
-        "footprint": 0.08,
         "source": "MAD"
     },
     "BAW7271": {
         "destination": "MAD",
-        "footprint": 0.08,
         "source": "TNG"
     },
     "BAW7272": {
         "destination": "CMN",
-        "footprint": 0.13,
         "source": "MAD"
     },
     "BAW7273": {
         "destination": "MAD",
-        "footprint": 0.06,
         "source": "MJV"
     },
     "BAW7276": {
         "destination": "DUB",
-        "footprint": 0.21,
         "source": "MAD"
     },
     "BAW7277": {
         "destination": "MAD",
-        "footprint": 0.21,
         "source": "DUB"
     },
     "BAW7278": {
         "destination": "LIN",
-        "footprint": 0.17,
         "source": "MAD"
     },
     "BAW7279": {
         "destination": "MAD",
-        "footprint": 0.17,
         "source": "LIN"
     },
     "BAW728": {
@@ -18440,42 +17425,34 @@
     },
     "BAW730": {
         "destination": "GVA",
-        "footprint": 0.13,
         "source": "LHR"
     },
     "BAW7302": {
         "destination": "AKL",
-        "footprint": 1.52,
         "source": "LAX"
     },
     "BAW731": {
         "destination": "LHR",
-        "footprint": 0.13,
         "source": "GVA"
     },
     "BAW732": {
         "destination": "GVA",
-        "footprint": 0.13,
         "source": "LHR"
     },
     "BAW733": {
         "destination": "LHR",
-        "footprint": 0.13,
         "source": "GVA"
     },
     "BAW734": {
         "destination": "GVA",
-        "footprint": 0.13,
         "source": "LHR"
     },
     "BAW735": {
         "destination": "LHR",
-        "footprint": 0.13,
         "source": "GVA"
     },
     "BAW736": {
         "destination": "GVA",
-        "footprint": 0.13,
         "source": "LHR"
     },
     "BAW7364": {
@@ -18484,12 +17461,10 @@
     },
     "BAW737": {
         "destination": "LHR",
-        "footprint": 0.13,
         "source": "GVA"
     },
     "BAW738": {
         "destination": "GVA",
-        "footprint": 0.13,
         "source": "LHR"
     },
     "BAW7385": {
@@ -18498,7 +17473,6 @@
     },
     "BAW739": {
         "destination": "LHR",
-        "footprint": 0.13,
         "source": "GVA"
     },
     "BAW74": {
@@ -18867,17 +17841,14 @@
     },
     "BAW7492": {
         "destination": "WEI",
-        "footprint": 0.09,
         "source": "CNS"
     },
     "BAW7493": {
         "destination": "CBR",
-        "footprint": 0.03,
         "source": "SYD"
     },
     "BAW7494": {
         "destination": "SYD",
-        "footprint": 0.03,
         "source": "CBR"
     },
     "BAW75": {
@@ -18886,37 +17857,30 @@
     },
     "BAW750": {
         "destination": "BSL",
-        "footprint": 0.13,
         "source": "LHR"
     },
     "BAW7505": {
         "destination": "DUS",
-        "footprint": 0.09,
         "source": "SZG"
     },
     "BAW7506": {
         "destination": "SZG",
-        "footprint": 0.09,
         "source": "DUS"
     },
     "BAW7507": {
         "destination": "DUS",
-        "footprint": 0.09,
         "source": "SZG"
     },
     "BAW7508": {
         "destination": "SZG",
-        "footprint": 0.09,
         "source": "DUS"
     },
     "BAW7509": {
         "destination": "CGN",
-        "footprint": 0.07,
         "source": "TXL"
     },
     "BAW751": {
         "destination": "LHR",
-        "footprint": 0.13,
         "source": "BSL"
     },
     "BAW7511": {
@@ -18945,42 +17909,34 @@
     },
     "BAW752": {
         "destination": "BSL",
-        "footprint": 0.13,
         "source": "LHR"
     },
     "BAW7521": {
         "destination": "CGN",
-        "footprint": 0.07,
         "source": "TXL"
     },
     "BAW7523": {
         "destination": "CGN",
-        "footprint": 0.07,
         "source": "TXL"
     },
     "BAW7526": {
         "destination": "DFW",
-        "footprint": 0.64,
         "source": "POS"
     },
     "BAW7527": {
         "destination": "DUS",
-        "footprint": 0.07,
         "source": "DRS"
     },
     "BAW7528": {
         "destination": "DRS",
-        "footprint": 0.07,
         "source": "DUS"
     },
     "BAW7529": {
         "destination": "DUS",
-        "footprint": 0.07,
         "source": "DRS"
     },
     "BAW753": {
         "destination": "LHR",
-        "footprint": 0.13,
         "source": "BSL"
     },
     "BAW7530": {
@@ -19009,7 +17965,6 @@
     },
     "BAW754": {
         "destination": "BSL",
-        "footprint": 0.13,
         "source": "LHR"
     },
     "BAW7540": {
@@ -19026,7 +17981,6 @@
     },
     "BAW755": {
         "destination": "LHR",
-        "footprint": 0.13,
         "source": "BSL"
     },
     "BAW7554": {
@@ -19039,52 +17993,42 @@
     },
     "BAW756": {
         "destination": "BSL",
-        "footprint": 0.13,
         "source": "LHR"
     },
     "BAW7561": {
         "destination": "MUC",
-        "footprint": 0.06,
         "source": "CGN"
     },
     "BAW7562": {
         "destination": "CGN",
-        "footprint": 0.06,
         "source": "MUC"
     },
     "BAW7563": {
         "destination": "MUC",
-        "footprint": 0.06,
         "source": "CGN"
     },
     "BAW7564": {
         "destination": "CGN",
-        "footprint": 0.06,
         "source": "MUC"
     },
     "BAW7565": {
         "destination": "MUC",
-        "footprint": 0.06,
         "source": "CGN"
     },
     "BAW7567": {
         "destination": "MUC",
-        "footprint": 0.06,
         "source": "CGN"
     },
     "BAW7568": {
         "destination": "CGN",
-        "footprint": 0.06,
         "source": "MUC"
     },
     "BAW7569": {
         "destination": "MUC",
-        "footprint": 0.06,
         "source": "CGN"
     },
     "BAW757": {
         "destination": "LHR",
-        "footprint": 0.18,
         "source": "BGO"
     },
     "BAW7570": {
@@ -19117,7 +18061,6 @@
     },
     "BAW758": {
         "destination": "BGO",
-        "footprint": 0.18,
         "source": "LHR"
     },
     "BAW7580": {
@@ -19138,7 +18081,6 @@
     },
     "BAW759": {
         "destination": "LHR",
-        "footprint": 0.18,
         "source": "BGO"
     },
     "BAW7594": {
@@ -19315,7 +18257,6 @@
     },
     "BAW770": {
         "destination": "OSL",
-        "footprint": 0.21,
         "source": "LHR"
     },
     "BAW7700": {
@@ -19348,7 +18289,6 @@
     },
     "BAW771": {
         "destination": "LHR",
-        "footprint": 0.26,
         "source": "ARN"
     },
     "BAW7710": {
@@ -19389,7 +18329,6 @@
     },
     "BAW772": {
         "destination": "ARN",
-        "footprint": 0.26,
         "source": "LHR"
     },
     "BAW7722": {
@@ -19406,7 +18345,6 @@
     },
     "BAW773": {
         "destination": "LHR",
-        "footprint": 0.26,
         "source": "ARN"
     },
     "BAW7730": {
@@ -19443,52 +18381,42 @@
     },
     "BAW774": {
         "destination": "ARN",
-        "footprint": 0.26,
         "source": "LHR"
     },
     "BAW7740": {
         "destination": "SOU",
-        "footprint": 0.06,
         "source": "JER"
     },
     "BAW7741": {
         "destination": "JER",
-        "footprint": 0.06,
         "source": "SOU"
     },
     "BAW7742": {
         "destination": "MSY",
-        "footprint": 0.1,
         "source": "DFW"
     },
     "BAW7743": {
         "destination": "JER",
-        "footprint": 0.06,
         "source": "SOU"
     },
     "BAW7744": {
         "destination": "EVV",
-        "footprint": 0.06,
         "source": "ORD"
     },
     "BAW7745": {
         "destination": "MIA",
-        "footprint": 0.26,
         "source": "LGA"
     },
     "BAW7748": {
         "destination": "SOU",
-        "footprint": 0.06,
         "source": "JER"
     },
     "BAW7749": {
         "destination": "JER",
-        "footprint": 0.06,
         "source": "SOU"
     },
     "BAW775": {
         "destination": "LHR",
-        "footprint": 0.26,
         "source": "ARN"
     },
     "BAW7750": {
@@ -19529,7 +18457,6 @@
     },
     "BAW776": {
         "destination": "ARN",
-        "footprint": 0.26,
         "source": "LHR"
     },
     "BAW7760": {
@@ -19566,7 +18493,6 @@
     },
     "BAW7768": {
         "destination": "RSW",
-        "footprint": 0.14,
         "source": "CLT"
     },
     "BAW7769": {
@@ -19575,7 +18501,6 @@
     },
     "BAW777": {
         "destination": "LHR",
-        "footprint": 0.26,
         "source": "ARN"
     },
     "BAW7770": {
@@ -19608,27 +18533,22 @@
     },
     "BAW778": {
         "destination": "ARN",
-        "footprint": 0.26,
         "source": "LHR"
     },
     "BAW7780": {
         "destination": "CLT",
-        "footprint": 0.14,
         "source": "RSW"
     },
     "BAW7781": {
         "destination": "BFS",
-        "footprint": 0.09,
         "source": "MAN"
     },
     "BAW7782": {
         "destination": "SNA",
-        "footprint": 0.4,
         "source": "ORD"
     },
     "BAW7783": {
         "destination": "BFS",
-        "footprint": 0.09,
         "source": "MAN"
     },
     "BAW7784": {
@@ -19641,27 +18561,22 @@
     },
     "BAW7786": {
         "destination": "MIA",
-        "footprint": 0.12,
         "source": "PNS"
     },
     "BAW7787": {
         "destination": "BHD",
-        "footprint": 0.08,
         "source": "MAN"
     },
     "BAW7788": {
         "destination": "MIA",
-        "footprint": 0.26,
         "source": "LGA"
     },
     "BAW7789": {
         "destination": "TPA",
-        "footprint": 0.22,
         "source": "DFW"
     },
     "BAW779": {
         "destination": "LHR",
-        "footprint": 0.26,
         "source": "ARN"
     },
     "BAW7790": {
@@ -19710,42 +18625,34 @@
     },
     "BAW7801": {
         "destination": "ORD",
-        "footprint": 0.07,
         "source": "CLE"
     },
     "BAW7802": {
         "destination": "PLS",
-        "footprint": 0.14,
         "source": "MIA"
     },
     "BAW7803": {
         "destination": "CDG",
-        "footprint": 0.09,
         "source": "CWL"
     },
     "BAW7804": {
         "destination": "MIA",
-        "footprint": 0.26,
         "source": "LGA"
     },
     "BAW7805": {
         "destination": "OKC",
-        "footprint": 0.16,
         "source": "ORD"
     },
     "BAW7806": {
         "destination": "CLT",
-        "footprint": 0.05,
         "source": "ATL"
     },
     "BAW7807": {
         "destination": "IND",
-        "footprint": 0.04,
         "source": "ORD"
     },
     "BAW7809": {
         "destination": "CLT",
-        "footprint": 0.17,
         "source": "BOS"
     },
     "BAW781": {
@@ -19794,27 +18701,22 @@
     },
     "BAW7823": {
         "destination": "CHS",
-        "footprint": 0.23,
         "source": "DFW"
     },
     "BAW7824": {
         "destination": "PBI",
-        "footprint": 0.22,
         "source": "PHL"
     },
     "BAW7825": {
         "destination": "SAT",
-        "footprint": 0.06,
         "source": "DFW"
     },
     "BAW7826": {
         "destination": "PBI",
-        "footprint": 0.22,
         "source": "PHL"
     },
     "BAW7829": {
         "destination": "PHL",
-        "footprint": 1.02,
         "source": "FCO"
     },
     "BAW783": {
@@ -19867,52 +18769,42 @@
     },
     "BAW7840": {
         "destination": "LAS",
-        "footprint": 0.52,
         "source": "JFK"
     },
     "BAW7841": {
         "destination": "HSV",
-        "footprint": 0.12,
         "source": "ORD"
     },
     "BAW7842": {
         "destination": "ORD",
-        "footprint": 0.43,
         "source": "SJC"
     },
     "BAW7843": {
         "destination": "PHL",
-        "footprint": 0.37,
         "source": "SJU"
     },
     "BAW7844": {
         "destination": "DFW",
-        "footprint": 0.07,
         "source": "MAF"
     },
     "BAW7845": {
         "destination": "MSY",
-        "footprint": 0.15,
         "source": "CLT"
     },
     "BAW7846": {
         "destination": "FLL",
-        "footprint": 0.23,
         "source": "PHL"
     },
     "BAW7847": {
         "destination": "ORK",
-        "footprint": 0.08,
         "source": "MAN"
     },
     "BAW7848": {
         "destination": "MAN",
-        "footprint": 0.08,
         "source": "ORK"
     },
     "BAW7849": {
         "destination": "JFK",
-        "footprint": 0.22,
         "source": "MCO"
     },
     "BAW785": {
@@ -19965,42 +18857,34 @@
     },
     "BAW7860": {
         "destination": "FLL",
-        "footprint": 0.23,
         "source": "PHL"
     },
     "BAW7861": {
         "destination": "PHL",
-        "footprint": 0.23,
         "source": "FLL"
     },
     "BAW7862": {
         "destination": "SDQ",
-        "footprint": 0.2,
         "source": "MIA"
     },
     "BAW7863": {
         "destination": "EDI",
-        "footprint": 0.17,
         "source": "SOU"
     },
     "BAW7864": {
         "destination": "SOU",
-        "footprint": 0.17,
         "source": "EDI"
     },
     "BAW7865": {
         "destination": "EDI",
-        "footprint": 0.17,
         "source": "SOU"
     },
     "BAW7866": {
         "destination": "SOU",
-        "footprint": 0.17,
         "source": "EDI"
     },
     "BAW7867": {
         "destination": "EDI",
-        "footprint": 0.17,
         "source": "SOU"
     },
     "BAW7868": {
@@ -20009,7 +18893,6 @@
     },
     "BAW7869": {
         "destination": "BDL",
-        "footprint": 0.18,
         "source": "ORD"
     },
     "BAW787": {
@@ -20050,32 +18933,26 @@
     },
     "BAW7880": {
         "destination": "DEN",
-        "footprint": 0.4,
         "source": "MIA"
     },
     "BAW7881": {
         "destination": "BOS",
-        "footprint": 0.36,
         "source": "DFW"
     },
     "BAW7882": {
         "destination": "YYZ",
-        "footprint": 0.08,
         "source": "LGA"
     },
     "BAW7884": {
         "destination": "CLT",
-        "footprint": 0.15,
         "source": "MSY"
     },
     "BAW7887": {
         "destination": "ORD",
-        "footprint": 0.04,
         "source": "IND"
     },
     "BAW7888": {
         "destination": "SJD",
-        "footprint": 0.24,
         "source": "DFW"
     },
     "BAW789": {
@@ -20112,22 +18989,18 @@
     },
     "BAW7903": {
         "destination": "ICT",
-        "footprint": 0.08,
         "source": "DFW"
     },
     "BAW7904": {
         "destination": "ORD",
-        "footprint": 0.23,
         "source": "AUS"
     },
     "BAW7905": {
         "destination": "JFK",
-        "footprint": 0.84,
         "source": "MAD"
     },
     "BAW7907": {
         "destination": "DEN",
-        "footprint": 0.21,
         "source": "ORD"
     },
     "BAW791": {
@@ -20160,27 +19033,22 @@
     },
     "BAW7920": {
         "destination": "MCI",
-        "footprint": 0.11,
         "source": "DFW"
     },
     "BAW7921": {
         "destination": "DFW",
-        "footprint": 1.18,
         "source": "LHR"
     },
     "BAW7925": {
         "destination": "LBB",
-        "footprint": 0.07,
         "source": "DFW"
     },
     "BAW7928": {
         "destination": "DFW",
-        "footprint": 0.03,
         "source": "GGG"
     },
     "BAW7929": {
         "destination": "SJC",
-        "footprint": 0.34,
         "source": "DFW"
     },
     "BAW793": {
@@ -20221,42 +19089,34 @@
     },
     "BAW7941": {
         "destination": "LGW",
-        "footprint": 0.22,
         "source": "INV"
     },
     "BAW7942": {
         "destination": "TVC",
-        "footprint": 0.05,
         "source": "ORD"
     },
     "BAW7943": {
         "destination": "FLL",
-        "footprint": 0.26,
         "source": "DFW"
     },
     "BAW7944": {
         "destination": "MIA",
-        "footprint": 0.35,
         "source": "BOG"
     },
     "BAW7945": {
         "destination": "LGW",
-        "footprint": 0.22,
         "source": "INV"
     },
     "BAW7946": {
         "destination": "INV",
-        "footprint": 0.22,
         "source": "LGW"
     },
     "BAW7947": {
         "destination": "LGW",
-        "footprint": 0.22,
         "source": "INV"
     },
     "BAW7948": {
         "destination": "INV",
-        "footprint": 0.22,
         "source": "LGW"
     },
     "BAW795": {
@@ -20337,12 +19197,10 @@
     },
     "BAW7970": {
         "destination": "BKK",
-        "footprint": 0.07,
         "source": "USM"
     },
     "BAW7971": {
         "destination": "USM",
-        "footprint": 0.07,
         "source": "BKK"
     },
     "BAW7972": {
@@ -20351,7 +19209,6 @@
     },
     "BAW7975": {
         "destination": "HKG",
-        "footprint": 0.3,
         "source": "USM"
     },
     "BAW7979": {
@@ -20432,7 +19289,6 @@
     },
     "BAW8": {
         "destination": "LHR",
-        "footprint": 1.49,
         "source": "HND"
     },
     "BAW80": {
@@ -20445,32 +19301,26 @@
     },
     "BAW8001": {
         "destination": "EWR",
-        "footprint": 0.85,
         "source": "ORY"
     },
     "BAW8002": {
         "destination": "ORY",
-        "footprint": 0.85,
         "source": "EWR"
     },
     "BAW8003": {
         "destination": "EWR",
-        "footprint": 0.85,
         "source": "ORY"
     },
     "BAW8004": {
         "destination": "ORY",
-        "footprint": 0.85,
         "source": "EWR"
     },
     "BAW8005": {
         "destination": "JFK",
-        "footprint": 0.85,
         "source": "ORY"
     },
     "BAW8006": {
         "destination": "ORY",
-        "footprint": 0.85,
         "source": "JFK"
     },
     "BAW801": {
@@ -20503,42 +19353,34 @@
     },
     "BAW8020": {
         "destination": "LGW",
-        "footprint": 0.08,
         "source": "GCI"
     },
     "BAW8021": {
         "destination": "GCI",
-        "footprint": 0.08,
         "source": "LGW"
     },
     "BAW8023": {
         "destination": "GCI",
-        "footprint": 0.08,
         "source": "LGW"
     },
     "BAW8024": {
         "destination": "LGW",
-        "footprint": 0.08,
         "source": "GCI"
     },
     "BAW8025": {
         "destination": "GCI",
-        "footprint": 0.08,
         "source": "LGW"
     },
     "BAW8026": {
         "destination": "LGW",
-        "footprint": 0.08,
         "source": "GCI"
     },
     "BAW8027": {
         "destination": "GCI",
-        "footprint": 0.08,
         "source": "LGW"
     },
     "BAW8028": {
         "destination": "LGW",
-        "footprint": 0.08,
         "source": "GCI"
     },
     "BAW803": {
@@ -20587,52 +19429,42 @@
     },
     "BAW8040": {
         "destination": "PRG",
-        "footprint": 0.12,
         "source": "CDG"
     },
     "BAW8041": {
         "destination": "ZRH",
-        "footprint": 0.12,
         "source": "BCN"
     },
     "BAW8042": {
         "destination": "BCN",
-        "footprint": 0.12,
         "source": "ZRH"
     },
     "BAW8043": {
         "destination": "ZRH",
-        "footprint": 0.12,
         "source": "BCN"
     },
     "BAW8044": {
         "destination": "BCN",
-        "footprint": 0.12,
         "source": "ZRH"
     },
     "BAW8045": {
         "destination": "CDG",
-        "footprint": 0.12,
         "source": "PRG"
     },
     "BAW8046": {
         "destination": "BHX",
-        "footprint": 0.31,
         "source": "AGP"
     },
     "BAW8047": {
         "destination": "AGP",
-        "footprint": 0.31,
         "source": "BHX"
     },
     "BAW8048": {
         "destination": "FCO",
-        "footprint": 0.12,
         "source": "BCN"
     },
     "BAW8049": {
         "destination": "BCN",
-        "footprint": 0.12,
         "source": "FCO"
     },
     "BAW805": {
@@ -20685,52 +19517,42 @@
     },
     "BAW8060": {
         "destination": "NCE",
-        "footprint": 0.07,
         "source": "BCN"
     },
     "BAW8061": {
         "destination": "BCN",
-        "footprint": 0.07,
         "source": "NCE"
     },
     "BAW8062": {
         "destination": "ORY",
-        "footprint": 0.12,
         "source": "BCN"
     },
     "BAW8063": {
         "destination": "BCN",
-        "footprint": 0.12,
         "source": "ORY"
     },
     "BAW8064": {
         "destination": "ORY",
-        "footprint": 0.12,
         "source": "BCN"
     },
     "BAW8065": {
         "destination": "BCN",
-        "footprint": 0.12,
         "source": "ORY"
     },
     "BAW8066": {
         "destination": "MUC",
-        "footprint": 0.16,
         "source": "BCN"
     },
     "BAW8067": {
         "destination": "BCN",
-        "footprint": 0.16,
         "source": "MUC"
     },
     "BAW8068": {
         "destination": "BCN",
-        "footprint": 0.12,
         "source": "SVQ"
     },
     "BAW8069": {
         "destination": "EDI",
-        "footprint": 0.35,
         "source": "ALC"
     },
     "BAW807": {
@@ -20779,52 +19601,42 @@
     },
     "BAW8080": {
         "destination": "ORY",
-        "footprint": 0.12,
         "source": "BCN"
     },
     "BAW8081": {
         "destination": "BCN",
-        "footprint": 0.12,
         "source": "ORY"
     },
     "BAW8082": {
         "destination": "ORY",
-        "footprint": 0.12,
         "source": "BCN"
     },
     "BAW8083": {
         "destination": "BCN",
-        "footprint": 0.12,
         "source": "ORY"
     },
     "BAW8084": {
         "destination": "ORY",
-        "footprint": 0.12,
         "source": "BCN"
     },
     "BAW8085": {
         "destination": "BCN",
-        "footprint": 0.12,
         "source": "ORY"
     },
     "BAW8086": {
         "destination": "ORY",
-        "footprint": 0.12,
         "source": "BCN"
     },
     "BAW8087": {
         "destination": "BCN",
-        "footprint": 0.12,
         "source": "ORY"
     },
     "BAW8088": {
         "destination": "FCO",
-        "footprint": 0.23,
         "source": "AGP"
     },
     "BAW8089": {
         "destination": "AGP",
-        "footprint": 0.23,
         "source": "FCO"
     },
     "BAW8090": {
@@ -20913,7 +19725,6 @@
     },
     "BAW811": {
         "destination": "LHR",
-        "footprint": 0.17,
         "source": "CPH"
     },
     "BAW8110": {
@@ -20958,37 +19769,30 @@
     },
     "BAW812": {
         "destination": "CPH",
-        "footprint": 0.17,
         "source": "LHR"
     },
     "BAW8120": {
         "destination": "ORY",
-        "footprint": 0.16,
         "source": "FCO"
     },
     "BAW8121": {
         "destination": "SVQ",
-        "footprint": 0.21,
         "source": "CDG"
     },
     "BAW8122": {
         "destination": "FCO",
-        "footprint": 0.16,
         "source": "ORY"
     },
     "BAW8123": {
         "destination": "FCO",
-        "footprint": 0.16,
         "source": "ORY"
     },
     "BAW8124": {
         "destination": "FCO",
-        "footprint": 0.16,
         "source": "ORY"
     },
     "BAW8125": {
         "destination": "AMS",
-        "footprint": 0.19,
         "source": "FCO"
     },
     "BAW8126": {
@@ -20997,7 +19801,6 @@
     },
     "BAW8127": {
         "destination": "FCO",
-        "footprint": 0.14,
         "source": "PRG"
     },
     "BAW8128": {
@@ -21010,7 +19813,6 @@
     },
     "BAW813": {
         "destination": "LHR",
-        "footprint": 0.17,
         "source": "CPH"
     },
     "BAW8130": {
@@ -21055,7 +19857,6 @@
     },
     "BAW814": {
         "destination": "CPH",
-        "footprint": 0.17,
         "source": "LHR"
     },
     "BAW8140": {
@@ -21100,7 +19901,6 @@
     },
     "BAW815": {
         "destination": "LHR",
-        "footprint": 0.17,
         "source": "CPH"
     },
     "BAW8150": {
@@ -21145,7 +19945,6 @@
     },
     "BAW816": {
         "destination": "CPH",
-        "footprint": 0.17,
         "source": "LHR"
     },
     "BAW8160": {
@@ -21190,7 +19989,6 @@
     },
     "BAW817": {
         "destination": "LHR",
-        "footprint": 0.17,
         "source": "CPH"
     },
     "BAW8170": {
@@ -21215,7 +20013,6 @@
     },
     "BAW8175": {
         "destination": "CDG",
-        "footprint": 0.15,
         "source": "CPH"
     },
     "BAW8176": {
@@ -21236,7 +20033,6 @@
     },
     "BAW818": {
         "destination": "CPH",
-        "footprint": 0.17,
         "source": "LHR"
     },
     "BAW8180": {
@@ -21281,7 +20077,6 @@
     },
     "BAW819": {
         "destination": "LHR",
-        "footprint": 0.17,
         "source": "CPH"
     },
     "BAW8190": {
@@ -21346,12 +20141,10 @@
     },
     "BAW8211": {
         "destination": "LCY",
-        "footprint": 0.13,
         "source": "BLL"
     },
     "BAW8212": {
         "destination": "BLL",
-        "footprint": 0.13,
         "source": "LCY"
     },
     "BAW822": {
@@ -21380,17 +20173,14 @@
     },
     "BAW8235": {
         "destination": "GOT",
-        "footprint": 0.17,
         "source": "CBG"
     },
     "BAW8236": {
         "destination": "CBG",
-        "footprint": 0.17,
         "source": "GOT"
     },
     "BAW8237": {
         "destination": "MAN",
-        "footprint": 0.13,
         "source": "BRE"
     },
     "BAW8238": {
@@ -21491,7 +20281,6 @@
     },
     "BAW830": {
         "destination": "DUB",
-        "footprint": 0.08,
         "source": "LHR"
     },
     "BAW8300": {
@@ -21508,7 +20297,6 @@
     },
     "BAW831": {
         "destination": "LHR",
-        "footprint": 0.08,
         "source": "DUB"
     },
     "BAW8311": {
@@ -21521,7 +20309,6 @@
     },
     "BAW832": {
         "destination": "DUB",
-        "footprint": 0.08,
         "source": "LHR"
     },
     "BAW8327": {
@@ -21534,12 +20321,10 @@
     },
     "BAW833": {
         "destination": "LHR",
-        "footprint": 0.08,
         "source": "DUB"
     },
     "BAW834": {
         "destination": "DUB",
-        "footprint": 0.08,
         "source": "LHR"
     },
     "BAW8340": {
@@ -21584,7 +20369,6 @@
     },
     "BAW835": {
         "destination": "LHR",
-        "footprint": 0.08,
         "source": "DUB"
     },
     "BAW8350": {
@@ -21629,7 +20413,6 @@
     },
     "BAW836": {
         "destination": "DUB",
-        "footprint": 0.08,
         "source": "LHR"
     },
     "BAW8360": {
@@ -21670,7 +20453,6 @@
     },
     "BAW837": {
         "destination": "LHR",
-        "footprint": 0.08,
         "source": "DUB"
     },
     "BAW8370": {
@@ -21687,7 +20469,6 @@
     },
     "BAW838": {
         "destination": "DUB",
-        "footprint": 0.08,
         "source": "LHR"
     },
     "BAW8380": {
@@ -21704,7 +20485,6 @@
     },
     "BAW839": {
         "destination": "LHR",
-        "footprint": 0.08,
         "source": "DUB"
     },
     "BAW8390": {
@@ -21793,37 +20573,30 @@
     },
     "BAW8410": {
         "destination": "ATL",
-        "footprint": 0.14,
         "source": "ORD"
     },
     "BAW8412": {
         "destination": "JFK",
-        "footprint": 0.04,
         "source": "BWI"
     },
     "BAW8413": {
         "destination": "BHX",
-        "footprint": 0.16,
         "source": "GVA"
     },
     "BAW8414": {
         "destination": "GVA",
-        "footprint": 0.16,
         "source": "BHX"
     },
     "BAW8415": {
         "destination": "BHX",
-        "footprint": 0.16,
         "source": "GVA"
     },
     "BAW8416": {
         "destination": "ORD",
-        "footprint": 0.04,
         "source": "IND"
     },
     "BAW8419": {
         "destination": "ATL",
-        "footprint": 0.14,
         "source": "ORD"
     },
     "BAW842": {
@@ -21860,7 +20633,6 @@
     },
     "BAW8433": {
         "destination": "SJU",
-        "footprint": 0.24,
         "source": "MIA"
     },
     "BAW8436": {
@@ -21869,7 +20641,6 @@
     },
     "BAW8437": {
         "destination": "DFW",
-        "footprint": 0.28,
         "source": "ONT"
     },
     "BAW8440": {
@@ -21898,47 +20669,38 @@
     },
     "BAW8450": {
         "destination": "LCY",
-        "footprint": 0.06,
         "source": "AMS"
     },
     "BAW8451": {
         "destination": "AMS",
-        "footprint": 0.06,
         "source": "LCY"
     },
     "BAW8453": {
         "destination": "AMS",
-        "footprint": 0.06,
         "source": "LCY"
     },
     "BAW8454": {
         "destination": "LCY",
-        "footprint": 0.06,
         "source": "AMS"
     },
     "BAW8455": {
         "destination": "AMS",
-        "footprint": 0.06,
         "source": "LCY"
     },
     "BAW8456": {
         "destination": "LCY",
-        "footprint": 0.06,
         "source": "AMS"
     },
     "BAW8457": {
         "destination": "AMS",
-        "footprint": 0.06,
         "source": "LCY"
     },
     "BAW8458": {
         "destination": "LCY",
-        "footprint": 0.06,
         "source": "AMS"
     },
     "BAW8459": {
         "destination": "AMS",
-        "footprint": 0.06,
         "source": "LCY"
     },
     "BAW846": {
@@ -22023,7 +20785,6 @@
     },
     "BAW850": {
         "destination": "WAW",
-        "footprint": 0.26,
         "source": "LHR"
     },
     "BAW8501": {
@@ -22040,12 +20801,10 @@
     },
     "BAW851": {
         "destination": "LHR",
-        "footprint": 0.26,
         "source": "WAW"
     },
     "BAW852": {
         "destination": "PRG",
-        "footprint": 0.18,
         "source": "LHR"
     },
     "BAW8528": {
@@ -22058,37 +20817,30 @@
     },
     "BAW853": {
         "destination": "LHR",
-        "footprint": 0.18,
         "source": "PRG"
     },
     "BAW854": {
         "destination": "PRG",
-        "footprint": 0.18,
         "source": "LHR"
     },
     "BAW855": {
         "destination": "LHR",
-        "footprint": 0.18,
         "source": "PRG"
     },
     "BAW856": {
         "destination": "PRG",
-        "footprint": 0.18,
         "source": "LHR"
     },
     "BAW857": {
         "destination": "LHR",
-        "footprint": 0.18,
         "source": "PRG"
     },
     "BAW858": {
         "destination": "PRG",
-        "footprint": 0.18,
         "source": "LHR"
     },
     "BAW859": {
         "destination": "LHR",
-        "footprint": 0.18,
         "source": "PRG"
     },
     "BAW8590": {
@@ -22097,7 +20849,6 @@
     },
     "BAW8591": {
         "destination": "STN",
-        "footprint": 1.11,
         "source": "MIA"
     },
     "BAW8592": {
@@ -22126,12 +20877,10 @@
     },
     "BAW8603": {
         "destination": "INN",
-        "footprint": 0.22,
         "source": "NCL"
     },
     "BAW8607": {
         "destination": "LYS",
-        "footprint": 0.13,
         "source": "LGW"
     },
     "BAW861": {
@@ -22172,17 +20921,14 @@
     },
     "BAW8621": {
         "destination": "LGW",
-        "footprint": 0.14,
         "source": "FDH"
     },
     "BAW8623": {
         "destination": "GVA",
-        "footprint": 0.13,
         "source": "LGW"
     },
     "BAW8628": {
         "destination": "CMF",
-        "footprint": 0.13,
         "source": "LGW"
     },
     "BAW863": {
@@ -22247,42 +20993,34 @@
     },
     "BAW8660": {
         "destination": "MAN",
-        "footprint": 0.08,
         "source": "RTM"
     },
     "BAW8661": {
         "destination": "BNA",
-        "footprint": 0.15,
         "source": "DFW"
     },
     "BAW8663": {
         "destination": "MIA",
-        "footprint": 0.55,
         "source": "LAX"
     },
     "BAW8664": {
         "destination": "LAX",
-        "footprint": 0.55,
         "source": "MIA"
     },
     "BAW8665": {
         "destination": "LAS",
-        "footprint": 0.52,
         "source": "JFK"
     },
     "BAW8666": {
         "destination": "JFK",
-        "footprint": 0.52,
         "source": "LAS"
     },
     "BAW8668": {
         "destination": "HNL",
-        "footprint": 0.6,
         "source": "LAX"
     },
     "BAW8669": {
         "destination": "DFW",
-        "footprint": 0.23,
         "source": "PVR"
     },
     "BAW867": {
@@ -22291,27 +21029,22 @@
     },
     "BAW8671": {
         "destination": "ORD",
-        "footprint": 0.99,
         "source": "LHR"
     },
     "BAW8672": {
         "destination": "LAX",
-        "footprint": 0.55,
         "source": "MIA"
     },
     "BAW8673": {
         "destination": "ORD",
-        "footprint": 0.35,
         "source": "LAS"
     },
     "BAW8676": {
         "destination": "MBJ",
-        "footprint": 0.36,
         "source": "DFW"
     },
     "BAW8677": {
         "destination": "BOS",
-        "footprint": 0.2,
         "source": "ORD"
     },
     "BAW8679": {
@@ -22324,37 +21057,30 @@
     },
     "BAW8681": {
         "destination": "BOS",
-        "footprint": 0.2,
         "source": "ORD"
     },
     "BAW8682": {
         "destination": "OMA",
-        "footprint": 0.1,
         "source": "ORD"
     },
     "BAW8684": {
         "destination": "LAX",
-        "footprint": 0.58,
         "source": "JFK"
     },
     "BAW8685": {
         "destination": "ORD",
-        "footprint": 0.28,
         "source": "MIA"
     },
     "BAW8686": {
         "destination": "JFK",
-        "footprint": 0.36,
         "source": "AUS"
     },
     "BAW8687": {
         "destination": "AUS",
-        "footprint": 0.36,
         "source": "JFK"
     },
     "BAW8689": {
         "destination": "GRB",
-        "footprint": 0.04,
         "source": "ORD"
     },
     "BAW869": {
@@ -22391,7 +21117,6 @@
     },
     "BAW870": {
         "destination": "BUD",
-        "footprint": 0.26,
         "source": "LHR"
     },
     "BAW8700": {
@@ -22472,7 +21197,6 @@
     },
     "BAW872": {
         "destination": "KRK",
-        "footprint": 0.25,
         "source": "LHR"
     },
     "BAW8720": {
@@ -22485,7 +21209,6 @@
     },
     "BAW8722": {
         "destination": "GLA",
-        "footprint": 0.17,
         "source": "LCY"
     },
     "BAW8723": {
@@ -22494,7 +21217,6 @@
     },
     "BAW8724": {
         "destination": "GLA",
-        "footprint": 0.17,
         "source": "LCY"
     },
     "BAW8725": {
@@ -22511,17 +21233,14 @@
     },
     "BAW8728": {
         "destination": "GLA",
-        "footprint": 0.17,
         "source": "LCY"
     },
     "BAW8729": {
         "destination": "LCY",
-        "footprint": 0.17,
         "source": "GLA"
     },
     "BAW873": {
         "destination": "LHR",
-        "footprint": 0.25,
         "source": "KRK"
     },
     "BAW8730": {
@@ -22566,22 +21285,18 @@
     },
     "BAW874": {
         "destination": "BUD",
-        "footprint": 0.26,
         "source": "LHR"
     },
     "BAW8741": {
         "destination": "CMF",
-        "footprint": 0.14,
         "source": "LCY"
     },
     "BAW8742": {
         "destination": "LCY",
-        "footprint": 0.14,
         "source": "CMF"
     },
     "BAW875": {
         "destination": "LHR",
-        "footprint": 0.26,
         "source": "BUD"
     },
     "BAW8751": {
@@ -22590,7 +21305,6 @@
     },
     "BAW8752": {
         "destination": "LCY",
-        "footprint": 0.22,
         "source": "MAD"
     },
     "BAW8755": {
@@ -22603,7 +21317,6 @@
     },
     "BAW876": {
         "destination": "OTP",
-        "footprint": 0.37,
         "source": "LHR"
     },
     "BAW8760": {
@@ -22628,22 +21341,18 @@
     },
     "BAW8767": {
         "destination": "ZRH",
-        "footprint": 0.13,
         "source": "LCY"
     },
     "BAW8768": {
         "destination": "LCY",
-        "footprint": 0.13,
         "source": "ZRH"
     },
     "BAW8769": {
         "destination": "ZRH",
-        "footprint": 0.13,
         "source": "LCY"
     },
     "BAW877": {
         "destination": "LHR",
-        "footprint": 0.37,
         "source": "OTP"
     },
     "BAW8770": {
@@ -22676,7 +21385,6 @@
     },
     "BAW878": {
         "destination": "LED",
-        "footprint": 0.37,
         "source": "LHR"
     },
     "BAW8780": {
@@ -22721,7 +21429,6 @@
     },
     "BAW879": {
         "destination": "LHR",
-        "footprint": 0.37,
         "source": "LED"
     },
     "BAW8790": {
@@ -22954,7 +21661,6 @@
     },
     "BAW8895": {
         "destination": "WIC",
-        "footprint": 0.08,
         "source": "EDI"
     },
     "BAW8897": {
@@ -22999,7 +21705,6 @@
     },
     "BAW8920": {
         "destination": "ABZ",
-        "footprint": 0.09,
         "source": "DUB"
     },
     "BAW8921": {
@@ -23008,17 +21713,14 @@
     },
     "BAW8922": {
         "destination": "STN",
-        "footprint": 0.81,
         "source": "DOH"
     },
     "BAW8926": {
         "destination": "STN",
-        "footprint": 0.81,
         "source": "DOH"
     },
     "BAW8927": {
         "destination": "ILY",
-        "footprint": 0.03,
         "source": "GLA"
     },
     "BAW8928": {
@@ -23055,12 +21757,10 @@
     },
     "BAW8941": {
         "destination": "DUB",
-        "footprint": 0.11,
         "source": "CDG"
     },
     "BAW8942": {
         "destination": "CDG",
-        "footprint": 0.11,
         "source": "DUB"
     },
     "BAW8943": {
@@ -23073,12 +21773,10 @@
     },
     "BAW8945": {
         "destination": "DUB",
-        "footprint": 0.11,
         "source": "CDG"
     },
     "BAW8946": {
         "destination": "LYS",
-        "footprint": 0.17,
         "source": "DUB"
     },
     "BAW8947": {
@@ -23135,17 +21833,14 @@
     },
     "BAW8960": {
         "destination": "MAD",
-        "footprint": 0.21,
         "source": "DUB"
     },
     "BAW8961": {
         "destination": "DUB",
-        "footprint": 0.21,
         "source": "MAD"
     },
     "BAW8962": {
         "destination": "AMS",
-        "footprint": 0.11,
         "source": "DUB"
     },
     "BAW8963": {
@@ -23202,12 +21897,10 @@
     },
     "BAW8975": {
         "destination": "DUB",
-        "footprint": 0.11,
         "source": "BRU"
     },
     "BAW8976": {
         "destination": "PRG",
-        "footprint": 0.21,
         "source": "DUB"
     },
     "BAW8977": {
@@ -23216,7 +21909,6 @@
     },
     "BAW8978": {
         "destination": "FRA",
-        "footprint": 0.16,
         "source": "DUB"
     },
     "BAW8979": {
@@ -23273,12 +21965,10 @@
     },
     "BAW9": {
         "destination": "BKK",
-        "footprint": 1.49,
         "source": "LHR"
     },
     "BAW90": {
         "destination": "LHR",
-        "footprint": 0.89,
         "source": "YYZ"
     },
     "BAW900": {
@@ -23295,12 +21985,10 @@
     },
     "BAW9011": {
         "destination": "LPA",
-        "footprint": 0.26,
         "source": "MAD"
     },
     "BAW9012": {
         "destination": "MAD",
-        "footprint": 0.26,
         "source": "TFN"
     },
     "BAW902": {
@@ -23509,7 +22197,6 @@
     },
     "BAW9128": {
         "destination": "ADW",
-        "footprint": 0.91,
         "source": "LHR"
     },
     "BAW9129": {
@@ -23522,47 +22209,38 @@
     },
     "BAW9130": {
         "destination": "SFO",
-        "footprint": 0.57,
         "source": "ADW"
     },
     "BAW9131": {
         "destination": "LAX",
-        "footprint": 0.08,
         "source": "SFO"
     },
     "BAW9132": {
         "destination": "FCO",
-        "footprint": 0.25,
         "source": "LHR"
     },
     "BAW9133": {
         "destination": "LHR",
-        "footprint": 0.63,
         "source": "TLV"
     },
     "BAW9134": {
         "destination": "LHR",
-        "footprint": 1.08,
         "source": "MCO"
     },
     "BAW9136": {
         "destination": "ADB",
-        "footprint": 0.45,
         "source": "LHR"
     },
     "BAW9137": {
         "destination": "FPO",
-        "footprint": 1.08,
         "source": "LGW"
     },
     "BAW9138": {
         "destination": "LGW",
-        "footprint": 1.08,
         "source": "FPO"
     },
     "BAW9139": {
         "destination": "BFS",
-        "footprint": 0.15,
         "source": "LHR"
     },
     "BAW914": {
@@ -23775,17 +22453,14 @@
     },
     "BAW9195": {
         "destination": "LGW",
-        "footprint": 0.01,
         "source": "LHR"
     },
     "BAW9197": {
         "destination": "LHR",
-        "footprint": 0.01,
         "source": "LGW"
     },
     "BAW92": {
         "destination": "LHR",
-        "footprint": 0.89,
         "source": "YYZ"
     },
     "BAW920": {
@@ -23794,52 +22469,42 @@
     },
     "BAW9200": {
         "destination": "BGR",
-        "footprint": 0.52,
         "source": "KEF"
     },
     "BAW9201": {
         "destination": "GYR",
-        "footprint": 0.57,
         "source": "BGR"
     },
     "BAW9202": {
         "destination": "GNB",
-        "footprint": 0.13,
         "source": "LGW"
     },
     "BAW9203": {
         "destination": "LGW",
-        "footprint": 0.13,
         "source": "GNB"
     },
     "BAW9204": {
         "destination": "GVA",
-        "footprint": 0.14,
         "source": "CBG"
     },
     "BAW9205": {
         "destination": "LHR",
-        "footprint": 0.13,
         "source": "GVA"
     },
     "BAW9206": {
         "destination": "CMF",
-        "footprint": 0.14,
         "source": "BOH"
     },
     "BAW9207": {
         "destination": "VIE",
-        "footprint": 0.22,
         "source": "LTN"
     },
     "BAW9208": {
         "destination": "CMF",
-        "footprint": 0.13,
         "source": "LGW"
     },
     "BAW9209": {
         "destination": "LTN",
-        "footprint": 0.24,
         "source": "KTW"
     },
     "BAW921": {
@@ -23884,37 +22549,30 @@
     },
     "BAW9220": {
         "destination": "KLX",
-        "footprint": 0.42,
         "source": "LHR"
     },
     "BAW9221": {
         "destination": "LHR",
-        "footprint": 0.42,
         "source": "KLX"
     },
     "BAW9222": {
         "destination": "GVA",
-        "footprint": 0.2,
         "source": "NCL"
     },
     "BAW9223": {
         "destination": "NCL",
-        "footprint": 0.2,
         "source": "GVA"
     },
     "BAW9224": {
         "destination": "GVA",
-        "footprint": 0.17,
         "source": "DUB"
     },
     "BAW9225": {
         "destination": "LHR",
-        "footprint": 0.14,
         "source": "GNB"
     },
     "BAW9226": {
         "destination": "TRN",
-        "footprint": 0.2,
         "source": "DUB"
     },
     "BAW923": {
@@ -23955,27 +22613,22 @@
     },
     "BAW9240": {
         "destination": "GOT",
-        "footprint": 0.18,
         "source": "LTN"
     },
     "BAW9242": {
         "destination": "KGS",
-        "footprint": 0.47,
         "source": "LHR"
     },
     "BAW9246": {
         "destination": "GVA",
-        "footprint": 0.13,
         "source": "LGW"
     },
     "BAW9247": {
         "destination": "LGW",
-        "footprint": 0.13,
         "source": "GVA"
     },
     "BAW9248": {
         "destination": "AGP",
-        "footprint": 0.29,
         "source": "LGW"
     },
     "BAW925": {
@@ -24020,47 +22673,38 @@
     },
     "BAW9261": {
         "destination": "MAD",
-        "footprint": 0.22,
         "source": "LHR"
     },
     "BAW9262": {
         "destination": "LHR",
-        "footprint": 0.13,
         "source": "XFW"
     },
     "BAW9263": {
         "destination": "LHR",
-        "footprint": 0.01,
         "source": "LGW"
     },
     "BAW9264": {
         "destination": "GLA",
-        "footprint": 0.16,
         "source": "LHR"
     },
     "BAW9265": {
         "destination": "LHR",
-        "footprint": 0.02,
         "source": "STN"
     },
     "BAW9266": {
         "destination": "LGW",
-        "footprint": 0.18,
         "source": "GLA"
     },
     "BAW9267": {
         "destination": "LHR",
-        "footprint": 0.02,
         "source": "STN"
     },
     "BAW9268": {
         "destination": "STN",
-        "footprint": 0.02,
         "source": "LHR"
     },
     "BAW9269": {
         "destination": "LHR",
-        "footprint": 0.02,
         "source": "STN"
     },
     "BAW927": {
@@ -24153,7 +22797,6 @@
     },
     "BAW93": {
         "destination": "YYZ",
-        "footprint": 0.89,
         "source": "LHR"
     },
     "BAW930": {
@@ -24270,12 +22913,10 @@
     },
     "BAW950": {
         "destination": "MUC",
-        "footprint": 0.16,
         "source": "LHR"
     },
     "BAW951": {
         "destination": "LHR",
-        "footprint": 0.16,
         "source": "MUC"
     },
     "BAW9514": {
@@ -24284,12 +22925,10 @@
     },
     "BAW952": {
         "destination": "MUC",
-        "footprint": 0.16,
         "source": "LHR"
     },
     "BAW953": {
         "destination": "LHR",
-        "footprint": 0.16,
         "source": "MUC"
     },
     "BAW9536": {
@@ -24298,7 +22937,6 @@
     },
     "BAW954": {
         "destination": "MUC",
-        "footprint": 0.16,
         "source": "LHR"
     },
     "BAW9544": {
@@ -24307,32 +22945,26 @@
     },
     "BAW955": {
         "destination": "LHR",
-        "footprint": 0.16,
         "source": "MUC"
     },
     "BAW956": {
         "destination": "MUC",
-        "footprint": 0.16,
         "source": "LHR"
     },
     "BAW957": {
         "destination": "LHR",
-        "footprint": 0.16,
         "source": "MUC"
     },
     "BAW958": {
         "destination": "MUC",
-        "footprint": 0.16,
         "source": "LHR"
     },
     "BAW959": {
         "destination": "LHR",
-        "footprint": 0.16,
         "source": "MUC"
     },
     "BAW96": {
         "destination": "LHR",
-        "footprint": 0.89,
         "source": "YYZ"
     },
     "BAW960": {
@@ -24341,47 +22973,38 @@
     },
     "BAW9601": {
         "destination": "LHR",
-        "footprint": 0.81,
         "source": "BOS"
     },
     "BAW9602": {
         "destination": "LHR",
-        "footprint": 0.86,
         "source": "JFK"
     },
     "BAW9603": {
         "destination": "LGW",
-        "footprint": 1.09,
         "source": "MCO"
     },
     "BAW9604": {
         "destination": "LHR",
-        "footprint": 1.38,
         "source": "MEX"
     },
     "BAW9605": {
         "destination": "SAN",
-        "footprint": 1.37,
         "source": "LHR"
     },
     "BAW9606": {
         "destination": "LHR",
-        "footprint": 1.37,
         "source": "SAN"
     },
     "BAW9607": {
         "destination": "LGW",
-        "footprint": 1.02,
         "source": "ANU"
     },
     "BAW9608": {
         "destination": "IAD",
-        "footprint": 0.92,
         "source": "LHR"
     },
     "BAW9609": {
         "destination": "MCO",
-        "footprint": 1.09,
         "source": "LGW"
     },
     "BAW961": {
@@ -24414,12 +23037,10 @@
     },
     "BAW9638": {
         "destination": "LGW",
-        "footprint": 0.93,
         "source": "PIT"
     },
     "BAW9639": {
         "destination": "PIT",
-        "footprint": 0.93,
         "source": "LGW"
     },
     "BAW964": {
@@ -24484,7 +23105,6 @@
     },
     "BAW9683": {
         "destination": "MIA",
-        "footprint": 1.11,
         "source": "LGW"
     },
     "BAW9684": {
@@ -24493,7 +23113,6 @@
     },
     "BAW9685": {
         "destination": "LGW",
-        "footprint": 1.11,
         "source": "MIA"
     },
     "BAW969": {
@@ -24510,47 +23129,38 @@
     },
     "BAW97": {
         "destination": "YYZ",
-        "footprint": 0.89,
         "source": "LHR"
     },
     "BAW970": {
         "destination": "HAJ",
-        "footprint": 0.12,
         "source": "LHR"
     },
     "BAW971": {
         "destination": "LHR",
-        "footprint": 0.12,
         "source": "HAJ"
     },
     "BAW972": {
         "destination": "HAM",
-        "footprint": 0.13,
         "source": "LHR"
     },
     "BAW973": {
         "destination": "LHR",
-        "footprint": 0.13,
         "source": "HAM"
     },
     "BAW974": {
         "destination": "HAM",
-        "footprint": 0.13,
         "source": "LHR"
     },
     "BAW975": {
         "destination": "LHR",
-        "footprint": 0.13,
         "source": "HAM"
     },
     "BAW976": {
         "destination": "HAJ",
-        "footprint": 0.12,
         "source": "LHR"
     },
     "BAW977": {
         "destination": "LHR",
-        "footprint": 0.12,
         "source": "HAJ"
     },
     "BAW9777": {
@@ -24563,7 +23173,6 @@
     },
     "BAW978": {
         "destination": "HAJ",
-        "footprint": 0.12,
         "source": "LHR"
     },
     "BAW9780": {
@@ -24576,7 +23185,6 @@
     },
     "BAW979": {
         "destination": "LHR",
-        "footprint": 0.12,
         "source": "HAJ"
     },
     "BAW98": {
@@ -24677,12 +23285,10 @@
     },
     "BAW990": {
         "destination": "TXL",
-        "footprint": 0.17,
         "source": "LHR"
     },
     "BAW991": {
         "destination": "LHR",
-        "footprint": 0.17,
         "source": "TXL"
     },
     "BAW992": {
@@ -24695,22 +23301,18 @@
     },
     "BAW994": {
         "destination": "TXL",
-        "footprint": 0.17,
         "source": "LHR"
     },
     "BAW995": {
         "destination": "LHR",
-        "footprint": 0.17,
         "source": "TXL"
     },
     "BAW996": {
         "destination": "TXL",
-        "footprint": 0.17,
         "source": "LHR"
     },
     "BAW997": {
         "destination": "LHR",
-        "footprint": 0.17,
         "source": "TXL"
     },
     "BAW998": {
@@ -24723,7 +23325,6 @@
     },
     "BAW9999": {
         "destination": "DEN",
-        "footprint": 0.03,
         "source": "EGE"
     }
 }
