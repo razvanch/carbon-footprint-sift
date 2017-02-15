@@ -141,6 +141,10 @@ export default class CarbonFootprintView extends SiftView {
   }
 
   updateEquivalentStats(totalFootprint) {
+    if (!totalFootprint) {
+      return;
+    }
+
     Object.keys(EQUIVALENT_RATIOS).forEach((id) => {
       document.getElementById(id).textContent = Math.round(this._totalFootprint * EQUIVALENT_RATIOS[id]);
     });

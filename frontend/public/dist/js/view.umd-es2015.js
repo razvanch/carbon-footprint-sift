@@ -219,6 +219,10 @@
 	    value: function updateEquivalentStats(totalFootprint) {
 	      var _this2 = this;
 	
+	      if (!totalFootprint) {
+	        return;
+	      }
+	
 	      Object.keys(EQUIVALENT_RATIOS).forEach(function (id) {
 	        document.getElementById(id).textContent = Math.round(_this2._totalFootprint * EQUIVALENT_RATIOS[id]);
 	      });
