@@ -12,8 +12,9 @@ module.exports = function (got) {
 
   inData.data.forEach((datum) => {
     const route = datum.value.toString().split('/');
-    const source = route[0];
-    const destination = route[1];
+    const provider = route[0];
+    const source = route[1];
+    const destination = route[2];
     const footprint = footprints[source][destination] || 0;
 
     totalFootprints += footprint;
@@ -29,7 +30,8 @@ module.exports = function (got) {
         'longitude': airports[destination].longitude,
         'latitude': airports[destination].latitude
       },
-      'footprint': footprint
+      'footprint': footprint,
+      'provider': provider
     });
   });
 

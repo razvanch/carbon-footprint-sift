@@ -2,6 +2,7 @@
 
 const FLIGHT_NUMBER_REGEX = /Flight number.*?BA(\d{3,4})/i;
 const SUBJECT_ROUTE_REGEX = /.*?([A-Z]{3})-([A-Z]{3}).*/i;
+const PROVIDER = 'britishairways';
 
 module.exports = function (got) {
   const inData = got['in'];
@@ -16,7 +17,7 @@ module.exports = function (got) {
     if (routeGroup && routeGroup.length === 3) {
       results.push({ name: 'routes',
                      key: jmapInfo.id,
-                     value: routeGroup[1] + '/' + routeGroup[2] });
+                     value: PROVIDER + '/' + routeGroup[1] + '/' + routeGroup[2] });
 
       return;
     }
@@ -30,7 +31,7 @@ module.exports = function (got) {
 
       results.push({ name: 'flightNumbers',
                      key: jmapInfo.id,
-                     value: 'BAW' + flightNumber });
+                     value: PROVIDER + '/' + 'BAW' + flightNumber });
     }
   });
 

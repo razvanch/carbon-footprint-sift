@@ -1,7 +1,7 @@
 'use strict';
 
 
-const routes = require('./baw_routes.json');
+const routes = require('./bawRoutes.json');
 
 module.exports = function (got) {
   const inData = got['in'];
@@ -9,14 +9,15 @@ module.exports = function (got) {
   let results = [];
 
   inData.data.map(function (datum) {
-    const flightNumber = datum.value.toString();
+    const values = datum.value.toString().split('/');
+    const flightNumber = values[1]
 
     const route = routes[flightNumber] || null;
 
     if (route) {
       results.push({ name: 'routes',
                      key: datum.key,
-                     value: route.source + '/' + route.destination });
+                     value: values[0] + '/' + route.source + '/' + route.destination });
     }
   });
 

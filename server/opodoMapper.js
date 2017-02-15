@@ -1,6 +1,7 @@
 'use strict';
 
 const ROUTE_REGEX = /depart.*?\(([A-Z]{3})\).*?arriving.*?\(([A-Z]{3})\)/i;
+const PROVIDER = 'opodo';
 
 module.exports = function (got) {
   const inData = got['in'];
@@ -17,7 +18,7 @@ module.exports = function (got) {
     if (routeGroup && routeGroup.length === 3) {
       results.push({ name: 'routes',
                      key: jmapInfo.id,
-                     value: routeGroup[1] + '/' + routeGroup[2] });
+                     value: PROVIDER + '/' + routeGroup[1] + '/' + routeGroup[2] });
     }
   });
 
