@@ -81,8 +81,8 @@
 	var OPODO_COLOR = '#990000';
 	
 	var EQUIVALENT_RATIOS = {
-	  kms_personal_car: 6,
-	  kms_public_transport: 12,
+	  km_personal_car: 6,
+	  km_public_transport: 12,
 	  computer: 32,
 	  plastic_bags: 5,
 	  plastic_bottles: 2,
@@ -201,7 +201,7 @@
 	        show = '';
 	      }
 	
-	      document.getElementById('companies-period').style.display = show;
+	      document.getElementById('airlines-period').style.display = show;
 	      document.getElementById('facts').style.display = show;
 	    }
 	  }, {

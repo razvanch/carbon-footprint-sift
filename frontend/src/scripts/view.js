@@ -128,7 +128,7 @@ export default class CarbonFootprintView extends SiftView {
       show = '';
     }
 
-    document.getElementById('companies-period').style.display = show;
+    document.getElementById('airlines-period').style.display = show;
     document.getElementById('facts').style.display = show;
   }
 
