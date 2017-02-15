@@ -17,6 +17,8 @@
     "@redsift/d3-rs-geo": "^0.0.2",
     "@redsift/sift-sdk-web": "0.7.0",
     "@redsift/redsift-bundler": "0.7.3",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "moment": "^2.15.1",
+    "tingle.js": "^0.8.1"
   }
 }
