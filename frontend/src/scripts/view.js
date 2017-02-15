@@ -15,8 +15,8 @@ const LUFTHANSA_COLOR = '#efae00';
 const OPODO_COLOR = '#990000';
 
 const EQUIVALENT_RATIOS = {
-  kms_personal_car: 6,
-  kms_public_transport: 12,
+  km_personal_car: 6,
+  km_public_transport: 12,
   computer: 32,
   plastic_bags: 5,
   plastic_bottles: 2,
