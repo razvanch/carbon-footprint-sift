@@ -1,71 +1,70 @@
 import { SiftView, registerSiftView } from '@redsift/sift-sdk-web';
 
-import { html as geo } from '@redsift/d3-rs-geo';
+import { html as pies } from '@redsift/d3-rs-pies';
 import { select } from 'd3-selection';
 import { transition } from 'd3-transition';
+import { presentation10, diagonals, patterns } from '@redsift/d3-rs-theme';
+
+import '@redsift/ui-rs-hero';
+
+import distances from './distances.json';
 
 
-function whiteLine(selection) {
-    selection.attr('stroke', 'white') //set colour
-             .attr('stroke-width', '1px') //set width
-             .attr('stroke-dasharray', '5,3'); //set dash line
-}
+const BA_COLOR = '#1e5aaf';
+const LUFTHANSA_COLOR = '#efae00';
+const OPODO_COLOR = '#990000';
 
-function displayText(selection) {
-  selection.each(function(d, i) {  //parameters: d and i
-    let node = select(this)     //select svg element
-                 .selectAll('text') //select all the text
-                 .data([ d ]);  //iterate through the data
-
-    node = node.enter()  //indicates that data will be added to selection
-               .append('text')   //add text
-               .attr('stroke', 'white')  //style text
-               .attr('stroke-width', '0.9px')
-               .style('font-size', '10px')
-               .merge(node);     //merge the text to a single array
-
-    node.text(d[2]);      //get the third item in the array
-  });
-}
+const EQUIVALENT_RATIOS = {
+  kms_personal_car: 6,
+  kms_public_transport: 12,
+  computer: 32,
+  plastic_bags: 5,
+  plastic_bottles: 2,
+  cheeseburgers: 0.33
+};
 
 
-export default class MyView extends SiftView {
+export default class CarbonFootprintView extends SiftView {
   constructor() {
     super();
 
+    this._totalFootprint = 0;
+
+    this._pie = null;
+    this._sizeClass = null;
+    this._pieData = null;
+
+    this.fill = {
+      britishairways: {
+        color: presentation10.standard[presentation10.names.blue],
+        pattern: this.getPattern(presentation10.names.blue)
+      },
+      lufthansa: {
+        color: presentation10.standard[presentation10.names.orange],
+        pattern: this.getPattern(presentation10.names.orange)
+      },
+      opodo: {
+        color: presentation10.standard[presentation10.names.red],
+        pattern: this.getPattern(presentation10.names.red)
+      }
+    };
+
+    transition();
+
     this.controller.subscribe('footprint', this.onFootprint.bind(this));
     this.controller.subscribe('history', this.onHistory.bind(this));
-
-    this._zoomed = false;
-    this._links = [];
-    this._points = [];
-
-    this._geo = geo('empty').onClick(this.onClick.bind(this));
-
-    select('#map')
-          .datum({ url: 'https://d3js.org/world-110m.v1.json' })
-          .call(this._geo);
-  }
-
-  onClick(d, i, c) {
-    const geo = this._geo;
-
-    console.log(this._points);
-
-    if (this._zoomed) {
-      geo.zoom(1).zoomX(null).zoomY(null);
-    } else {
-      geo.zoom(4).zoomX(c[0]).zoomY(c[1]);
-    }
-
-    select('#map').transition().duration(750).call(geo);
-
-    this._zoomed = !this._zoomed;
   }
 
   presentView(value) {
+    this._sizeClass = value.sizeClass.current;
+
     console.log('email-demo: presentView: ', value);
-    this.onFootprint(value.data);
+
+    if (value.data) {
+      this.onFootprint(value.data[0]);
+      this.onHistory(value.data[1]);
+      this.updateSections(this._sizeClass);
+    }
   };
 
   willPresentView(value) {
@@ -74,9 +73,10 @@ export default class MyView extends SiftView {
 
   onFootprint(data) {
     console.log('email-demo: onFootprint: ', data);
-    Object.keys(data).forEach((k) => {
-      document.getElementById(k).textContent = data[k];
-    });
+
+    this._totalFootprint = data.footprint;
+
+    document.getElementById('footprint').textContent = this._totalFootprint;
   }
 
   onHistory(data) {
@@ -84,33 +84,122 @@ export default class MyView extends SiftView {
 
     console.log('email-demo: onHistory: ', history);
 
-    var points = [];
-    var links = [];
+    let averageFootprint = 0;
+    let totalDistance = 0;
+    let totalFlights = history.length;
+
+    let companyFootprints = {
+      britishairways: 0,
+      lufthansa: 0,
+      opodo: 0
+    };
 
     history.forEach((flight) => {
-      links.push([flight.source.longitude,
-                  flight.source.latitude,
-                  flight.destination.longitude,
-                  flight.destination.latitude]);
+      const source = flight.source.code;
+      const destination = flight.destination.code;
 
-      points.push([flight.source.longitude,
-                   flight.source.latitude,
-                   flight.source.code],
-                  [flight.destination.longitude,
-                   flight.destination.latitude,
-                   flight.destination.code]);
+      if (distances[source]) {
+        totalDistance += distances[source][destination] || 0;
+      }
+
+      averageFootprint += flight.footprint / totalFlights;
+      companyFootprints[flight.provider] += flight.footprint;
     });
 
-    this._links = links;
-    this._points = points;
+    this._pieData = [companyFootprints.britishairways,
+                     companyFootprints.lufthansa,
+                     companyFootprints.opodo];
 
-    this._geo.links(links)
-             .linksDisplay(whiteLine)
-             .points(points)
-             .pointsDisplay(displayText);
+    this.updateStats(totalFlights, Math.round(averageFootprint), totalDistance);
+    this.updateEquivalentStats(this._totalFootprint);
+    this.callPie(this._pieData, this._sizeClass);
+  }
 
-    select('#map').call(this._geo);
+  updateSections(sizeClass) {
+    let show = 'none';
+
+    if (!sizeClass.height || sizeClass.height === 520) {
+      show = '';
+    }
+
+    document.getElementById('companies-period').style.display = show;
+    document.getElementById('facts').style.display = show;
+  }
+
+  updateStats(totalFlights, averageFootprint, totalDistance) {
+    if (totalFlights) {
+      document.getElementById('flightscount-period').textContent = '' + totalFlights;
+    }
+
+    if (averageFootprint) {
+      document.getElementById('averagefootprint-period').textContent = '' + averageFootprint;
+    }
+
+    if (totalDistance) {
+      document.getElementById('totaldistance-period').textContent = totalDistance;
+    }
+  }
+
+  updateEquivalentStats(totalFootprint) {
+    Object.keys(EQUIVALENT_RATIOS).forEach((id) => {
+      document.getElementById(id).textContent = Math.round(this._totalFootprint * EQUIVALENT_RATIOS[id]);
+    });
+  }
+
+  callPie(data, sizeClass) {    
+    let margin = 26;
+    let height = 300;
+    let legend = ['British Airways', 'Lufthansa', 'Opodo'];
+
+    if (sizeClass.width === 230) {
+      margin = 13;
+      height = 200;
+    }
+
+    if (sizeClass.height === 230) {
+      height = 200;
+    }
+
+    let width = document.getElementById('stats-period').clientWidth - (2 * margin);
+    let chartContainer = select('#pie').datum(data);
+
+    if (this._pie) {
+      chartContainer.transition()
+                    .call(this.getPieChart(width, height, margin, legend));
+    }
+    else {
+      chartContainer.call(this.getPieChart(width, height, margin, legend))
+                    .select('svg')
+                    .call(this.fill.britishairways.pattern)
+                    .call(this.fill.lufthansa.pattern)
+                    .call(this.fill.opodo.pattern);
+    }
+  }
+
+  getPieChart(width, height, margin, legend) {
+    if (!this._pie) {
+      // Create a base one if one doesn't already exist
+      this._pie = pies().fill([this.fill.britishairways.color,
+                               this.fill.lufthansa.color,
+                               this.fill.opodo.color])
+                        .displayValue((v) => {
+                          if (!this._totalFootprint || !this._pieData) {
+                            return 'Connect your email!';
+                          }
+
+                          return (100 * v / this._totalFootprint).toFixed(0) + '%';
+                        });
+    }
+
+    return this._pie.width(width).height(height).outerRadius(height / 3).legend(legend).margin(margin);
+  }
+
+  getPattern(color) {
+    let p = diagonals('highlight-fill-' + color, patterns.diagonal1);
+    p.foreground(presentation10.lighter[color]);
+    p.background(presentation10.darker[color]);
+    return p;
   }
 }
 
-registerSiftView(new MyView(window));
+registerSiftView(new CarbonFootprintView(window));

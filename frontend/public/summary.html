@@ -1,35 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="dist/css/style.min.css">
-  </head>
-  <body id="home">
-    <div class="column">
-      <div class="side-by-side">
-        <div class="stat">
-          <div class="count" id="footprint">0</div>
-          <div class="subtitle">kgs of CO2</div>
+
+<head>
+  <!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Carbon Footprint Sift</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- Mobile Specific Metas –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <!-- CSS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="dist/css/style.min.css">
+</head>
+
+<body id="home">
+  <rs-hero header="Carbon Footprint Sift" bg-class="-bg-footprint -effect-darken" scroll-target="#scroll-target" sticky-header=".content">
+    <p class="fade-in delay">Your flight carbon emission this year is</p>
+    <code id="footprint">0</code>
+    <div class="statdesc">kgs<br>CO2</div>
+  </rs-hero>
+
+  <div class="content" id="scroll-target">
+    <div class="container">
+      <div id="stats-period">
+        <div class="sectionheader">
+          <div class="sectiontitle">Stats</div>
+          <div id="subtitle-stats" class="sectionsubtitle">last 12 months</div>
+        </div>
+        <div id="stats" class="stats__container">
+          <div class="stat">
+            <code id="flightscount-period" class="statnum">&hellip;</code>
+            <div class="statdesc">Flights</div>
+          </div>
+          <div class="stat">
+            <code id="averagefootprint-period" class="statnum">&hellip;</code>
+            <div class="statdesc">Average
+              <br>kgs of CO2</div>
+          </div>
+          <div class="stat last">
+            <code id="totaldistance-period" class="statnum">&hellip;</code>
+            <div class="statdesc">Total
+              <br>distance (km)</div>
+          </div>
         </div>
       </div>
-      <div class="info-steps">
-        <span>A few steps to get you started:</span>
-        <ul>
-          <li>Connect your email account from the inputs menu on the left</li>
-          <li>Pull down some emails with the blue button</li>
-          <li>See the carbon footprint go up...</li>
-        </ul>
+      <div id="companies-period">
+        <div class="sectionheader">
+          <div class="sectiontitle">Companies</div>
+          <div id="subtitle-companies" class="sectionsubtitle">last 12 months</div>
+        </div>
+        <div id="pie" class="centered"></div>
       </div>
-      <div class="info-larger">
-        Make me bigger!
-      </div>
-
-      <div id="map">
+      <div id="facts">
+        <div class="sectionheader">
+          <div class="sectiontitle">The same amount of CO2 could be produced by...</div>
+        </div>
+        <div class="stats__container equivalents">
+          <div class="stat">
+            <img src="assets/car.svg"/>
+            <code id="kms_personal_car" class="statnum">&hellip;</code>
+            <div class="statdesc">KMs in your
+              <br>personal car</div>
+          </div>
+          <div class="stat">
+            <img src="assets/laptop.svg"/>
+            <code id="computer" class="statnum">&hellip;</code>
+            <div class="statdesc">Hours on
+              <br>computer</div>
+          </div>
+        </div>
+        <div class="stats__container equivalents">
+          <div class="stat">
+            <img src="assets/bag.svg"/>
+            <code id="plastic_bags" class="statnum">&hellip;</code>
+            <div class="statdesc">Produced
+              <br>plastic bags</div>
+          </div>
+          <div class="stat">
+            <img src="assets/burger.svg"/>
+            <code id="cheeseburgers" class="statnum">&hellip;</code>
+            <div class="statdesc">Cooked
+              <br>cheeseburgers</div>
+          </div>
+        </div>
+        <div class="stats__container equivalents">
+          <div class="stat">
+            <img src="assets/bottle.svg"/>
+            <code id="plastic_bottles" class="statnum">&hellip;</code>
+            <div class="statdesc">Fabricated
+              <br>plastic bottles</div>
+          </div>
+          <div class="stat">
+            <img src="assets/bus.svg"/>
+            <code id="kms_public_transport" class="statnum">&hellip;</code>
+            <div class="statdesc">KMS via
+              <br>public transport</div>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
 
+  <!-- App -->
+  <script src="dist/js/view.umd-es2015.min.js"></script>
+</body>
 
-    <!-- Your Sift view bundle -->
-    <script src="dist/js/view.umd-es2015.min.js"></script>
-  </body>
 </html>

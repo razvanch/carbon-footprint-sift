@@ -1,6 +1,6 @@
 import { SiftController, registerSiftController } from '@redsift/sift-sdk-web';
 
-export default class MyController extends SiftController {
+export default class CarbonFootprintController extends SiftController {
   constructor() {
     super();
     this._suHandler = this.onStorageUpdate.bind(this);
@@ -19,7 +19,10 @@ export default class MyController extends SiftController {
         }catch(e){ }
         return { html: 'email-thread.html', data: { words: w } };
       case 'summary':
-        return { html: 'summary.html', data: this.getFootprint() };
+        return { html: 'summary.html',
+                 data: Promise.all([this.getFootprint(),
+                                    this.getHistory()])
+               };
       default:
         console.error('email-demo: unknown Sift type: ', state.type);
     }
@@ -53,8 +56,8 @@ export default class MyController extends SiftController {
       bucket: 'history',
       keys: ['HISTORY']
     }).then((values) => {
-      return { history: values[0].value || {} };
+      return { history: values[0].value || '[]' };
     });
   }
 }
-registerSiftController(new MyController());
+registerSiftController(new CarbonFootprintController());

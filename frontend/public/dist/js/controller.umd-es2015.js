@@ -60,19 +60,19 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var MyController = function (_SiftController) {
-	  _inherits(MyController, _SiftController);
+	var CarbonFootprintController = function (_SiftController) {
+	  _inherits(CarbonFootprintController, _SiftController);
 	
-	  function MyController() {
-	    _classCallCheck(this, MyController);
+	  function CarbonFootprintController() {
+	    _classCallCheck(this, CarbonFootprintController);
 	
-	    var _this = _possibleConstructorReturn(this, (MyController.__proto__ || Object.getPrototypeOf(MyController)).call(this));
+	    var _this = _possibleConstructorReturn(this, (CarbonFootprintController.__proto__ || Object.getPrototypeOf(CarbonFootprintController)).call(this));
 	
 	    _this._suHandler = _this.onStorageUpdate.bind(_this);
 	    return _this;
 	  }
 	
-	  _createClass(MyController, [{
+	  _createClass(CarbonFootprintController, [{
 	    key: 'loadView',
 	    value: function loadView(state) {
 	      console.log('email-demo: loadView', state);
@@ -87,7 +87,9 @@
 	          } catch (e) {}
 	          return { html: 'email-thread.html', data: { words: w } };
 	        case 'summary':
-	          return { html: 'summary.html', data: this.getFootprint() };
+	          return { html: 'summary.html',
+	            data: Promise.all([this.getFootprint(), this.getHistory()])
+	          };
 	        default:
 	          console.error('email-demo: unknown Sift type: ', state.type);
 	      }
@@ -126,17 +128,17 @@
 	        bucket: 'history',
 	        keys: ['HISTORY']
 	      }).then(function (values) {
-	        return { history: values[0].value || {} };
+	        return { history: values[0].value || '[]' };
 	      });
 	    }
 	  }]);
 	
-	  return MyController;
+	  return CarbonFootprintController;
 	}(_siftSdkWeb.SiftController);
 	
-	exports.default = MyController;
+	exports.default = CarbonFootprintController;
 	
-	(0, _siftSdkWeb.registerSiftController)(new MyController());
+	(0, _siftSdkWeb.registerSiftController)(new CarbonFootprintController());
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },

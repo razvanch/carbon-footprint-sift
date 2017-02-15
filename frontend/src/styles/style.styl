@@ -1,86 +1,181 @@
-/**
- * Sample Sift Stylus
- */
-@import "@redsift/ui-rs-core/dist/css/ui-rs-core.min.css"
+@import '@redsift/ui-rs-core/dist/css/ui-rs-core.min.css'
+@import '@redsift/ui-rs-hero/dist/css/ui-rs-hero.min.css'
+@import 'tingle.js/dist/tingle.min.css'
 
-body, html {
-  height: 100%;
-}
-.column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2em;
-}
+body
+  overflow-x: hidden
 
-.side-by-side {
-  height: 100%;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-}
+.-bg-footprint
+  background-image: url('../../assets/hero-1x.png')
+  background-color: rgb(42, 24, 22)
+  background-image: -webkit-image-set(
+    url('../../assets/hero-1x.png') 1x,
+    url('../../assets/hero-2x.png') 2x
+  )
 
-.stat {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  padding: 1em;
-}
+.hero-sticky-header--active
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.15)
+  background-image: url('../../assets/hero-1x.png')
+  background-image: -webkit-image-set(
+    url('../../assets/hero-1x.png') 1x,
+    url('../../assets/hero-2x.png') 2x
+  )
 
-.stat--separator {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  padding: 1em;
-  border-right: 1px solid black;
-}
+.content
+  min-width: 230px
 
-.count {
-  font-family: 'Source Code Pro';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 40px;
-}
+.container
+  padding: 16px
+  background-color: white
+  width: 100%
+  box-sizing: border-box
 
-.subtitle {
-  font-family: 'Source Code Pro';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-}
+.centered
+  display: flex
+  justify-content: center
 
-.info-steps {
-  display: flex;
-  flex-direction: column;
-  margin-top: 2em;
-}
+.sectionheader
+  border-top: 1px solid #e0e0e0
+  margin-top: 10px
+  padding-top: 10px
 
-.info-larger {
-  margin-top: 1em;
-  font-size: 18px;
-  display: none;
-}
+.sectionheader.first
+  border-top: none
+  margin-top: 0px
+  padding-top: 0px
 
-@media screen and (max-width: 240px) {
-  .stat {
-    padding:0.4em;
-  }
-  .stat--separator {
-    padding: 0.4em;
-  }
-  .count {
-    font-size: 16px;
-  }
-  .subtitle {
-    font-size: 11px;
-  }
-  .info-steps{
-    display: none;
-  }
-  .info-larger {
-    display: block;
-  }
-}
+.sectiontitle
+  display: inline-block
+  color: #81b6e0
+
+.sectionsubtitle
+  display: inline-block
+  font-size: 12px
+
+.stats__container
+  display: flex
+  align-content: center
+  justify-content: center
+  padding-bottom: 16px
+
+.stat
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-wrap: wrap
+  border-right: 1px solid #e0e0e0
+  height: 100px
+  width: 33%
+  box-sizing: border-box
+
+.statnum
+  display: inline-block
+  margin-right: 6px
+  font-size: 32px
+
+.statdesc
+  display: inline-block
+  font-size: 12px
+
+.stat.last
+  border-right: none
+
+.chart-pies text
+  font-size: 12px
+
+/*
+* Toggle radio button
+*/
+input[type=radio]
+  display: none
+
+input[type=radio] + label
+  display: inline-block
+  margin: -2px
+  padding: 1px 16px
+  margin-bottom: 0
+  font-size: 11px
+  font-family: Electrolize,sans-serif
+  font-weight: 400
+  line-height: 20px
+  color: #7F7F7F
+  text-align: center
+  vertical-align: middle
+  cursor: pointer
+
+input[type=radio]:checked + label
+  color: #81b6e0
+  text-decoration: underline;
+
+.enable-conversion
+  margin: 20px 0px 20px 0px
+
+button.tingle-modal__close
+  border: none
+  background: none
+
+.equivalents
+  padding: 40px
+  height: 140px
+
+  .stat
+    border: none
+
+  img
+    width: 100%
+    height: 120px
+    margin-bottom: 10px
+
+.popup,
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  height: 100%
+  box-sizing: border-box
+
+.bottom-separator
+  border-bottom: 1px solid #e0e0e0
+
+@media (max-width: 480px)
+  .hero-sticky-header
+    display: none
+
+  .hero
+    display: none
+
+  .statnum
+    font-size: 20px
+
+  .statdesc
+    font-size: 10px
+
+  .content
+    padding: 0px
+
+  .container
+    padding: 0px 8px 0px 8px
+
+  .sectionheader.first
+    padding-top: 4px
+
+  .sectionheader
+    padding-left: 4px
+
+  .help
+    display: none
+
+@media (max-width: 230px)
+  .container
+    box-sizing: content-box
+    padding: 0px
+
+  .statnum
+    font-size: 15px
+
+  .stat
+    flex-direction: column
+
+@media (max-height: 230px)
+  body
+    overflow-y: hidden
