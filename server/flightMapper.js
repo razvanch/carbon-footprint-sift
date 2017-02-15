@@ -1,7 +1,7 @@
 'use strict';
 
 
-const routes = require('./bawRoutes.json');
+const routes = require('./routes.json');
 
 module.exports = function (got) {
   const inData = got['in'];

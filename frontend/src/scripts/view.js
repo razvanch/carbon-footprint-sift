@@ -46,6 +46,10 @@ export default class CarbonFootprintView extends SiftView {
       opodo: {
         color: presentation10.standard[presentation10.names.red],
         pattern: this.getPattern(presentation10.names.red)
+      },
+      easyjet: {
+        color: presentation10.standard[presentation10.names.yellow],
+        pattern: this.getPattern(presentation10.names.yellow)
       }
     };
 
@@ -91,7 +95,8 @@ export default class CarbonFootprintView extends SiftView {
     let companyFootprints = {
       britishairways: 0,
       lufthansa: 0,
-      opodo: 0
+      opodo: 0,
+      easyjet: 0
     };
 
     history.forEach((flight) => {
@@ -108,7 +113,8 @@ export default class CarbonFootprintView extends SiftView {
 
     this._pieData = [companyFootprints.britishairways,
                      companyFootprints.lufthansa,
-                     companyFootprints.opodo];
+                     companyFootprints.opodo,
+                     companyFootprints.easyjet];
 
     this.updateStats(totalFlights, Math.round(averageFootprint), totalDistance);
     this.updateEquivalentStats(this._totalFootprint);
@@ -153,7 +159,7 @@ export default class CarbonFootprintView extends SiftView {
   callPie(data, sizeClass) {    
     let margin = 26;
     let height = 300;
-    let legend = ['British Airways', 'Lufthansa', 'Opodo'];
+    let legend = ['British Airways', 'Lufthansa', 'Opodo', 'EasyJet'];
 
     if (sizeClass.width === 230) {
       margin = 13;
@@ -176,7 +182,8 @@ export default class CarbonFootprintView extends SiftView {
                     .select('svg')
                     .call(this.fill.britishairways.pattern)
                     .call(this.fill.lufthansa.pattern)
-                    .call(this.fill.opodo.pattern);
+                    .call(this.fill.opodo.pattern)
+                    .call(this.fill.easyjet.pattern);
     }
   }
 
@@ -185,7 +192,8 @@ export default class CarbonFootprintView extends SiftView {
       // Create a base one if one doesn't already exist
       this._pie = pies().fill([this.fill.britishairways.color,
                                this.fill.lufthansa.color,
-                               this.fill.opodo.color])
+                               this.fill.opodo.color,
+                               this.fill.easyjet.color])
                         .displayValue((v) => {
                           if (!this._totalFootprint || !this._pieData) {
                             return 'Connect your email!';

@@ -115,6 +115,10 @@
 	      opodo: {
 	        color: _d3RsTheme.presentation10.standard[_d3RsTheme.presentation10.names.red],
 	        pattern: _this.getPattern(_d3RsTheme.presentation10.names.red)
+	      },
+	      easyjet: {
+	        color: _d3RsTheme.presentation10.standard[_d3RsTheme.presentation10.names.yellow],
+	        pattern: _this.getPattern(_d3RsTheme.presentation10.names.yellow)
 	      }
 	    };
 	
@@ -166,7 +170,8 @@
 	      var companyFootprints = {
 	        britishairways: 0,
 	        lufthansa: 0,
-	        opodo: 0
+	        opodo: 0,
+	        easyjet: 0
 	      };
 	
 	      history.forEach(function (flight) {
@@ -181,7 +186,7 @@
 	        companyFootprints[flight.provider] += flight.footprint;
 	      });
 	
-	      this._pieData = [companyFootprints.britishairways, companyFootprints.lufthansa, companyFootprints.opodo];
+	      this._pieData = [companyFootprints.britishairways, companyFootprints.lufthansa, companyFootprints.opodo, companyFootprints.easyjet];
 	
 	      this.updateStats(totalFlights, Math.round(averageFootprint), totalDistance);
 	      this.updateEquivalentStats(this._totalFootprint);
@@ -232,7 +237,7 @@
 	    value: function callPie(data, sizeClass) {
 	      var margin = 26;
 	      var height = 300;
-	      var legend = ['British Airways', 'Lufthansa', 'Opodo'];
+	      var legend = ['British Airways', 'Lufthansa', 'Opodo', 'EasyJet'];
 	
 	      if (sizeClass.width === 230) {
 	        margin = 13;
@@ -249,7 +254,7 @@
 	      if (this._pie) {
 	        chartContainer.transition().call(this.getPieChart(width, height, margin, legend));
 	      } else {
-	        chartContainer.call(this.getPieChart(width, height, margin, legend)).select('svg').call(this.fill.britishairways.pattern).call(this.fill.lufthansa.pattern).call(this.fill.opodo.pattern);
+	        chartContainer.call(this.getPieChart(width, height, margin, legend)).select('svg').call(this.fill.britishairways.pattern).call(this.fill.lufthansa.pattern).call(this.fill.opodo.pattern).call(this.fill.easyjet.pattern);
 	      }
 	    }
 	  }, {
@@ -259,7 +264,7 @@
 	
 	      if (!this._pie) {
 	        // Create a base one if one doesn't already exist
-	        this._pie = (0, _d3RsPies.html)().fill([this.fill.britishairways.color, this.fill.lufthansa.color, this.fill.opodo.color]).displayValue(function (v) {
+	        this._pie = (0, _d3RsPies.html)().fill([this.fill.britishairways.color, this.fill.lufthansa.color, this.fill.opodo.color, this.fill.easyjet.color]).displayValue(function (v) {
 	          if (!_this3._totalFootprint || !_this3._pieData) {
 	            return 'Connect your email!';
 	          }

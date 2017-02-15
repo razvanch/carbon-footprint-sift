@@ -4,7 +4,7 @@
   "description":"",
   "author":"",
   "version":"1.0.0",
-  "icon":"assets/blueprint.svg",
+  "icon":"assets/airplane.svg",
   "interfaces":{
     "email":{
       "thread":{
@@ -126,6 +126,37 @@
             "textBody",
             "strippedHtmlBody"
           ]
+        },
+        "easyjet":{
+          "filter":{
+            "conditions":[
+              {
+                "from":{
+                  "regexp":{
+                    "pattern":".*easyjet\\.com",
+                    "flags":"i"
+                  }
+                }
+              },
+              {
+                "subject":{
+                  "regexp":{
+                    "pattern":".*easyjet booking.*",
+                    "flags":"i"
+                  }
+                }
+              },
+              {
+                "date":"between now and 1 year before now"
+              }
+            ],
+            "operator":"AND"
+          },
+          "wants":[
+            "archive",
+            "textBody",
+            "strippedHtmlBody"
+          ]
         }
       }
     },
@@ -176,6 +207,20 @@
           "routes":{
 
           },
+          "flightNumbers":{
+
+          }
+        }
+      },
+      {
+        "#":"EasyJet Mapper",
+        "implementation":{
+          "javascript":"server/easyjetMapper.js"
+        },
+        "input":{
+          "bucket":"easyjet"
+        },
+        "outputs":{
           "flightNumbers":{
 
           }
